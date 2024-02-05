@@ -11,6 +11,7 @@
     font-weight: 300;
     margin: auto;
     min-height: 100vh;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     font-size: 1.1em;
@@ -72,6 +73,7 @@
 .login-button {
     margin: 3px 8px;
     border: 1px solid aliceblue;
+    color: lightslategray;
     border-radius: 4px;
     text-align: center;
     align-content: center;
@@ -81,18 +83,18 @@
     font-size: 2em;
     padding: 0px 12px;
     line-height: 0;
-    cursor: pointer;
+    cursor: default;
 }
 
 .login-button:hover {
-    background-color: aliceblue;
-    color:#366b8a;
+    background-color: #366b8a;
+    color: lightslategray;
 }
 
 .top-nav-container {
     border-top: 2px solid aliceblue;
     display: flex;
-    justify-content: center;
+    justify-content:center
 }
 
 .top-nav-button {
@@ -108,9 +110,29 @@
 }
 
 #preview-pane {
-    background-color: aliceblue;
+    background-color: #366b8a;
+    border-top: 2px solid aliceblue;
     padding: 4px;
+    height: 800px;
+    color: aliceblue;
 }
+
+#preview-title {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.preview-list {
+    border: 1px solid #2e5a74;
+    background-color: aliceblue;
+    color:#366b8a;
+    margin: 8px;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+/* ---------responsiveness-----------*/
 
 @media screen and (min-width: 685px) {
     #top-bar-container {
@@ -128,6 +150,7 @@
 @media screen and (min-width: 788px) {
     .app-title {
         font-size: 2.5em;
+        padding: 12px 12px 12px 24px;
     }
 
     .app-description {

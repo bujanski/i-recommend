@@ -1,9 +1,13 @@
 import React from 'react'
+import PreviewList from './PreviewList'
 
 function PreviewPane() {
     return (
         <div id="preview-pane">
-            ggg
+            <div id="preview-title">
+                the world's favorites    
+            </div>
+            <PreviewList />
         </div>
     )
 }
