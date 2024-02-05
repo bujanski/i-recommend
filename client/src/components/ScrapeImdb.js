@@ -7,7 +7,7 @@ async function getMovies () {
 
     let movieData = [];
 
-    for (let i = 900; i < 995; i++) {
+    for (let i = 900; i < 900; i++) {
         let movie = await axios.get('http://www.omdbapi.com/?apikey=c1adbf81&i=' + movieList[i]);
         movieData.push(movie.data);
     }
