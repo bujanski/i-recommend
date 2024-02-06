@@ -1,5 +1,6 @@
 import React from 'react'
 import PreviewList from './PreviewList'
+import SelectionWidget from './SelectionWidget'
 
 function PreviewPane() {
     return (
