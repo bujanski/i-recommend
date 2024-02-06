@@ -22,7 +22,6 @@ function App() {
                 {!userLoggedIn
                     ? <PreviewPane/>
                     : <SelectionWidget />}
-                <DragList />
             </AppContext.Provider>
         </div>
     )
