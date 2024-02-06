@@ -14,6 +14,4 @@ export const mediaCategories = [
     "Podcast",
     "Video game",
     
-
-    
 ]
