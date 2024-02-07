@@ -2,7 +2,7 @@ import React from 'react'
 
 function UserDetailWidget() {
   return (
-    <div>User details here</div>
+    <div className="user-details-container">Username<br/>Logout</div>
   )
 }
 

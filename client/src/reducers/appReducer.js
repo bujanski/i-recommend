@@ -7,6 +7,14 @@ export const appReducer = (state, action) => {
             break;
         case 'logOutUser':
             break;
+        case 'startAddItem':
+            newState.selectingCategory = payload;
+            newState.addingItem = true;
+            return newState;
+        case 'cancelAddItem':
+            // newState.selectingCategory = null;
+            newState.addingItem = false;
+            return newState;
     }
     return newState;
 }

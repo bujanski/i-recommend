@@ -5,7 +5,7 @@ import {AppContext, appData} from './store/AppContext';
 import {useReducer} from 'react';
 import {appReducer} from './reducers/appReducer'
 import SelectionWidget from './components/SelectionWidget';
-import DragList from './components/DragList'
+
 function App() {
     const [state,
         dispatch] = useReducer(appReducer, appData);
@@ -21,7 +21,7 @@ function App() {
                 <TopBar/> 
                 {!userLoggedIn
                     ? <PreviewPane/>
-                    : <SelectionWidget />}
+                    : <SelectionWidget/>}
             </AppContext.Provider>
         </div>
     )
