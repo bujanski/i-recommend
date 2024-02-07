@@ -6,6 +6,7 @@ export const appData = {
     userLoggedIn: true,
     aboutDisplay: false,
     selectingCategory: "movie",
+    addingItem: false,
 }
 
 export const mediaCategories = [

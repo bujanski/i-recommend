@@ -11,7 +11,6 @@ function TopBar() {
     const [state,
         dispatch] = useReducer(appReducer, appData);
     const {userLoggedIn} = appData;
-    console.log(userLoggedIn);
 
     return (
         <div>
