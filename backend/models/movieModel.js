@@ -3,10 +3,10 @@ const { sequelize } = require("../config/connection");
 
 
 const Movie = sequelize.define('movie', {
-    iRecId: {
-        primaryKey: true,
-        type: DataTypes.INTEGER,
-    },
+    // iRecId: {
+    //     primaryKey: true,
+    //     type: DataTypes.INTEGER,
+    // },
     title: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -38,9 +38,25 @@ const Movie = sequelize.define('movie', {
     metaScore: {
         type: DataTypes.INTEGER,
     },
-    imageURL: {
+    imageUrl: {
         type: DataTypes.STRING,
-    }
+    },
+    rated: {
+        type: DataTypes.STRING,
+    },
+    runtime: {
+        type: DataTypes.STRING,
+    },
+    writer: {
+        type: DataTypes.STRING,
+    },
+    imdbID: {
+        type: DataTypes.STRING,
+    },
+    imdbRating: {
+        type: DataTypes.DECIMAL,
+    },
+
 }, {
     timestamps: false
 });
