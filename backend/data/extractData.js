@@ -12,8 +12,10 @@ function parseAndWriteToJS(movieData) {
   fs.createReadStream(movieData)
     .pipe(csv())
     .on('data', (row) => {
-      // Convert each row to a JSON string and write it to the file
-      writeStream.write(`  ${JSON.stringify(row)},\n`);
+      // Construct JSON string with values wrapped in double quotes
+      const jsonString = `  {${Object.entries(row).map(([key, value]) => `${key}: ${JSON.stringify(value)}`).join(',')}}`;
+      // Write the JSON string to the file
+      writeStream.write(`${jsonString},\n`);
     })
     .on('end', () => {
       // Write the end of the JavaScript array and close the file
