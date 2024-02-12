@@ -33,12 +33,12 @@ const Videogame = sequelize.define('videogame', {
     timestamps: false
 });
 
-sequelize.sync()
-    .then(() => {
-        console.log('Synced Videogame Model successfully!')
-    })
-    .catch(err => {
-        console.log('Error syncing database', err)
-    })
+// sequelize.sync()
+//     .then(() => {
+//         console.log('Synced Videogame Model successfully!')
+//     })
+//     .catch(err => {
+//         console.log('Error syncing database', err)
+//     })
 
 module.exports = Videogame;

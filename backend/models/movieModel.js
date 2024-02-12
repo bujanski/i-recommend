@@ -2,20 +2,20 @@ const { DataTypes } = require("sequelize");
 const { sequelize } = require("../config/connection");
 
 
-const Movie = sequelize.define('movie', {
-    iRecId: {
-        primaryKey: true,
-        type: DataTypes.INTEGER,
-    },
+const Movie = sequelize.define('Movie', {
+    // iRecId: {
+    //     primaryKey: true,
+    //     type: DataTypes.INTEGER,
+    // },
     title: {
         type: DataTypes.STRING,
-        allowNull: false,
+        //allowNull: false,
     },
     director: {
         type: DataTypes.STRING,
     },
     year: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
     },
     actors: {
         type: DataTypes.STRING,
@@ -24,7 +24,7 @@ const Movie = sequelize.define('movie', {
         type: DataTypes.STRING,
     },
     boxOffice: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
     },
     country: {
         type: DataTypes.STRING,
@@ -36,23 +36,30 @@ const Movie = sequelize.define('movie', {
         type: DataTypes.STRING,
     },
     metaScore: {
-        type: DataTypes.INTEGER,
-    },
-    imageURL: {
         type: DataTypes.STRING,
-    }
+    },
+    imageUrl: {
+        type: DataTypes.STRING,
+    },
+    rated: {
+        type: DataTypes.STRING,
+    },
+    runtime: {
+        type: DataTypes.STRING,
+    },
+    writer: {
+        type: DataTypes.STRING,
+    },
+    imdbID: {
+        type: DataTypes.STRING,
+    },
+    imdbRating: {
+        type: DataTypes.STRING,
+    },
+
 }, {
     timestamps: false
 });
 
-
-//move into it's own seeding module
-// sequelize.sync({alter: true})
-//     .then(() => {
-//         console.log('Synced Movie Model successfully!')
-//     })
-//     .catch(err => {
-//         console.log('Error syncing database', err)
-//     })
 
 module.exports = Movie;
