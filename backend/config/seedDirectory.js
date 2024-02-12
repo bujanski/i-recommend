@@ -124,19 +124,19 @@ const seedDatabase = async () => {
     //     console.log('Unable to add companies', err);
     // }
 
-    await sequelize.sync({force: true})
+    // await sequelize.sync({force: true})
 
-    const models = [Company,User,Shipment];
-    const data = [companies,users,shipments];
+    // const models = [Company,User,Shipment];
+    // const data = [companies,users,shipments];
 
-    for (let x = 0; x < models.length; x++) {
-        try {
-            await models[x].bulkCreate(data[x]);
-            console.log('Added data for ', models[x])
-        } catch (error) {
-            console.log('Data', error);
-        }
-    }
+    // for (let x = 0; x < models.length; x++) {
+    //     try {
+    //         await models[x].bulkCreate(data[x]);
+    //         console.log('Added data for ', models[x])
+    //     } catch (error) {
+    //         console.log('Data', error);
+    //     }
+    // }
 
 
 }

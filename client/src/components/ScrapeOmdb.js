@@ -14,7 +14,7 @@ async function getMovies () {
     return movieData;
 }
 
-function ScrapeImdb() {
+function ScrapeOmdb() {
     const [movies, setMovies] = useState(null);
 
     useEffect(() => {
@@ -71,4 +71,4 @@ function ScrapeImdb() {
   )
 }
 
-export default ScrapeImdb
+export default ScrapeOmdb

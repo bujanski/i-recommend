@@ -4,9 +4,16 @@ export const appReducer = (state, action) => {
 
     switch(type) {
         case 'logInUser':
-            break;
+            newState.userLoggedIn = true;
+            return newState;
         case 'logOutUser':
-            break;
+            newState.userLoggedIn = false;
+            return newState;
+        case 'startCreateAccount':
+            newState.modalOpen = true;
+            return newState;
+        case 'cancelCreateAccount':
+            newState.modalOpen = false;
         case 'startAddItem':
             newState.selectingCategory = payload;
             newState.addingItem = true;

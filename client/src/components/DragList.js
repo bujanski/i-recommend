@@ -21,14 +21,12 @@ const getItemStyle = (isDragging, draggableStyle) => ({
     userSelect: "none",
     padding: grid * 2,
     margin: `0 0 ${grid}px 0`,
-    background: isDragging
-        ? "#366b8a"
-        : "#366b8a",
+    background: "#366b8a",
     color: "white",
     ...draggableStyle
 });
 
-const getListStyle = isDraggingOver => ({background: "lightblue", padding: grid, width: "100%"});
+const getListStyle = isDraggingOver => ({background: "aliceblue", padding: grid, width: "100%"});
 
 const DragList = ({number}) => {
     const [items,
@@ -64,6 +62,9 @@ const DragList = ({number}) => {
                                             style={getItemStyle(snapshot.isDragging, provided.draggableProps.style)}>
                                             {item.content}
                                             {` - position ${index + 1}`}
+                                            <span className="material-symbols-outlined">
+                                                drag_indicator
+                                            </span>
                                         </div>
                                     )}
                                 </Draggable>

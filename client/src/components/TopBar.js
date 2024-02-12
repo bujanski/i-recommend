@@ -1,26 +1,27 @@
-import React from 'react'
+import React, {useContext, useState} from 'react'
 import AppTitle from './AppTitle'
 import LogInWidget from './LogInWidget'
 import TopNav from './TopNav'
-import {AppContext, appData} from '../store/AppContext';
-import {useReducer} from 'react';
-import {appReducer} from '../reducers/appReducer'
 import UserDetailWidget from './UserDetailWidget';
+import {AppContext} from '../store/AppContext';
+import TopSearch from './TopSearch';
 
 function TopBar() {
-    const [state,
-        dispatch] = useReducer(appReducer, appData);
-    const {userLoggedIn} = appData;
+    const {state, dispatch} = useContext(AppContext);
+    const {userLoggedIn} = state;
+
 
     return (
         <div>
             <div id="top-bar-container">
-                <AppTitle/>
-                {userLoggedIn ? <UserDetailWidget /> : <LogInWidget />}
+                <AppTitle/> {userLoggedIn
+                    ? <UserDetailWidget/>
+                    : <LogInWidget/>}
 
             </div>
+            <TopSearch />
             <div>
-                <TopNav />
+                <TopNav/>
             </div>
         </div>
 

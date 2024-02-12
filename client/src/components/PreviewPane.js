@@ -1,6 +1,8 @@
 import React from 'react'
 import PreviewList from './PreviewList'
 import SelectionWidget from './SelectionWidget'
+import AddToDBTool from './AddToDBTool'
+import GameList from './GameList'
 
 function PreviewPane() {
     return (
@@ -9,6 +11,8 @@ function PreviewPane() {
                 the world's favorites    
             </div>
             <PreviewList />
+            <GameList />
+            <AddToDBTool />
         </div>
     )
 }
