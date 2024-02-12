@@ -24,7 +24,8 @@ function SearchBar() {
                     <input
                         className='search-field'
                         type="text"
-                        value={searchText}
+                        placeholder="title"
+                                                value={searchText}
                         onChange={handleInputChange}/>
                 </div>
                 <div className='cancel-div'>

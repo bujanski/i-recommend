@@ -23,7 +23,7 @@ function SelectionWidget() {
                 {addingItem ? <SearchBar /> : null}
             </div>
             <div>
-                <DragList number={10}/>
+                <DragList number={5}/>
             </div>
         </div>
 
