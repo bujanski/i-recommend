@@ -6,7 +6,8 @@ const Videogame = require('./models/videogameModel');
 const Recommendation = require('./models/recModel');
 //const seedDatabase = require('./config/seedDirectory');
 const {seedDatabase} = require('./config/seedDirectory');
-const movieRouter = require('./routes/movieRoutes')
+const movieRouter = require('./routes/movieRoutes');
+const videoGameRouter = require('./routes/videoGameRoutes');
 const cors = require('cors');
 
 const app = express();
@@ -18,9 +19,9 @@ app.use(cors());
 testConnection();
 
 app.use('/movies', movieRouter);
+app.use('/videogames', videoGameRouter);
 
 //processMovieData();
-
 // seedDatabase();
 
 app.listen(port, () => {

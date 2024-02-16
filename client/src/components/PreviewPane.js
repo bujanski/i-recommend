@@ -5,6 +5,7 @@ import AddToDBTool from './AddToDBTool'
 import GameList from './GameList'
 
 function PreviewPane() {
+
     return (
         <div id="preview-pane">
             <div id="preview-title">
