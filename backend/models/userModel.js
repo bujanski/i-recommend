@@ -2,36 +2,31 @@ const { DataTypes } = require("sequelize");
 const { sequelize } = require("../config/connection");
 
 
-const Videogame = sequelize.define('videogame', {
-    iRecId: {
-        primaryKey: true,
-        type: DataTypes.INTEGER,
-    },
-    title: {
+const User = sequelize.define('book', {
+    username: {
         type: DataTypes.STRING,
         allowNull: false,
     },
-    developer: {
+    password: {
+        type: DataTypes.STRING,
+        allowNull: false,
+    },
+    dateCreated: {
         type: DataTypes.STRING,
     },
-    publisher: {
+    firstName: {
         type: DataTypes.STRING,
     },
-    genre: {
+    lastName: {
         type: DataTypes.STRING,
     },
-    platforms: {
+    avatar: {
         type: DataTypes.STRING,
-    },
-    year: {
-        type: DataTypes.INTEGER,
-    },
-    numRecs: {
-        type: DataTypes.INTEGER,
     },
 }, {
     timestamps: false
 });
 
 
-module.exports = Videogame;
+module.exports = User
+;

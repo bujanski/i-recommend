@@ -35,4 +35,5 @@ const Recommendation = sequelize.define('recommendation', {
     timestamps: false
 });
 
+
 module.exports = Recommendation;

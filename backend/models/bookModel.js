@@ -19,12 +19,5 @@ const Book = sequelize.define('book', {
     timestamps: false
 });
 
-// sequelize.sync()
-//     .then(() => {
-//         console.log('Synced Book Model successfully!')
-//     })
-//     .catch(err => {
-//         console.log('Error syncing database', err)
-//     })
 
 module.exports = Book;
