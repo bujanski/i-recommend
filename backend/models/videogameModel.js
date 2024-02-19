@@ -3,30 +3,33 @@ const { sequelize } = require("../config/connection");
 
 
 const Videogame = sequelize.define('videogame', {
-    iRecId: {
-        primaryKey: true,
-        type: DataTypes.INTEGER,
-    },
-    title: {
+    // iRecId: {
+    //     primaryKey: true,
+    //     type: DataTypes.INTEGER,
+    // },
+    name: {
         type: DataTypes.STRING,
         allowNull: false,
     },
-    developer: {
-        type: DataTypes.STRING,
-    },
-    publisher: {
-        type: DataTypes.STRING,
-    },
-    genre: {
+    genres: {
         type: DataTypes.STRING,
     },
     platforms: {
         type: DataTypes.STRING,
     },
-    year: {
+    released: {
+        type: DataTypes.STRING,
+    },
+    playtime: {
         type: DataTypes.INTEGER,
     },
-    numRecs: {
+    esrb_rating: {
+        type: DataTypes.STRING,
+    },
+    background_image: {
+        type: DataTypes.STRING,
+    },
+    metacritic: {
         type: DataTypes.INTEGER,
     },
 }, {
