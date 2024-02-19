@@ -22,7 +22,7 @@ const Movies = movieData.movies;
 
 const seedDatabase = async () => {
 
-    // await sequelize.sync({force: true})
+    await sequelize.sync({force: true})
 
     // const models = [Movie,Book,Videogame,Recommendation];
     const models = [Movie];

@@ -148,7 +148,7 @@
     color: #366b8a;
 }
 
-#preview-pane {
+#preview-pane * {
     background-color: aliceblue;
     color: #366b8a;
     padding: 4px;
@@ -242,6 +242,17 @@
     border: 1px solid #2e5a74;
     border-radius: 4px;
     color: #366b8a;
+    margin: 8px;
+    padding: 4px;
+}
+.get-games {
+    border: 1px solid #2e5a74;
+    margin: 8px;
+}
+.get-games * {
+    background-color: aliceblue;
+    color: #366b8a;
+    font-size: .9em;
     margin: 8px;
     padding: 4px;
 }
