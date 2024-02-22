@@ -104,7 +104,7 @@ async function buildDataFile(count, url, increment, mediaType) {
 };
 
 // buildDataFile(gameCount, initialVGURL, 20, "videoGame");
-buildDataFile(bookCount, initialBookURL, 25, "book");
+// buildDataFile(bookCount, initialBookURL, 25, "book");
 
 function parseAndWriteToJS(movieData) {
     const writeStream = fs.createWriteStream('movieData.js');

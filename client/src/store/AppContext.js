@@ -3,16 +3,16 @@ import { createContext } from "react";
 export const AppContext = createContext(null);
 
 export const appData = {
-    userLoggedIn: false,
+    userLoggedIn: true,
     aboutDisplay: false,
-    selectingCategory: "movie",
+    selectingCategory: "movies",
     addingItem: false,
     modalOpen: false,
 }
 
 export const mediaCategories = [
-    "Book",
-    "Movie",
-    "Podcast",
-    "Video game",
+    "Books",
+    "Movies",
+    "Podcasts",
+    "Video games",
 ]

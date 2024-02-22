@@ -14,16 +14,20 @@ function SelectionWidget() {
 
     return (
         <div className='selection-widget'>
+            <h2>Your favorite movies</h2>
             <div className='search-tool'>
                 <div className='add-item-button' onClick={startAddItem}>
                                    
-                        + Add a {lCaseCategory} to your list
+                        + Add {lCaseCategory} to your list
                     
                 </div>
                 {addingItem ? <SearchBar /> : null}
             </div>
             <div>
                 <DragList number={5}/>
+            </div>
+            <div>
+                <button>See all your favorites</button>
             </div>
         </div>
 
