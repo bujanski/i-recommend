@@ -28,7 +28,7 @@ app.use('/movies', movieRouter);
 app.use('/videogames', videoGameRouter);
 
 //processMovieData();
-//seedDatabase();
+seedDatabase();
 
 app.listen(port, () => {
     console.log('Listening on port: ', port)
