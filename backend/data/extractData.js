@@ -106,6 +106,69 @@ async function buildDataFile(count, url, increment, mediaType) {
 // buildDataFile(gameCount, initialVGURL, 20, "videoGame");
 // buildDataFile(bookCount, initialBookURL, 25, "book");
 
+// function convertVgJsontoJS() {
+
+//   // Read the JSON file
+//   const rawData = fs.readFileSync('VideoGameData.json');
+//   const jsonData = JSON.parse(rawData);
+
+//   // Extracting required fields and restructuring
+//   const Videogames = jsonData.map(game => ({
+//     name: game.name,
+//     genres: game.genres.map(genre => genre.name).join(', '),
+//     platforms: game.platforms.map(platform => platform.name).join(', '),
+//     released: game.released.substring(0, 4),
+//     playtime: game.playtime.toString() + ' min',
+//     //esrb_rating: game.esrb_rating.name,
+//     background_image: game.background_image,
+//     //metacritic: game.metacritic.toString(),
+//   }));
+
+//   console.log(Videogames);
+
+//   // Exporting as a module
+//   //module.exports = { Videogames };
+
+// }
+
+function convertVgJsontoJS() {
+  // Read the JSON file
+  const rawData = fs.readFileSync('VideoGameData.json');
+  const jsonData = JSON.parse(rawData);
+
+  // Extracting required fields and restructuring
+  const Videogames = jsonData.map(game => {
+    const genres = game.genres ? game.genres.map(genre => genre.name).join(', ') : '';
+    const platforms = game.platforms ? game.platforms.map(platform => platform.platform.name).join(', ') : 'No platforms specified';
+    const released = game.released ? game.released.substring(0, 4) : '';
+    const playtime = game.playtime ? game.playtime.toString() + ' min' : '';
+    const esrb_rating = game.esrb_rating ? game.esrb_rating.name : '';
+    const background_image = game.background_image ? game.background_image : '';
+    const metacritic = game.metacritic ? game.metacritic.toString() : '';
+
+    return {
+      name: game.name || '',
+      genres,
+      platforms,
+      released,
+      playtime,
+      esrb_rating,
+      background_image,
+      metacritic,
+    };
+  });
+
+  // Convert the array of objects to a string
+  const videogamesData = 'const videogames = ' + JSON.stringify(Videogames, null, 2) + ';\n\nmodule.exports = { videogames };';
+
+  // Write the stringified data to the file
+  fs.writeFileSync('videogameData.js', videogamesData);
+
+  console.log('Videogame data written to videogameData.js');
+}
+
+convertVgJsontoJS();
+
 function parseAndWriteToJS(movieData) {
     const writeStream = fs.createWriteStream('movieData.js');
     writeStream.write('const movies = [\n');

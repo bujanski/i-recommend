@@ -2,10 +2,10 @@ const { DataTypes } = require("sequelize");
 const { sequelize } = require("../config/connection");
 
 const Recommendation = sequelize.define('recommendation', {
-    iRecId: {
-        primaryKey: true,
-        type: DataTypes.INTEGER,
-    },
+    // iRecId: {
+    //     primaryKey: true,
+    //     type: DataTypes.INTEGER,
+    // },
     title: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -34,5 +34,6 @@ const Recommendation = sequelize.define('recommendation', {
 }, {
     timestamps: false
 });
+
 
 module.exports = Recommendation;

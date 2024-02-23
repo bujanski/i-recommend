@@ -2,34 +2,25 @@ const { DataTypes } = require("sequelize");
 const { sequelize } = require("../config/connection");
 
 
-const Videogame = sequelize.define('videogame', {
-    // iRecId: {
-    //     primaryKey: true,
-    //     type: DataTypes.INTEGER,
-    // },
-    name: {
+const User = sequelize.define('book', {
+    username: {
         type: DataTypes.STRING,
         allowNull: false,
     },
-    genres: {
+    password: {
+        type: DataTypes.STRING,
+        allowNull: false,
+    },
+    dateCreated: {
         type: DataTypes.STRING,
     },
-    platforms: {
+    firstName: {
         type: DataTypes.STRING,
     },
-    released: {
+    lastName: {
         type: DataTypes.STRING,
     },
-    playtime: {
-        type: DataTypes.STRING,
-    },
-    esrb_rating: {
-        type: DataTypes.STRING,
-    },
-    background_image: {
-        type: DataTypes.STRING,
-    },
-    metacritic: {
+    avatar: {
         type: DataTypes.STRING,
     },
 }, {
@@ -37,4 +28,5 @@ const Videogame = sequelize.define('videogame', {
 });
 
 
-module.exports = Videogame;
+module.exports = User
+;
