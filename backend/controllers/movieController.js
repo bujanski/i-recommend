@@ -1,6 +1,8 @@
 const { Movie} = require("../models/associations");
 const { Sequelize  } = require('sequelize');
 
+
+
 const movieSearch = async (req, res) => {
     const { searchText } = req.params;
 

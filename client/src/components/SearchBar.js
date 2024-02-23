@@ -15,9 +15,9 @@ function SearchBar() {
         dispatch({type: 'cancelAddItem', payload: selectingCategory});
     };
 
-    const queryMovies = async(search) => {
+    const queryCategory = async(search) => {
         try {
-            const response = await axios.get(`http://localhost:8000/movies/${search}`);
+            const response = await axios.get(`http://localhost:8000/${selectingCategory}/${search}`);
             setSearchResults(response.data.data.slice(0, 20)); // Limit results to the first 20 items
         } catch (error) {
             console.error('Error searching database', error);
@@ -42,7 +42,7 @@ function SearchBar() {
         };
     };
 
-    const debouncedQueryMovies = debounce(queryMovies, 1000, false);
+    const debouncedQueryCategory = debounce(queryCategory, 1000, false);
 
     const handleInputChange = (event) => {
         const inputValue = event.target.value;
@@ -52,7 +52,7 @@ function SearchBar() {
 
     // Call the debounced queryMovies function when debouncedSearch changes
     useEffect(() => {
-        debouncedQueryMovies(debouncedSearch);
+        debouncedQueryCategory(debouncedSearch);
     }, [debouncedSearch]);
 
     return (
@@ -63,7 +63,7 @@ function SearchBar() {
                     <input
                         className='search-field'
                         type='text'
-                        placeholder='title'
+                        placeholder='title, actor, director, year'
                         value={searchText}
                         onChange={handleInputChange}/>
                 </div>
@@ -73,14 +73,40 @@ function SearchBar() {
                     </button>
                 </div>
             </div>
-            <div className='search-results'>
-                {searchResults.map((result) => (
-                    <div key={result.id}>
-                        {/* Render individual search result items here */}
-                        {result.title}, {result.director}, {result.actors}, {result.year}
-                    </div>
-                ))}
+            <div>
+                {searchResults.length === 0 && searchText
+                    ? (
+                        <p>No results found</p>
+                    )
+                    : (searchResults.map((result) => (
+                        <div className='search-result' key={result.id}>
+                            {/* Render individual search result items here */}
+                            <div><img
+                                className="search-result-poster"
+                                src={result.imageUrl}
+                                alt={`Poster for ${result.title}`}/></div>
+                            <div className='search-result-details'>
+                                <h3>
+                                    {result.title}&nbsp;
+                                    ({result.year})
+                                </h3>
+                                <p>
+                                    <b>Director:</b>&nbsp;
+                                    {result.director}</p>
+                                <p>
+                                    <b>Cast:</b>&nbsp;
+                                    {result.actors}</p>
+                                <p>
+                                    <b>
+                                        <a href={`https://www.imdb.com/title/${result.imdbID}`} target="_blank">IMDB page</a>
+                                    </b>
+                                </p><br/>
+                                <button>add to my favorites</button>
+                            </div>
+                        </div>
+                    )))}
             </div>
+
         </div>
     );
 }
