@@ -21,7 +21,7 @@ const Videogame = sequelize.define('videogame', {
         type: DataTypes.STRING,
     },
     playtime: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
     },
     esrb_rating: {
         type: DataTypes.STRING,
@@ -30,7 +30,7 @@ const Videogame = sequelize.define('videogame', {
         type: DataTypes.STRING,
     },
     metacritic: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
     },
 }, {
     timestamps: false
