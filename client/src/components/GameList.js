@@ -26,7 +26,6 @@ function GameList() {
                 const gameData = await pullRAWGData(initialURL);
                 setGames(gameData.results);
                 setNextURL(gameData.next);
-                console.log(gameData.results);
             } catch (error) {
                 console.error('Error fetching game data', error);
             }

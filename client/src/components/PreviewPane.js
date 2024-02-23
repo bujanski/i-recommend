@@ -12,8 +12,6 @@ function PreviewPane() {
                 the world's favorites    
             </div>
             <PreviewList />
-            <GameList />
-            <AddToDBTool />
         </div>
     )
 }
