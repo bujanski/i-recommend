@@ -3,14 +3,6 @@ const { sequelize } = require("../config/connection");
 
 
 const Book = sequelize.define('Books', {
-    // iRecId: {
-    //     primaryKey: true,
-    //     type: DataTypes.INTEGER,
-    // },
-    // ISBN: {
-    //     type: DataTypes.STRING,
-    //     allowNull: false,
-    // },
     title: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -21,14 +13,10 @@ const Book = sequelize.define('Books', {
     date: {
         type: DataTypes.STRING,
     },
-    libId: {
-        type: DataTypes.STRING,
-        allowNull: false,
-    },
     image_url: {
         type: DataTypes.STRING,
     },
-    langauge: {
+    language: {
         type: DataTypes.STRING,
     },
     subject: {

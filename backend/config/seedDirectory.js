@@ -21,10 +21,10 @@ const seedDatabase = async () => {
 
     await sequelize.sync({force: true})
 
-    // const models = [Movie,Book,Videogame,Recommendation];
-    const models = [Movie, Videogame, Book, User];
-    // const data = [Movies,Books,Videogames,Recommendations];
-    const data = [Movies, Videogames, Books, Users];
+    // const models = [Movie, Videogame, Book, User];
+    const models = [Book];
+    // const data = [Movies, Videogames, Books, Users];
+    const data = [Books];
 
     for (let x = 0; x < models.length; x++) {
         try {
