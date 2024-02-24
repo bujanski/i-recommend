@@ -167,7 +167,76 @@ function convertVgJsontoJS() {
   console.log('Videogame data written to videogameData.js');
 }
 
-convertVgJsontoJS();
+//convertVgJsontoJS();
+
+function convertBookJsontoJS() {
+  // Read the JSON file
+  const rawData = fs.readFileSync('bookData.json');
+  const jsonData = JSON.parse(rawData);
+
+  // Extracting required fields and restructuring
+  const Books = jsonData.map(book => {
+    const contributor = book.contributor ? book.contributor.join(', ') : '';
+    const date = book.date ? book.date : '';
+    const id = book.id ? book.id : '';
+    const image_url = book.image_url ? book.image_url.join(', ') : '';
+    const language = book.language ? book.language.join(', ') : '';
+    const subject = book.subject ? book.subject.join(', ') : '';
+  
+    return {
+      title: book.title || '',
+      contributor,
+      date,
+      id,
+      image_url,
+      language,
+      subject,
+    };
+  });
+
+  // Convert the array of objects to a string
+  const booksData = 'const books = ' + JSON.stringify(Books, null, 2) + ';\n\nmodule.exports = { books };';
+
+  // Write the stringified data to the file
+  fs.writeFileSync('bookData.js', booksData);
+
+  console.log('Book data written to bookData.js');
+}
+
+//convertBookJsontoJS();
+
+function convertUserJsontoJS() {
+  // Read the JSON file
+  const rawData = fs.readFileSync('fakeUsers.json');
+  const jsonData = JSON.parse(rawData);
+
+  // Extracting required fields and restructuring
+  const Users = jsonData.map(user => {
+    const username = user.username ? user.username : '';
+    const email = user.email ? user.email : '';
+    const firstName = user.firstName ? user.firstName : '';
+    const lastName = user.lastName ? user.lastName : '';
+    const createdAt = user.createdAt ? user.createdAt : '';
+  
+    return {
+      username,
+      email,
+      firstName,
+      lastName,
+      createdAt,
+    };
+  });
+
+  // Convert the array of objects to a string
+  const usersData = 'const users = ' + JSON.stringify(Users, null, 2) + ';\n\nmodule.exports = { users };';
+
+  // Write the stringified data to the file
+  fs.writeFileSync('userData.js', usersData);
+
+  console.log('User data written to userData.js');
+}
+
+convertUserJsontoJS();
 
 function parseAndWriteToJS(movieData) {
     const writeStream = fs.createWriteStream('movieData.js');

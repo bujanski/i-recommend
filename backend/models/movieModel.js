@@ -2,7 +2,7 @@ const { DataTypes } = require("sequelize");
 const { sequelize } = require("../config/connection");
 
 
-const Movie = sequelize.define('Movie', {
+const Movie = sequelize.define('Movies', {
     // iRecId: {
     //     primaryKey: true,
     //     type: DataTypes.INTEGER,
