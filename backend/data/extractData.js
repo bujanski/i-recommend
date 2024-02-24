@@ -2,7 +2,7 @@ const fs = require('fs');
 const csv = require('csv-parser');
 const axios = require('axios');
 
-const gameCount = 200; // number of games to seed db
+const gameCount = 1000; // number of games to seed db
 const bookCount = 200; // number of books to seed db
 const initialVGURL = 'https://api.rawg.io/api/games?key=03789985d56e4406b13c5deb57fac7ad&dates=1980-01-01,2024-01-01';
 const initialBookURL = 'https://www.loc.gov/books/?fo=json&';
@@ -103,7 +103,7 @@ async function buildDataFile(count, url, increment, mediaType) {
     
 };
 
-// buildDataFile(gameCount, initialVGURL, 20, "videoGame");
+buildDataFile(gameCount, initialVGURL, 20, "videoGame");
 // buildDataFile(bookCount, initialBookURL, 25, "book");
 
 // function convertVgJsontoJS() {
