@@ -6,13 +6,17 @@
     margin: 0;
 }
 
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+
 .App {
     background-color: aliceblue;
     border: 2px solid #366b8a;
     color: #2e5a74;
     display: flex;
     flex-direction: column;
-    font-family: 'Fredoka', sans-serif;
+    font-family: "Fredoka", sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     margin: auto;
@@ -151,7 +155,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .top-nav-container {
@@ -161,7 +164,9 @@
 }
 
 .top-nav-button {
-    border: 1px solid aliceblue;
+    border-top: 1px solid aliceblue;
+    border-left: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
     color: aliceblue;
     cursor: pointer;
     padding: 6px 20px 10px;
@@ -171,13 +176,13 @@
     color: #366b8a;
 }
 
-#preview-pane * {
+#world-lists-pane * {
     background-color: aliceblue;
     color: #366b8a;
     padding: 4px;
 }
 
-#preview-title {
+#world-lists-title {
     background-color: aliceblue;
     color: #366b8a;
     font-size: 2rem;
@@ -186,11 +191,11 @@
     text-align: center;
 }
 
-.preview-list * {
+.world-list * {
     background-color: aliceblue;
 }
 
-.preview-list {
+.world-list {
     color: #366b8a;
     padding: 4px;
     border: 1px solid #366b8a;
@@ -211,7 +216,7 @@
 .search-bar {
     display: flex;
     font-size: 1.1em;
-    padding: 6px 6px 9px;
+    padding: 13px 6px;
 }
 
 .search-label {
@@ -235,7 +240,7 @@
 
 .cancel-button {
     background-color: lightgray;
-    border: none;
+    border: 2px solid #2e5a74;
     border-radius: 4px;
     color: #2e5a74;
     cursor: pointer;
@@ -245,6 +250,7 @@
 .search-result {
     border: 1px solid #2e5a74;
     display: flex;
+    margin-bottom: 6px;
 }
 
 .search-result-poster {
@@ -252,7 +258,6 @@
     margin: 4px;
 }
 .search-result-details {
-
     margin: 4px;
 }
 
