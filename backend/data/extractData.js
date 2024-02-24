@@ -176,18 +176,19 @@ function convertBookJsontoJS() {
 
   // Extracting required fields and restructuring
   const Books = jsonData.map(book => {
-    const contributor = book.contributor ? book.contributor.join(', ') : '';
+    const title = book.title ? book.title.slice(0, 254) : '';
+    const contributor = book.contributor ? book.contributor.join(', ').slice(0, 254) : '';
     const date = book.date ? book.date : '';
-    const id = book.id ? book.id : '';
-    const image_url = book.image_url ? book.image_url.join(', ') : '';
+    //const id = book.id ? book.id : '';
+    const image_url = book.image_url ? book.image_url.join(', ').slice(0, 254) : '';
     const language = book.language ? book.language.join(', ') : '';
-    const subject = book.subject ? book.subject.join(', ') : '';
+    const subject = book.subject ? book.subject.join(', ').slice(0, 254) : '';
   
     return {
-      title: book.title || '',
+      title,
       contributor,
       date,
-      id,
+      //id,
       image_url,
       language,
       subject,
@@ -203,7 +204,7 @@ function convertBookJsontoJS() {
   console.log('Book data written to bookData.js');
 }
 
-//convertBookJsontoJS();
+convertBookJsontoJS();
 
 function convertUserJsontoJS() {
   // Read the JSON file
@@ -217,7 +218,7 @@ function convertUserJsontoJS() {
     const firstName = user.firstName ? user.firstName : '';
     const lastName = user.lastName ? user.lastName : '';
     const createdAt = user.createdAt ? user.createdAt : '';
-  
+
     return {
       username,
       email,
