@@ -236,7 +236,7 @@ function convertUserJsontoJS() {
   console.log('User data written to userData.js');
 }
 
-convertUserJsontoJS();
+//convertUserJsontoJS();
 
 function parseAndWriteToJS(movieData) {
     const writeStream = fs.createWriteStream('movieData.js');
