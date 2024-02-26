@@ -13,7 +13,7 @@ function WorldListsPane() {
             </div>
             {/* <WorldFavList category={"books"} /> */}
             <WorldFavList category={"movies"} />
-            {/* <WorldFavList category={"videoGames"} /> */}
+            <WorldFavList category={"videoGames"} />
         </div>
     )
 }

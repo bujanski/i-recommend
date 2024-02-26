@@ -2,14 +2,19 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import AddToDBTool from "./AddToDBTool";
 
+function formatCategoryText(category) {
+    return category.replace(/([a-z])([A-Z])/g, '$1 $2').toLowerCase();
+}
+
 function WorldFavList({ category }) {
     const categoryURLs = {
         movies: "http://localhost:8000/movies/topmovies",
-        books: "http://localhost:8000/topbooks",
-        videoGames: "http://localhost:8000/topvideogames",
+        books: "http://localhost:8000/books/topbooks",
+        videoGames: "http://localhost:8000/videogames/topvideogames",
     };
 
     const queryURL = categoryURLs[category] || "defaultURL";
+    const itemAttribute = category === "videoGames" ? "name" : "title";
 
     const queryCategory = async () => {
         try {
@@ -41,9 +46,9 @@ function WorldFavList({ category }) {
     // Render your component based on showTopList
     return (
         <div className="world-list">
-            <h3>iRecommend's favorite {category}</h3>
+            <h3>iRecommend's favorite {formatCategoryText(category)}</h3>
             {showTopList.slice(0, displayCount).map((item, index) => (
-                <div key={index}>{item.title}</div>
+                <div key={index}>{item[itemAttribute]}</div>
             ))}
             <button onClick={handleExpandClick}>
                 {displayCount === 5 ? "Show All" : "Show Less"}
