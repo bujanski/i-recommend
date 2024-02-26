@@ -6,30 +6,17 @@ const Recommendation = sequelize.define('Recommendations', {
     //     primaryKey: true,
     //     type: DataTypes.INTEGER,
     // },
-    title: {
+    userId: {
         type: DataTypes.STRING,
         allowNull: false,
     },
-    mediaType: {
+    recTopic: {
         type: DataTypes.STRING,
+        allowNull: false,
     },
-    year: {
-        type: DataTypes.INTEGER,
-    },
-    country: {
+    recList: {
         type: DataTypes.STRING,
-    },
-    genre: {
-        type: DataTypes.STRING,
-    },
-    language: {
-        type: DataTypes.STRING,
-    },
-    metaScore: {
-        type: DataTypes.INTEGER,
-    },
-    imageURL: {
-        type: DataTypes.STRING,
+        allowNull: false,
     }
 }, {
     timestamps: false
