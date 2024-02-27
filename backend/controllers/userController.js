@@ -1,30 +1,102 @@
-const getAllUsers = (req, res) => {
-    console.log(users);
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcrypt");
+const { secretKey } = require("../config/configVariables");
+const { Sequelize } = require("sequelize");
+const { User } = require("../models/associations");
 
-    res.json(users)
-}
+const getAllUsers = async (req, res) => {
+    try {
+        // Fetch all users from the database
+        const users = await User.findAll();
 
-const getAUser = (req,res) => {
+        console.log(users);
 
-    let user = users.filter(u => u.id === + req.params.id)
-
-    if (users.length ===0) {
-        res.end();
-    } else {
-        res.json(user[0]);
+        res.json(users);
+    } catch (error) {
+        console.error("Error fetching users:", error);
+        res.status(500).json({
+            success: false,
+            message: "Internal server error",
+        });
     }
-}
+};
 
-const deleteUser = (req,res) => {
-    users = users.filter(u => u.id !== + req.params.id);
+const getAUser = async (req, res) => {
+    try {
+        // Fetch a specific user by ID from the database
+        const user = await User.findByPk(req.params.id);
 
-    console.log(users);
+        if (!user) {
+            res.end();
+        } else {
+            res.json(user);
+        }
+    } catch (error) {
+        console.error("Error fetching user:", error);
+        res.status(500).json({
+            success: false,
+            message: "Internal server error",
+        });
+    }
+};
 
-    res.json({message: 'Deleted user with id of' + req.params.id});
-}
+const newUser = async (req, res) => {
+    let { firstName, lastName, email, username, password } = req.body;
+
+    try {
+        // Hash the password before storing it in the database
+        const hashedPassword = await bcrypt.hash(password, 12);
+        const createdAt = new Date().toISOString();
+
+
+        // Create a new user record in the database
+        const user = await User.create({
+            firstName,
+            lastName,
+            email,
+            username,
+            createdAt,
+            hashPass: hashedPassword,
+        });
+
+        // Optionally, you can generate a token or perform any other actions here
+
+        res.status(201).json({
+            success: true,
+            message: "User created successfully",
+            user,
+        });
+    } catch (error) {
+        console.error("Error creating user:", error);
+        res.status(500).json({
+            success: false,
+            message: "Internal server error",
+        });
+    }
+};
+
+const deleteUser = async (req, res) => {
+    try {
+        // Delete a user by ID from the database
+        await User.destroy({
+            where: {
+                id: req.params.id,
+            },
+        });
+
+        res.json({ message: "Deleted user with id of" + req.params.id });
+    } catch (error) {
+        console.error("Error deleting user:", error);
+        res.status(500).json({
+            success: false,
+            message: "Internal server error",
+        });
+    }
+};
 
 module.exports = {
     getAllUsers,
     getAUser,
     deleteUser,
-}
+    newUser,
+};

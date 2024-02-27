@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react";
 import { AppContext } from "../store/AppContext";
+import axios from 'axios';
 
 function CreateAccount() {
     const { state, dispatch } = useContext(AppContext);
@@ -19,19 +20,38 @@ function CreateAccount() {
         // Add check for duplicate email or username
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Add form validation logic here
-        // Dispatch an action or call an API to handle the registration
-        // Reset form data if needed
-        setFormData({
-            firstName: "",
-            lastName: "",
-            email: "",
-            username: "",
-            password: "",
-            verifyPassword: "",
-        });
+    
+        // Assuming formData is a state variable
+        const { firstName, lastName, email, username, password } = formData;
+    
+        try {
+            // Make a POST request to your server's endpoint for creating a new user
+            const response = await axios.post("http://localhost:8000/users/newuser", {
+                firstName,
+                lastName,
+                email,
+                username,
+                password,
+            });
+    
+            // Handle the response as needed
+            console.log(response.data);
+    
+            // Optionally, reset form data or perform other actions
+            setFormData({
+                firstName: "",
+                lastName: "",
+                email: "",
+                username: "",
+                password: "",
+                verifyPassword: "",
+            });
+        } catch (error) {
+            // Handle errors from the server
+            console.error("Error creating user:", error.response.data);
+        }
     };
 
     const cancelCreateAccount = () => {
