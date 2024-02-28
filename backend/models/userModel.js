@@ -20,6 +20,9 @@ const User = sequelize.define('Users', {
     createdAt: {
         type: DataTypes.STRING,
     },
+    hashPass: {
+        type: DataTypes.STRING,
+    },
 }, {
     timestamps: false
 });
