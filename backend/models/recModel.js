@@ -10,7 +10,7 @@ const Recommendation = sequelize.define('Recommendations', {
         type: DataTypes.STRING,
         allowNull: false,
     },
-    recTopic: {
+    category: {
         type: DataTypes.STRING,
         allowNull: false,
     },

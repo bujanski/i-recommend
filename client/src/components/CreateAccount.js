@@ -14,20 +14,26 @@ function CreateAccount() {
         verifyPassword: "",
     });
 
+    const [passwordMismatch, setPasswordMismatch] = useState(false);
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData((prevData) => ({ ...prevData, [name]: value }));
-        // Add check for duplicate email or username
+        setPasswordMismatch(false); // Reset password mismatch flag on any change
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
     
-        // Assuming formData is a state variable
-        const { firstName, lastName, email, username, password } = formData;
+        const { firstName, lastName, email, username, password, verifyPassword } = formData;
+    
+        // Check if passwords match
+        if (password !== verifyPassword) {
+            setPasswordMismatch(true);
+            return; // Do not proceed with the submission if passwords do not match
+        }
     
         try {
-            // Make a POST request to your server's endpoint for creating a new user
             const response = await axios.post("http://localhost:8000/users/newuser", {
                 firstName,
                 lastName,
@@ -36,10 +42,7 @@ function CreateAccount() {
                 password,
             });
     
-            // Handle the response as needed
             console.log(response.data);
-    
-            // Optionally, reset form data or perform other actions
             setFormData({
                 firstName: "",
                 lastName: "",
@@ -48,9 +51,28 @@ function CreateAccount() {
                 password: "",
                 verifyPassword: "",
             });
+            setPasswordMismatch(false);
+            cancelCreateAccount();
         } catch (error) {
-            // Handle errors from the server
-            console.error("Error creating user:", error.response.data);
+            if (error.response.status === 409) {
+                const { field } = error.response.data;
+                // Check if the conflict is due to an existing username or email
+                if (field === "username") {
+                    console.error("Username already exists:", error.response.data);
+                    // Display a user-friendly message to the user
+                    alert("Username already exists. Please choose a different username.");
+                } else if (field === "email") {
+                    console.error("Email already exists:", error.response.data);
+                    // Display a user-friendly message to the user
+                    alert("Email already exists. Please use a different email address.");
+                } else {
+                    console.error("Conflict with existing data:", error.response.data);
+                    // Handle other conflicts as needed
+                }
+            } else {
+                console.error("Error creating user:", error.response.data);
+                // Handle other errors as needed
+            }
         }
     };
 
@@ -128,6 +150,7 @@ function CreateAccount() {
                         onChange={handleChange}
                         required
                     />
+                    <div id="password-discrepency" style={{ display: passwordMismatch ? "inline" : "none" }}>Passwords do not match</div>
                     <br />
                     <br />
                     <button type="submit">Register</button>&nbsp;

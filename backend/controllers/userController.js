@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const { secretKey } = require("../config/configVariables");
 const { Sequelize } = require("sequelize");
-const { User } = require("../models/associations");
+const { User, Recommendation } = require("../models/associations");
 
 const getAllUsers = async (req, res) => {
     try {
@@ -40,6 +40,25 @@ const getAUser = async (req, res) => {
     }
 };
 
+const getRecs = async (req, res) => {
+    const {id, category} = req.params;
+    console.log(`Getting recs. ${id}, ${category}`)
+    try {
+        // const recs = await Recommendation.findAll()
+    } catch (error) {
+        console.error("Error searching database", error);
+    }
+}
+
+const updateRecs = async (req, res) => {
+    console.log('Updating recs.')
+    try {
+        // const recs = await Recommendation.findAll()
+    } catch (error) {
+        console.error("Error searching database", error);
+    }
+}
+
 const newUser = async (req, res) => {
     let { firstName, lastName, email, username, password } = req.body;
 
@@ -47,7 +66,6 @@ const newUser = async (req, res) => {
         // Hash the password before storing it in the database
         const hashedPassword = await bcrypt.hash(password, 12);
         const createdAt = new Date().toISOString();
-
 
         // Create a new user record in the database
         const user = await User.create({
@@ -68,12 +86,32 @@ const newUser = async (req, res) => {
         });
     } catch (error) {
         console.error("Error creating user:", error);
-        res.status(500).json({
-            success: false,
-            message: "Internal server error",
-        });
+
+        if (error.name === 'SequelizeUniqueConstraintError') {
+            let field;
+            if (error.fields.username) {
+                field = "username";
+            } else if (error.fields.email) {
+                field = "email";
+            }
+
+            // Include the 'field' property in the error response
+            res.status(409).json({
+                success: false,
+                message: "Username or email already exists",
+                field,
+            });
+        } else {
+            // Handle other errors
+            res.status(500).json({
+                success: false,
+                message: "Internal server error",
+            });
+        }
     }
 };
+
+
 
 const deleteUser = async (req, res) => {
     try {
@@ -99,4 +137,6 @@ module.exports = {
     getAUser,
     deleteUser,
     newUser,
+    getRecs,
+    updateRecs,
 };

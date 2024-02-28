@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { AppContext } from "../store/AppContext";
 import DragList from "./DragList";
+import UserFavList from "./UserFavList";
 import SearchBar from "./SearchBar";
 
 function SelectionWidget() {
@@ -22,7 +23,7 @@ function SelectionWidget() {
                 {addingItem ? <SearchBar /> : null}
             </div>
             <div>
-                <DragList number={15} />
+                <UserFavList id={1} category={selectingCategory} />
             </div>
             <div>
                 <button>Expand to see all your favorites</button>

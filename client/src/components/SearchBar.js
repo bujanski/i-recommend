@@ -24,6 +24,10 @@ function SearchBar() {
         }
     };
 
+    const addUserFav = async () => {
+        
+    }
+
     const debounce = (func, delay, immediate = false) => {
         let timeoutId;
         return function (...args) {
@@ -110,7 +114,7 @@ function SearchBar() {
                                     </b>
                                 </p>
                                 <br />
-                                <button>add to my favorites</button>
+                                <button onClick={addUserFav}>add to my favorites</button>
                             </div>
                         </div>
                     ))
