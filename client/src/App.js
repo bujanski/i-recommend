@@ -21,7 +21,10 @@ function App() {
             >
                 <TopBar />
                 {!userLoggedIn && modalOpen ? <CreateAccount /> : null}
-                {!userLoggedIn ? <WorldListsPane /> : <SelectionWidget />}
+                {!userLoggedIn ? <WorldListsPane /> : null}
+                {userLoggedIn ? <SelectionWidget category="books" /> : null}
+                {userLoggedIn ? <SelectionWidget category="movies" /> : null}
+                {userLoggedIn ? <SelectionWidget category="videoGames" /> : null}
             </AppContext.Provider>
         </div>
     );

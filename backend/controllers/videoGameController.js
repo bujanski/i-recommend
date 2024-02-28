@@ -7,7 +7,7 @@ const addGames = async (req, res) => {
     res.json({hello: "true"})
    
 };
-
+ 
 const topVideogames = async (req, res) => {
     try {
         const topList = await Videogame.findAll({
