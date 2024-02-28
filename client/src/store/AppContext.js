@@ -4,7 +4,8 @@ export const AppContext = createContext(null);
 
 export const appData = {
     userLoggedIn: false,
-    loggedInUser: null,
+    loggedInUserID: null,
+    loggedInUsername: null,
     aboutDisplay: false,
     selectingCategory: null,
     addingItem: false,

@@ -98,6 +98,16 @@ h1, h2, h3, h4 {
     color: lightslategray;
 }
 
+#login-failed {
+    color: rgb(255, 0, 0);
+    border: 1px solid red;
+    font-weight: 300;
+    font-size: .9em;
+    background-color: aliceblue;
+    padding: 4px;
+    border-radius: 4px;
+}
+
 .full-overlay {
     background-color: #366b8a;
     height: 100%;
