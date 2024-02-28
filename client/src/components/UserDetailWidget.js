@@ -2,7 +2,8 @@ import React, {useContext} from 'react';
 import {AppContext} from '../store/AppContext';
 
 function UserDetailWidget() {
-    const {dispatch} = useContext(AppContext);
+    const {state, dispatch} = useContext(AppContext);
+    const {loggedInUsername} = state;
     const handleLogOut = () => {
         dispatch({type: 'logOutUser'})
     }
@@ -10,7 +11,7 @@ function UserDetailWidget() {
 
     return (
         <div className="user-details-container">
-            <div>Username</div>
+            <div>{loggedInUsername? `Hi, ${loggedInUsername}` : null}</div>
             <div className='login-links' onClick={handleLogOut}>Logout</div>
         </div>
 

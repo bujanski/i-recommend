@@ -40,6 +40,47 @@ const getAUser = async (req, res) => {
     }
 };
 
+const loginUser = async (req, res) => {
+    const { username, password } = req.body;
+  
+    try {
+      // Find user in the database based on the provided username
+      const user = await User.findOne({ where: { username: username } });
+  
+      if (!user) {
+        // If user not found, send an error response
+        return res.status(404).json({ error: 'User not found' });
+      }
+  
+      // Extract the user ID and hashed password from the user object
+      const userId = user.id; // Assuming user ID is stored in the 'id' field
+      const storedHashedPassword = user.hashPass;
+  
+      // Compare the provided password with the stored hashed password using bcrypt
+      bcrypt.compare(password, storedHashedPassword, (err, result) => {
+        if (err) {
+          // Handle error
+          console.error(err);
+          return res.status(500).json({ error: 'Internal Server Error' });
+        }
+  
+        if (result) {
+          // Passwords match - User is authenticated
+          return res.status(200).json({ userId });
+        } else {
+          // Passwords do not match - Authentication failed
+          return res.status(401).json({ error: 'Authentication failed' });
+        }
+      });
+    } catch (error) {
+      // Handle any database or server error
+      console.error('Error finding user in db:', error);
+      return res.status(500).json({ error: 'Internal Server Error' });
+    }
+  };
+  
+  
+
 const getRecs = async (req, res) => {
     const {id, category} = req.params;
     console.log(`Getting recs. ${id}, ${category}`)
@@ -139,4 +180,5 @@ module.exports = {
     newUser,
     getRecs,
     updateRecs,
+    loginUser,
 };

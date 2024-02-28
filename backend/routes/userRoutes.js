@@ -6,6 +6,8 @@ userRouter.get('/', userController.getAllUsers);
 
 userRouter.get('/:username', userController.getAUser);
 
+userRouter.post('/login', userController.loginUser);
+
 userRouter.get('/:id/recs/:category', userController.getRecs);
 
 userRouter.delete(':/id', userController.deleteUser);

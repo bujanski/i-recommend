@@ -3,8 +3,11 @@ export const appReducer = (state, action) => {
     let { type, payload } = action;
 
     switch (type) {
-        case "logInUser":
+        case "loginUser":
             newState.userLoggedIn = true;
+            newState.loggedInUserId = payload.userId;
+            newState.loggedInUsername = payload.username;
+            console.log (payload);
             return newState;
         case "logOutUser":
             newState.userLoggedIn = false;
