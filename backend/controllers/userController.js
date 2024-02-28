@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const { secretKey } = require("../config/configVariables");
 const { Sequelize } = require("sequelize");
-const { User, Recommendation } = require("../models/associations");
+const { User } = require("../models/associations");
 
 const getAllUsers = async (req, res) => {
     try {
@@ -39,25 +39,6 @@ const getAUser = async (req, res) => {
         });
     }
 };
-
-const getRecs = async (req, res) => {
-    const {id, category} = req.params;
-    console.log(`Getting recs. ${id}, ${category}`)
-    try {
-        // const recs = await Recommendation.findAll()
-    } catch (error) {
-        console.error("Error searching database", error);
-    }
-}
-
-const updateRecs = async (req, res) => {
-    console.log('Updating recs.')
-    try {
-        // const recs = await Recommendation.findAll()
-    } catch (error) {
-        console.error("Error searching database", error);
-    }
-}
 
 const newUser = async (req, res) => {
     let { firstName, lastName, email, username, password } = req.body;
@@ -137,6 +118,4 @@ module.exports = {
     getAUser,
     deleteUser,
     newUser,
-    getRecs,
-    updateRecs,
 };
