@@ -6,10 +6,12 @@ const User = sequelize.define('Users', {
     username: {
         type: DataTypes.STRING,
         allowNull: false,
+        unique: true,
     },
     email: {
         type: DataTypes.STRING,
         allowNull: false,
+        unique: true,
     },
     firstName: {
         type: DataTypes.STRING,
@@ -18,6 +20,9 @@ const User = sequelize.define('Users', {
         type: DataTypes.STRING,
     },
     createdAt: {
+        type: DataTypes.STRING,
+    },
+    hashPass: {
         type: DataTypes.STRING,
     },
 }, {

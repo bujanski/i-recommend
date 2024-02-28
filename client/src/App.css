@@ -129,6 +129,27 @@ h1, h2, h3, h4 {
     padding: 10px;
 }
 
+#email-taken {
+    display: none;
+    padding: 10px;
+    color: red;
+    font-size: .8em;
+}
+
+#username-taken {
+    display: none;
+    padding: 10px;
+    color: red;
+    font-size: .8em;
+}
+
+#password-discrepency {
+    display: none;
+    padding: 10px;
+    color: red;
+    font-size: .8em;
+}
+
 .modal-top-bar {
     display: flex;
     justify-content: space-between;

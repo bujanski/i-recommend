@@ -3,9 +3,10 @@ import { createContext } from "react";
 export const AppContext = createContext(null);
 
 export const appData = {
-    userLoggedIn: true,
+    userLoggedIn: false,
+    loggedInUser: null,
     aboutDisplay: false,
-    selectingCategory: "movies",
+    selectingCategory: null,
     addingItem: false,
     modalOpen: false,
 }
