@@ -4,4 +4,5 @@ const videoGameRouter = express.Router();
 
 videoGameRouter.post('/addgames', videoGameController.addGames);
 videoGameRouter.get('/topvideogames', videoGameController.topVideogames);
+
 module.exports = videoGameRouter;
