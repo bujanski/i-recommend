@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const bookRouter = require('./routes/bookRoutes');
 const movieRouter = require('./routes/movieRoutes');
 const videoGameRouter = require('./routes/videoGameRoutes');
 const userRouter = require('./routes/userRoutes');
@@ -17,6 +18,7 @@ app.use(cors());
 
 //app.use(verifyAuthorization);
 
+app.use( '/books', bookRouter);
 app.use('/movies', movieRouter);
 app.use('/videogames', videoGameRouter);
 app.use('/users', userRouter);

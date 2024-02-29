@@ -13,5 +13,4 @@ userRouter.delete(':/id', recController.deleteRecList);
 userRouter.post('/newUser', recController.updateRecs);
 
 
-
 module.exports = recRouter;

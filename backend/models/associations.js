@@ -4,15 +4,11 @@ const Videogame = require("./videogameModel");
 const Recommendation = require("./recModel");
 const User = require("./userModel");
 
+Movie.hasMany(Recommendation);
 
-User.hasMany(Movie);
-Movie.belongsTo(User);
+Book.hasMany(Recommendation);
 
-User.hasMany(Book);
-Book.belongsTo(User);
-
-User.hasMany(Videogame);
-Videogame.belongsTo(User);
+Videogame.hasMany(Recommendation);
 
 User.hasMany(Recommendation);
 Recommendation.belongsTo(User);
