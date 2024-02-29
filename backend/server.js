@@ -21,7 +21,7 @@ app.use('/videogames', videoGameRouter);
 app.use('/users', userRouter);
 
 testConnection();
-// seedDatabase();
+//seedDatabase();
 
 app.listen(port, () => {
     console.log('Listening on port: ', port)

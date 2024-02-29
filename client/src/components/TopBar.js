@@ -5,6 +5,7 @@ import TopNav from './TopNav'
 import UserDetailWidget from './UserDetailWidget';
 import {AppContext} from '../store/AppContext';
 import TopSearch from './TopSearch';
+import MatchSearch from './MatchSearch';
 
 function TopBar() {
     const {state, dispatch} = useContext(AppContext);
@@ -20,6 +21,7 @@ function TopBar() {
 
             </div>
             <TopSearch />
+            {/* {userLoggedIn ? <MatchSearch /> : <></> } */}
             <div>
                 {/* <TopNav/> */}
             </div>

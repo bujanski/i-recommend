@@ -11,7 +11,7 @@ function WorldListsPane() {
             <div id="world-lists-title">
                 the world's favorites    
             </div>
-            {/* <WorldFavList category={"books"} /> */}
+            <WorldFavList category={"books"} />
             <WorldFavList category={"movies"} />
             <WorldFavList category={"videoGames"} />
         </div>

@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const { secretKey } = require("../config/configVariables");
 const { Sequelize } = require("sequelize");
-const { User, Recommendation } = require("../models/associations");
+const { User } = require("../models/associations");
 
 const getAllUsers = async (req, res) => {
     try {
