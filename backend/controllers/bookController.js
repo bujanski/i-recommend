@@ -8,6 +8,7 @@ const topBooks = async (req, res) => {
             // You can add more options like order, where, etc., if needed
         });
         // Assuming you want to send the topList as a JSON response
+        console.log(topList);
         res.json(topList);
     } catch (error) {
         console.error("Error fetching top books:", error);

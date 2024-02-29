@@ -19,6 +19,7 @@ const seedDatabase = async () => {
 
     await sequelize.sync({force: true})
 
+    // Movie, Videogame, Book, User, Recommendation
     const models = [Movie, Videogame, Book, User, Recommendation];
     const data = [Movies, Videogames, Books, Users, Recommendations];
 
