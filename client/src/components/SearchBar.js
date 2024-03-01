@@ -15,7 +15,7 @@ function SearchBar() {
     const queryCategory = async (search) => {
         try {
             const response = await axios.get(
-                `https://i-recommend.onrender.com/${selectingCategory}/search/${search}`
+                `http://localhost:8000/${selectingCategory}/search/${search}`
             );
             setSearchResults(response.data.data.slice(0, 20)); // Limit results to the first 20 items
         } catch (error) {

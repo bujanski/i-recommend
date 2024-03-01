@@ -22,7 +22,43 @@ const topVideogames = async (req, res) => {
     }
 }
 
+
+const videoGameSearch = async (req, res) => {
+    const { searchText } = req.params;
+
+    try {
+        const searchResult = await Videogame.findAll({
+            where: {
+                [Sequelize.Op.or]: [
+                    {
+                        name: {
+                            [Sequelize.Op.iLike]: `%${searchText}%`,
+                        },
+                    },
+                    {
+                        genres: {
+                            [Sequelize.Op.iLike]: `%${searchText}%`,
+                        },
+                    },
+                    {
+                        released: {
+                            [Sequelize.Op.iLike]: `%${searchText}%`,
+                        },
+                    },
+                ],
+            },
+        });
+
+        res.status(200).json({ success: true, data: searchResult });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ success: false, error: "Internal Server Error" });
+    }
+};
+
+
 module.exports = {
     addGames,
-    topVideogames
+    topVideogames,
+    videoGameSearch
 };

@@ -1,9 +1,14 @@
 import React, { useContext, useState } from "react";
 import { AppContext } from "../store/AppContext";
-import axios from 'axios';
+import axios from "axios";
+import {jwtDecode} from 'jwt-decode';
 
 function CreateAccount() {
     const { state, dispatch } = useContext(AppContext);
+
+    const logInNewUser = (userData) => {
+        dispatch({ type: "loginUser", payload: userData });
+    };
 
     const [formData, setFormData] = useState({
         firstName: "",
@@ -24,57 +29,67 @@ function CreateAccount() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-    
+      
         const { firstName, lastName, email, username, password, verifyPassword } = formData;
-    
+      
         // Check if passwords match
         if (password !== verifyPassword) {
-            setPasswordMismatch(true);
-            return; // Do not proceed with the submission if passwords do not match
+          setPasswordMismatch(true);
+          return; // Do not proceed with the submission if passwords do not match
         }
-    
+      
         try {
-            const response = await axios.post("http://localhost:8000/users/newuser", {
-                firstName,
-                lastName,
-                email,
-                username,
-                password,
-            });
-    
-            console.log(response.data);
+          const response = await axios.post("http://localhost:8000/users/newuser", {
+            firstName,
+            lastName,
+            email,
+            username,
+            password,
+          });
+      
+          // Check if the user was created successfully
+          if (response.data.success) {
+            // Clear form data and set state
             setFormData({
-                firstName: "",
-                lastName: "",
-                email: "",
-                username: "",
-                password: "",
-                verifyPassword: "",
+              firstName: "",
+              lastName: "",
+              email: "",
+              username: "",
+              password: "",
+              verifyPassword: "",
             });
             setPasswordMismatch(false);
+      
+            // Extract user data from the token or response as needed
+            const decodedToken = jwtDecode(response.data.token);
+            localStorage.setItem("authToken", response.data.token);
+            const userData = { username: decodedToken.username, userId: decodedToken.userId };
+      
+            // Log in the new user and perform any other actions needed
+            logInNewUser(userData);
+      
+            // Optionally, perform any other actions after successful user creation
+      
+            // Close the create account form
             cancelCreateAccount();
-        } catch (error) {
-            if (error.response.status === 409) {
-                const { field } = error.response.data;
-                // Check if the conflict is due to an existing username or email
-                if (field === "username") {
-                    console.error("Username already exists:", error.response.data);
-                    // Display a user-friendly message to the user
-                    alert("Username already exists. Please choose a different username.");
-                } else if (field === "email") {
-                    console.error("Email already exists:", error.response.data);
-                    // Display a user-friendly message to the user
-                    alert("Email already exists. Please use a different email address.");
-                } else {
-                    console.error("Conflict with existing data:", error.response.data);
-                    // Handle other conflicts as needed
-                }
+          } else {
+            // Handle unsuccessful user creation
+            const { field, message } = response.data;
+            if (field === "username" || field === "email") {
+              console.error(`${field} conflict:`, message);
+              // Display a user-friendly message to the user
+              alert(`${field === "username" ? "Username" : "Email"} already exists. Please choose a different ${field}.`);
             } else {
-                console.error("Error creating user:", error.response.data);
-                // Handle other errors as needed
+              console.error("Conflict with existing data:", message);
+              // Handle other conflicts as needed
             }
+          }
+        } catch (error) {
+          console.error("Error creating user:", error.message);
+          // Handle other errors as needed
         }
-    };
+      };
+      
 
     const cancelCreateAccount = () => {
         dispatch({ type: "cancelCreateAccount" });
@@ -150,7 +165,14 @@ function CreateAccount() {
                         onChange={handleChange}
                         required
                     />
-                    <div id="password-discrepency" style={{ display: passwordMismatch ? "inline" : "none" }}>Passwords do not match</div>
+                    <div
+                        id="password-discrepency"
+                        style={{
+                            display: passwordMismatch ? "inline" : "none",
+                        }}
+                    >
+                        Passwords do not match
+                    </div>
                     <br />
                     <br />
                     <button type="submit">Register</button>&nbsp;

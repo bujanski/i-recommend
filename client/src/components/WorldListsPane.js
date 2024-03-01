@@ -1,8 +1,5 @@
 import React from 'react'
 import WorldFavList from './WorldFavList'
-import SelectionWidget from './SelectionWidget'
-import AddToDBTool from './AddToDBTool'
-import GameList from './GameList'
 
 function WorldListsPane() {
 

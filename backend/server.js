@@ -17,7 +17,7 @@ app.use(cors());
 
 //app.use(verifyAuthorization);
 
-app.use( '/books', bookRouter);
+app.use('/books', bookRouter);
 app.use('/movies', movieRouter);
 app.use('/videogames', videoGameRouter);
 app.use('/users', userRouter);

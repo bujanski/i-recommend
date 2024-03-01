@@ -5,6 +5,7 @@ function UserDetailWidget() {
     const {state, dispatch} = useContext(AppContext);
     const {loggedInUsername} = state;
     const handleLogOut = () => {
+        localStorage.removeItem('authToken');
         dispatch({type: 'logOutUser'})
     }
 

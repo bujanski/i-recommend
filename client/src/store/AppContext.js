@@ -4,17 +4,13 @@ export const AppContext = createContext(null);
 
 export const appData = {
     userLoggedIn: false,
-    loggedInUserID: null,
+    loggedInUserId: null,
     loggedInUsername: null,
     aboutDisplay: false,
     selectingCategory: null,
     addingItem: false,
+    activeCategory: null,
     modalOpen: false,
-}
+};
 
-export const mediaCategories = [
-    "Books",
-    "Movies",
-    "Podcasts",
-    "Video games",
-]
+export const mediaCategories = ["Books", "Movies", "Podcasts", "Video games"];
