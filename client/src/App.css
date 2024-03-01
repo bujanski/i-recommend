@@ -106,6 +106,7 @@ h1, h2, h3, h4 {
     background-color: aliceblue;
     padding: 4px;
     border-radius: 4px;
+    z-index: 1113;
 }
 
 .full-overlay {

@@ -42,11 +42,13 @@ function LogInWidget() {
                     password: password,
                 }
             );
-
-            if (response.status === 200) {
-                const { userId } = response.data;
+                console.log(response.status)
+            if (response.status === 201) {
+                const { userId, token } = response.data;
                 setloginFailed(false);
                 const userData = { userId: userId, username: username };
+                console.log(token);
+                localStorage.setItem("authToken", token);
                 loginUser(userData);
                 console.log("Login successful!", userId);
             } else {

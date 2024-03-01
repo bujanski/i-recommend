@@ -40,65 +40,109 @@ const getAUser = async (req, res) => {
     }
 };
 
+const autoLogin = async (req, res) => {
+    const {token} = req.body;
+    console.log(req.body);
+
+    if (!token) {
+        return res.status(401).json({ success: false, message: 'No token provided' });
+      }
+    
+      try {
+        // Verify the token
+        const decoded = jwt.verify(token, secretKey); // Replace 'your-secret-key' with your actual secret key
+    
+        // Use the decoded data to find the user or perform any other necessary checks
+        const user = await User.findByPk(decoded.userId);
+    
+        if (!user) {
+          return res.status(401).json({ success: false, message: 'User not found' });
+        }
+    
+        // If everything is valid, send back user information
+        return res.status(200).json({
+          success: true,
+          user: {
+            userId: user.id,
+            username: user.username,
+            // ... other user information you want to send
+          },
+        });
+      } catch (error) {
+        console.error('Error during auto-login:', error);
+        return res.status(401).json({ success: false, message: 'Invalid token' });
+      }
+    };
+
 const loginUser = async (req, res) => {
     const { username, password } = req.body;
-  
+    console.log(username, password)
     try {
-      // Find user in the database based on the provided username
-      const user = await User.findOne({ where: { username: username } });
-  
-      if (!user) {
-        // If user not found, send an error response
-        return res.status(404).json({ error: 'User not found' });
-      }
-  
-      // Extract the user ID and hashed password from the user object
-      const userId = user.id; // Assuming user ID is stored in the 'id' field
-      const storedHashedPassword = user.hashPass;
-  
-      // Compare the provided password with the stored hashed password using bcrypt
-      bcrypt.compare(password, storedHashedPassword, (err, result) => {
-        if (err) {
-          // Handle error
-          console.error(err);
-          return res.status(500).json({ error: 'Internal Server Error' });
+        // Find user in the database based on the provided username
+        const user = await User.findOne({ where: { username: username } });
+
+        if (!user) {
+            // If user not found, send an error response
+            return res.status(404).json({ error: "User not found" });
         }
-  
-        if (result) {
-          // Passwords match - User is authenticated
-          return res.status(200).json({ userId });
-        } else {
-          // Passwords do not match - Authentication failed
-          return res.status(401).json({ error: 'Authentication failed' });
-        }
-      });
+
+        // Extract the user ID and hashed password from the user object
+        const userId = user.id; // Assuming user ID is stored in the 'id' field
+        const storedHashedPassword = user.hashPass;
+
+        // Compare the provided password with the stored hashed password using bcrypt
+        bcrypt.compare(password, storedHashedPassword, (err, result) => {
+            if (err) {
+                // Handle error
+                console.error(err);
+                return res.status(500).json({ error: "Internal Server Error" });
+            }
+
+            if (result) {
+                // Passwords match - User is authenticated
+                const userPayload = {
+                    userId: userId,
+                    username: username,
+                };
+                const options = { expiresIn: "168h" }; // Optional: Set expiration time
+                const token = jwt.sign(userPayload, secretKey, options);
+        
+                // Include the JWT in the response
+                return res.status(201).json({
+                    success: true,
+                    message: "User logged in successfully",
+                    token,
+                });
+            } else {
+                // Passwords do not match - Authentication failed
+                return res.status(401).json({ error: "Authentication failed" });
+            }
+        });
     } catch (error) {
-      // Handle any database or server error
-      console.error('Error finding user in db:', error);
-      return res.status(500).json({ error: 'Internal Server Error' });
+        // Handle any database or server error
+        console.error("Error finding user in db:", error);
+        return res.status(500).json({ error: "Internal Server Error" });
     }
-  };
-  
-  
+};
 
 const getRecs = async (req, res) => {
-    const {id, category} = req.params;
-    console.log(`Getting recs. ${id}, ${category}`)
+    const { id, category } = req.params;
+    console.log(`Getting recs. ${id}, ${category}`);
     try {
         // const recs = await Recommendation.findAll()
     } catch (error) {
         console.error("Error searching database", error);
     }
-}
+};
 
 const updateRecs = async (req, res) => {
-    console.log('Updating recs.')
+    console.log("Updating recs.");
     try {
         // const recs = await Recommendation.findAll()
     } catch (error) {
         console.error("Error searching database", error);
     }
-}
+};
 
 const newUser = async (req, res) => {
     let { firstName, lastName, email, username, password } = req.body;
@@ -118,17 +162,27 @@ const newUser = async (req, res) => {
             hashPass: hashedPassword,
         });
 
-        // Optionally, you can generate a token or perform any other actions here
+        // Generate a JWT for the newly created user
+        const userPayload = {
+            userId: user.id,
+            username: user.username,
+        };
+        const options = { expiresIn: "168h" }; // Optional: Set expiration time
+        const token = jwt.sign(userPayload, secretKey, options);
 
+        // Include the JWT in the response
         res.status(201).json({
             success: true,
             message: "User created successfully",
-            user,
+            token,
         });
     } catch (error) {
         console.error("Error creating user:", error);
 
-        if (error.name === 'SequelizeUniqueConstraintError') {
+        let responseStatusCode = 500;
+        let responseMessage = "Internal server error";
+
+        if (error.name === "SequelizeUniqueConstraintError") {
             let field;
             if (error.fields.username) {
                 field = "username";
@@ -137,22 +191,18 @@ const newUser = async (req, res) => {
             }
 
             // Include the 'field' property in the error response
-            res.status(409).json({
-                success: false,
-                message: "Username or email already exists",
-                field,
-            });
-        } else {
-            // Handle other errors
-            res.status(500).json({
-                success: false,
-                message: "Internal server error",
-            });
+            responseStatusCode = 409;
+            responseMessage = "Username or email already exists";
         }
+
+        // Return a consistent error response structure
+        res.status(responseStatusCode).json({
+            success: false,
+            message: responseMessage,
+            field,
+        });
     }
 };
-
-
 
 const deleteUser = async (req, res) => {
     try {
@@ -181,4 +231,5 @@ module.exports = {
     getRecs,
     updateRecs,
     loginUser,
+    autoLogin,
 };

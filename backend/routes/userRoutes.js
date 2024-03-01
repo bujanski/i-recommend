@@ -14,6 +14,6 @@ userRouter.delete(':/id', userController.deleteUser);
 
 userRouter.post('/newUser', userController.newUser);
 
-
+userRouter.post('/autologin', userController.autoLogin);
 
 module.exports = userRouter;

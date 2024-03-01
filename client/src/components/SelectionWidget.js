@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { AppContext } from "../store/AppContext";
-import DragList from "./DragList";
 import UserFavList from "./UserFavList";
 import SearchBar from "./SearchBar";
 
@@ -8,9 +7,9 @@ function formatCategoryText(category) {
     return category.replace(/([a-z])([A-Z])/g, '$1 $2').toLowerCase();
 }
 
-function SelectionWidget({category}) {
+function SelectionWidget({ category }) {
     const { state, dispatch } = useContext(AppContext);
-    const { addingItem } = state;
+    const { addingItem, selectingCategory } = state;
     const formattedCategory = formatCategoryText(category);
 
     const startAddItem = () => {
@@ -24,7 +23,7 @@ function SelectionWidget({category}) {
                 <div className="add-item-button" onClick={startAddItem}>
                     + Add {formattedCategory} to your list
                 </div>
-                {addingItem ? <SearchBar /> : null}
+                {addingItem && selectingCategory === category ? <SearchBar /> : null}
             </div>
             <div>
                 <UserFavList id={1} category={category} />
