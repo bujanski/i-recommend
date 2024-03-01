@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { AppContext } from "../store/AppContext";
 import axios from "axios";
+import { jwtDecode } from "jwt-decode";
 
 function LogInWidget() {
     const { dispatch } = useContext(AppContext);
@@ -42,15 +43,18 @@ function LogInWidget() {
                     password: password,
                 }
             );
-                console.log(response.status)
+
             if (response.status === 201) {
-                const { userId, token } = response.data;
+                const { token } = response.data;
+                const decodedToken = jwtDecode(response.data.token);
+                
                 setloginFailed(false);
-                const userData = { userId: userId, username: username };
-                console.log(token);
+                const userData = { userId: decodedToken.userId, username: username };
+
                 localStorage.setItem("authToken", token);
+
                 loginUser(userData);
-                console.log("Login successful!", userId);
+                console.log("Login successful!", decodedToken.userId);
             } else {
                 console.error("Login failed:", response.statusText);
             }

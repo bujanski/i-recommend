@@ -80,7 +80,7 @@ const loginUser = async (req, res) => {
     try {
         // Find user in the database based on the provided username
         const user = await User.findOne({ where: { username: username } });
-
+        
         if (!user) {
             // If user not found, send an error response
             return res.status(404).json({ error: "User not found" });
@@ -101,7 +101,7 @@ const loginUser = async (req, res) => {
             if (result) {
                 // Passwords match - User is authenticated
                 const userPayload = {
-                    userId: userId,
+                    userId: user.dataValues.id,
                     username: username,
                 };
                 const options = { expiresIn: "168h" }; // Optional: Set expiration time

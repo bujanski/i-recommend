@@ -7,10 +7,11 @@ export const appReducer = (state, action) => {
             newState.userLoggedIn = true;
             newState.loggedInUserId = payload.userId;
             newState.loggedInUsername = payload.username;
-            console.log (payload);
             return newState;
         case "logOutUser":
             newState.userLoggedIn = false;
+            newState.loggedInUserId = null;
+            newState.loggedInUsername = null;
             return newState;
         case "startCreateAccount":
             newState.modalOpen = true;
