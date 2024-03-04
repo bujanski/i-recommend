@@ -8,9 +8,6 @@ const getAllUsers = async (req, res) => {
     try {
         // Fetch all users from the database
         const users = await User.findAll();
-
-        console.log(users);
-
         res.json(users);
     } catch (error) {
         console.error("Error fetching users:", error);
@@ -41,8 +38,7 @@ const getAUser = async (req, res) => {
 };
 
 const autoLogin = async (req, res) => {
-    const { token } = req.body;
-    console.log(req.body);
+    const { token } = req.body;;
 
     if (!token) {
         return res
@@ -82,7 +78,6 @@ const autoLogin = async (req, res) => {
 
 const loginUser = async (req, res) => {
     const { username, password } = req.body;
-    console.log(username, password);
     try {
         // Find user in the database based on the provided username
         const user = await User.findOne({ where: { username: username } });

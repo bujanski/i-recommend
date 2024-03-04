@@ -45,7 +45,6 @@ const UserFavList = ({ category, onRecommendationAdded }) => {
                 const filteredItems = response.data.userRecs.filter(item => {
                     
                     if (category === 'movies') {
-                        console.log(item.MovieId);
                         return item.MovieId !== undefined && item.MovieId !== null;
                     } else if (category === 'books') {
                         return item.BookId !== undefined && item.BookId !== null;
@@ -83,8 +82,6 @@ const UserFavList = ({ category, onRecommendationAdded }) => {
             ...item,
             ranking: index + 1,
         }));
-
-        console.log(updatedItemsWithRanking);
 
         try {
             // Send a request to update the rankings on the server

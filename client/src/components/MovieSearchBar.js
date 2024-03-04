@@ -30,7 +30,6 @@ function MovieSearchBar({ onRecommendationAdded }) {
             let MovieId = item.id;
             let UserId = loggedInUserId;
             const { title } = item;
-            console.log(item)
             // Send a request to the backend to add the recommendation
             const response = await axios.post(
                 'http://localhost:8000/recs/addRec',

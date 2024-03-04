@@ -29,6 +29,22 @@ const getUserRecs = async (req, res) => {
     }
 };
 
+const getTop25 = async (req, res) => {
+    const { category } = req.params;
+    try {
+        const topList = await Recommendation.findAll({
+            limit: 25,
+            // You can add more options like order, where, etc., if needed
+        });
+        // Assuming you want to send the topList as a JSON response
+        res.json(topList);
+    } catch (error) {
+        console.error("Error fetching top movies:", error);
+        res.status(500).send("Internal Server Error");
+    }
+
+}
+
 
 const updateRankings = async (req, res) => {
     try {

@@ -24,7 +24,7 @@ async function buildDataFile(count, url, increment, mediaType) {
                 for (let g = 0; g < queryData.data.results.length; g++) {
                     // Extracting desired keys using destructuring
                     const {
-                        name,
+                        title,
                         genres,
                         platforms,
                         playtime,
@@ -36,7 +36,7 @@ async function buildDataFile(count, url, increment, mediaType) {
 
                     // Creating a new object with filtered keys
                     let tempObject = {
-                        name,
+                        title,
                         genres,
                         platforms,
                         playtime,
@@ -147,7 +147,7 @@ function convertVgJsontoJS() {
     const metacritic = game.metacritic ? game.metacritic.toString() : '';
 
     return {
-      name: game.name || '',
+      title: game.title || '',
       genres,
       platforms,
       released,

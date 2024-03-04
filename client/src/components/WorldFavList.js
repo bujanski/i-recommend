@@ -8,7 +8,7 @@ function formatCategoryText(category) {
 
 function WorldFavList({ category }) {
     const categoryURLs = {
-        movies: "http://localhost:8000/movies/topmovies",
+        movies: "http://localhost:8000/recs/topmovies",
         books: "http://localhost:8000/books/topbooks",
         videoGames: "http://localhost:8000/videogames/topvideogames",
     };
