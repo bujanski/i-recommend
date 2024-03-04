@@ -2,15 +2,8 @@ const express = require('express');
 const recRouter = express.Router();
 const recController = require('../controllers/recController');
 
-userRouter.get('/', recController.getAllRecLists);
-
-userRouter.get('/:username', recController.getARecList);
-
-userRouter.get('/:id/recs/:category', recController.getRecs);
-
-userRouter.delete(':/id', recController.deleteRecList);
-
-userRouter.post('/newUser', recController.updateRecs);
-
+recRouter.get('/:userId', recController.getUserRecs);
+recRouter.put('/update-rankings', recController.updateRankings);
+recRouter.post('/addRec', recController.addRec)
 
 module.exports = recRouter;

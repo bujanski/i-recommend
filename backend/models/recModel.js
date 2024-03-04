@@ -8,7 +8,11 @@ const Recommendation = sequelize.define('Recommendations', {
     },
     comment: {
         type: DataTypes.TEXT,
-    }
+    },
+    title: {
+        type: DataTypes.STRING,
+    },
+
 }, {
     timestamps: false
 });

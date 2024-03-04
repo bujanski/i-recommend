@@ -16,7 +16,17 @@ const topBooks = async (req, res) => {
     }
 };
 
-
+const getBook = async (req, res) => {
+    const {id} = req.params;
+    try {
+        const book = await Book.findByPk(id);
+        // Assuming you want to send the topList as a JSON response
+        res.json(book);
+    } catch (error) {
+        console.error("Error fetching top movies:", error);
+        res.status(500).send("Internal Server Error");
+    }
+};
 
 const bookSearch = async (req, res) => {
     const { searchText } = req.params;
@@ -58,5 +68,6 @@ const bookSearch = async (req, res) => {
 
 module.exports = {
     bookSearch,
-    topBooks
+    topBooks,
+    getBook,
 };

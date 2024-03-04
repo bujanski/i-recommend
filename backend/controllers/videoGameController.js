@@ -22,6 +22,17 @@ const topVideogames = async (req, res) => {
     }
 }
 
+const getVideogame = async (req, res) => {
+    const {id} = req.params;
+    try {
+        const game = await Videogame.findByPk(id);
+        // Assuming you want to send the topList as a JSON response
+        res.json(game);
+    } catch (error) {
+        console.error("Error fetching top movies:", error);
+        res.status(500).send("Internal Server Error");
+    }
+};
 
 const videoGameSearch = async (req, res) => {
     const { searchText } = req.params;
@@ -60,5 +71,6 @@ const videoGameSearch = async (req, res) => {
 module.exports = {
     addGames,
     topVideogames,
-    videoGameSearch
+    videoGameSearch,
+    getVideogame
 };

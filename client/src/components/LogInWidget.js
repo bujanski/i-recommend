@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { AppContext } from "../store/AppContext";
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
@@ -62,6 +62,22 @@ function LogInWidget() {
             setloginFailed(true);
         }
     };
+
+    useEffect(() => {
+        const handleKeyPress = (event) => {
+            if (event.key === "Enter" && isInputValid) {
+                handleLoginClick();
+            }
+        };
+
+        // Add event listener for key press
+        window.addEventListener("keydown", handleKeyPress);
+
+        // Remove the event listener when the component unmounts
+        return () => {
+            window.removeEventListener("keydown", handleKeyPress);
+        };
+    }, [isInputValid]);
 
     return (
         <div className="credential-container">

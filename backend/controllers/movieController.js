@@ -16,7 +16,6 @@ const topMovies = async (req, res) => {
 };
 
 
-
 const movieSearch = async (req, res) => {
     const { searchText } = req.params;
 
@@ -55,7 +54,20 @@ const movieSearch = async (req, res) => {
     }
 };
 
+const getMovie = async (req, res) => {
+    const {id} = req.params;
+    try {
+        const movie = await Movie.findByPk(id);
+        // Assuming you want to send the topList as a JSON response
+        res.json(movie);
+    } catch (error) {
+        console.error("Error fetching top movies:", error);
+        res.status(500).send("Internal Server Error");
+    }
+};
+
 module.exports = {
     movieSearch,
-    topMovies
+    topMovies,
+    getMovie,
 };

@@ -1,68 +1,100 @@
-const { Sequelize } = require("sequelize");
-const { Recommendation } = require("../models/associations");
+const { Recommendation } = require("../models/associations")
+const { Sequelize  } = require('sequelize');
 
-const getAllRecLists = async (req, res) => {
+const getUserRecs = async (req, res) => {
+    const { userId } = req.params;
+
     try {
-        // Fetch all users from the database
-        const recs = await Recommendation.findAll();
+        const userRecs = await Recommendation.findAll({
+            where: {
+                UserId: userId
+            },
+            order: [
+                ['ranking', 'ASC'] // You can use 'DESC' for descending order
+            ]
+            // You can include additional options here, such as limit, etc.
+        });
 
-        console.log(recs);
-
-        res.json(recs);
+        // Send the user recommendations back in the response
+        res.status(200).json({
+            success: true,
+            userRecs: userRecs
+        });
     } catch (error) {
-        console.error("Error fetching Recommendations:", error);
+        console.error('Error fetching user recommendations:', error);
         res.status(500).json({
             success: false,
-            message: "Internal server error",
+            message: 'Internal Server Error'
         });
     }
 };
 
-const getARecList = async (req, res) => {
+
+const updateRankings = async (req, res) => {
     try {
-        // Fetch a specific Recommendation List by ID from the database
-        const rec = await Recommendation.findByPk(req.params.id);
-        if (!rec) {
-            res.end();
-        } else {
-            res.json(rec);
-            //res.status(200).json({ success: true, data: searchResult });
+        const { updatedItems } = req.body;
+
+        // Assuming each item has an 'id' field for identification
+        for (const updatedItem of updatedItems) {
+            await Recommendation.update(
+                { ranking: updatedItem.ranking },
+                { where: { id: updatedItem.id } }
+            );
         }
+
+        res.status(200).json({ message: 'Rankings updated successfully' });
     } catch (error) {
-        console.error("Error fetching user:", error);
-        res.status(500).json({
-            success: false,
-            message: "Internal server error",
-        });
+        console.error('Error updating rankings', error);
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 };
 
-const getRecs = async (req, res) => {
-    const {id, category} = req.params;
-    console.log(`Getting recs. ${id}, ${category}`)
+const addRec = async (req, res) => {
     try {
-        const recs = await Recommendation.findAll()
-    } catch (error) {
-        console.error("Error searching database", error);
-        res.status(500).json({
-            success: false,
-            message: "Internal server error",
+        const { ranking, title, UserId, MovieId, BookId, VideogameId } = req.body;
+
+        // Validate that at least one of MovieId, BookId, or VideogameId is provided
+        if (!(MovieId || BookId || VideogameId)) {
+            return res.status(400).json({ error: 'At least one of MovieId, BookId, or VideogameId is required.' });
+        }
+
+        // Build the where condition based on provided parameters
+        const whereCondition = {};
+        if (UserId) whereCondition.UserId = UserId;
+        if (MovieId) whereCondition.MovieId = MovieId;
+        if (BookId) whereCondition.BookId = BookId;
+        if (VideogameId) whereCondition.VideogameId = VideogameId;
+
+        // Check if the user has already recommended the same thing
+        const existingRecommendation = await Recommendation.findOne({
+            where: whereCondition,
         });
+
+        if (existingRecommendation) {
+            // User has already recommended the same thing
+            return res.status(400).json({ error: 'User has already recommended the same thing.' });
+        }
+
+        // Create a new recommendation
+        const newRecommendation = await Recommendation.create({
+            ranking,
+            title,
+            UserId,
+            MovieId,
+            BookId,
+            VideogameId,
+        });
+
+        res.status(201).json(newRecommendation);
+    } catch (error) {
+        console.error('Error adding recommendation', error);
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 };
 
-const updateRecs = async (req, res) => {
-    console.log('Updating recs.')
-    try {
-        const recs = await Recommendation.findAll()
-    } catch (error) {
-        console.error("Error searching database", error);
-        res.status(500).json({
-            success: false,
-            message: "Internal server error",
-        });
-    }
-};
+
+
+module.exports = { addRec };
 
 const deleteRecList = async (req, res) => {
     try {
@@ -84,9 +116,8 @@ const deleteRecList = async (req, res) => {
 };
 
 module.exports = {
-    getAllRecLists,
-    getARecList,
+    getUserRecs,
     deleteRecList,
-    getRecs,
-    updateRecs,
+    updateRankings,
+    addRec
 };

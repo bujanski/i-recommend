@@ -7,6 +7,7 @@ const userRouter = require('./routes/userRoutes');
 const verifyAuthorization = require('./middleware/verifyAuthorization');
 const {testConnection} = require('./config/connection');
 const {seedDatabase} = require('./config/seedDirectory');
+const recRouter = require('./routes/recRoutes');
 
 
 const app = express();
@@ -21,6 +22,7 @@ app.use('/books', bookRouter);
 app.use('/movies', movieRouter);
 app.use('/videogames', videoGameRouter);
 app.use('/users', userRouter);
+app.use('/recs', recRouter);
 
 testConnection();
 // seedDatabase();
