@@ -4,7 +4,7 @@ import LogInWidget from './LogInWidget'
 import TopNav from './TopNav'
 import UserDetailWidget from './UserDetailWidget';
 import {AppContext} from '../store/AppContext';
-import TopSearch from './TopSearch';
+import TopSearch from './UserSearch';
 import MatchSearch from './MatchSearch';
 
 function TopBar() {
@@ -20,7 +20,7 @@ function TopBar() {
                     : <LogInWidget/>}
 
             </div>
-            {/* <TopSearch /> */}
+            {/* <UserSearch /> */}
             {/* {userLoggedIn ? <MatchSearch /> : <></> } */}
             <div>
                 {/* <TopNav/> */}

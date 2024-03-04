@@ -33,6 +33,10 @@ function LogInWidget() {
         cursor: isInputValid ? "pointer" : "not-allowed",
     };
 
+    const lostPassword = () => {
+        alert("You lost your password? That's too bad. You should use a password manager.");
+    }
+
     const handleLoginClick = async () => {
         try {
             // Make a POST request to the server using Axios
@@ -105,7 +109,7 @@ function LogInWidget() {
                 </div>
                 <div className="login-links">
                     <div>
-                        <div className="login-links">lost my password</div>
+                        <div className="login-links" onClick={lostPassword}>lost my password</div>
                     </div>
                     <div>
                         <div
