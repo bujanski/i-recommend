@@ -25,7 +25,7 @@ app.use('/users', userRouter);
 app.use('/recs', recRouter);
 
 testConnection();
-seedDatabase(); 
+// seedDatabase(); 
 
 app.listen(port, () => {
     console.log('Listening on port: ', port)

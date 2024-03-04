@@ -20,7 +20,7 @@ function TopBar() {
                     : <LogInWidget/>}
 
             </div>
-            <TopSearch />
+            {/* <TopSearch /> */}
             {/* {userLoggedIn ? <MatchSearch /> : <></> } */}
             <div>
                 {/* <TopNav/> */}

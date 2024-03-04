@@ -3,7 +3,7 @@ const books = [
     "title": "Sons of the revolution.",
     "contributor": "sons of the revolution. new york society",
     "date": "1889",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:sonsofrevolution01sons:sonsofrevolution01sons_0003/full/pct:25.0/0/default.jpg#h=667&w=500, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:sonsofrevolution01sons:sonsofrevolut",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:sonsofrevolution01sons:sonsofrevolution01sons_0003/full/pct:25.0/0/default.jpg#h=667&w=500",
     "language": "english",
     "subject": "united states, societies, revolution, history"
   },
@@ -19,7 +19,7 @@ const books = [
     "title": "Apologie du goût françois, relativement à l'opéra : poeme, avec un Discours apologetique, et des Adieux aux Bouffons.",
     "contributor": "caux de cappeval",
     "date": "1754-01-01",
-    "image_url": "https://tile.loc.gov/storage-services/service/music/muspre1800/100488/0001.gif, https://tile.loc.gov/storage-services/service/music/muspre1800/100488/0001.gif#h=150&w=101, https://tile.loc.gov/image-services/iiif/service:music:muspre1800:100488:0001/full",
+    "image_url": "https://tile.loc.gov/storage-services/service/music/muspre1800/100488/0001.gif",
     "language": "french",
     "subject": "querelle des bouffons"
   },
@@ -51,7 +51,7 @@ const books = [
     "title": "Statue of Colonel Thomas Knowlton: ceremonies at the unveiling.",
     "contributor": "woodward, ashbel, woodward, patirck henry",
     "date": "1895",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:statueofcolonelt00wood:statueofcolonelt00wood_0005/full/pct:25.0/0/default.jpg#h=790&w=498, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:statueofcolonelt00wood:statueofcolon",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:statueofcolonelt00wood:statueofcolonelt00wood_0005/full/pct:25.0/0/default.jpg#h=790&w=498",
     "language": "english",
     "subject": "3d regt, connecticut infantry, united states infantry, knowlton, thomas, knowlton family (john knowlton,), 20th regt"
   },
@@ -59,7 +59,7 @@ const books = [
     "title": "A mistake in identity; a sketch,",
     "contributor": "griffith, b. l. c. (benjamin lease crozer)",
     "date": "1894",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mistakeinidentit00grif:mistakeinidentit00grif_0003/full/pct:25.0/0/default.jpg#h=874&w=532, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mistakeinidentit00grif:mistakeiniden",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mistakeinidentit00grif:mistakeinidentit00grif_0003/full/pct:25.0/0/default.jpg#h=874&w=532",
     "language": "english",
     "subject": ""
   },
@@ -67,7 +67,7 @@ const books = [
     "title": "We meet by chance. Andrews, Printer, 38 Chatham St., N. Y",
     "contributor": "",
     "date": "",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:as:11:47:50:as114750:001a/full/pct:12.5/0/default.jpg#h=351&w=207, https://tile.loc.gov/image-services/iiif/service:rbc:amss:as:11:47:50:as114750:001a/full/pct:25/0/default.jpg#h=703&w=415, https:",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:as:11:47:50:as114750:001a/full/pct:12.5/0/default.jpg#h=351&w=207",
     "language": "english",
     "subject": "musical scores"
   },
@@ -99,7 +99,7 @@ const books = [
     "title": "A concise history of High Rock Spring",
     "contributor": "mcguier, henry, joseph meredith toner collection (library of congress), ya pamphlet collection (library of congress)",
     "date": "1868",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:concisehistoryof00mcgu:concisehistoryof00mcgu_0009/full/pct:25.0/0/default.jpg#h=693&w=436, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:concisehistoryof00mcgu:concisehistor",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:concisehistoryof00mcgu:concisehistoryof00mcgu_0009/full/pct:25.0/0/default.jpg#h=693&w=436",
     "language": "english",
     "subject": "high rock spring (saratoga springs, n.y.)"
   },
@@ -115,7 +115,7 @@ const books = [
     "title": "Short Story about New Netherland [...] and Special Possibilities to Populate.",
     "contributor": "enden, franciscus van den",
     "date": "1662-01-01",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:04:06:5:wdl_04065:konb04_893e99_001/full/pct:12.5/0/default.jpg, https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:04:06:5:wdl_04065:konb04_893e99_001/full/pct:12.5/0/defau",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:04:06:5:wdl_04065:konb04_893e99_001/full/pct:12.5/0/default.jpg",
     "language": "flemish, dutch",
     "subject": "delaware river (new york-delaware and new jersey), netherlands, delaware, land settlement, united states of america, colonial america, colonies, new netherland"
   },
@@ -131,7 +131,7 @@ const books = [
     "title": "The talisman of battle, and other poems,",
     "contributor": "ganyard, a. o.",
     "date": "1864",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:talismanofbattle00gany:talismanofbattle00gany_0007/full/pct:25.0/0/default.jpg#h=679&w=403, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:talismanofbattle00gany:talismanofbat",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:talismanofbattle00gany:talismanofbattle00gany_0007/full/pct:25.0/0/default.jpg#h=679&w=403",
     "language": "english",
     "subject": "united states, poetry, civil war, history"
   },
@@ -139,7 +139,7 @@ const books = [
     "title": "The New York idea; a comedy in four acts,",
     "contributor": "mitchell, langdon elwyn",
     "date": "1908",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:newyorkideacomed00mitc:newyorkideacomed00mitc_0011/full/pct:25.0/0/default.jpg#h=810&w=521, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:newyorkideacomed00mitc:newyorkideaco",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:newyorkideacomed00mitc:newyorkideacomed00mitc_0011/full/pct:25.0/0/default.jpg#h=810&w=521",
     "language": "english",
     "subject": ""
   },
@@ -155,7 +155,7 @@ const books = [
     "title": "The Rev. Peter Brice, bachelor; a play in one act for female characters only,",
     "contributor": "king, beulah",
     "date": "1919",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:revpeterbricebac00king:revpeterbricebac00king_0003/full/pct:25.0/0/default.jpg#h=893&w=563, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:revpeterbricebac00king:revpeterbrice",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:revpeterbricebac00king:revpeterbricebac00king_0003/full/pct:25.0/0/default.jpg#h=893&w=563",
     "language": "english",
     "subject": "drama, women"
   },
@@ -163,7 +163,7 @@ const books = [
     "title": "Welcome Mother. H. De Marsan, Publisher, 60 Chatham Street, N. Y",
     "contributor": "",
     "date": "",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:sb:40:57:4b:sb40574b:001a/full/pct:12.5/0/default.jpg#h=370&w=230, https://tile.loc.gov/image-services/iiif/service:rbc:amss:sb:40:57:4b:sb40574b:001a/full/pct:25/0/default.jpg#h=740&w=460, https:",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:sb:40:57:4b:sb40574b:001a/full/pct:12.5/0/default.jpg#h=370&w=230",
     "language": "english",
     "subject": "musical scores"
   },
@@ -171,7 +171,7 @@ const books = [
     "title": "Pjesme, Lazara Simova Ćurića",
     "contributor": "ćurīć, lazar sīmov",
     "date": "1903",
-    "image_url": "https://tile.loc.gov/storage-services/service/gdc/gdcscd/00/02/63/07/04/1/00026307041/0001.gif, https://tile.loc.gov/storage-services/service/gdc/gdcscd/00/02/63/07/04/1/00026307041/0001.gif#h=150&w=109, https://tile.loc.gov/image-services/iiif/service:g",
+    "image_url": "https://tile.loc.gov/storage-services/service/gdc/gdcscd/00/02/63/07/04/1/00026307041/0001.gif",
     "language": "russian",
     "subject": ""
   },
@@ -179,7 +179,7 @@ const books = [
     "title": "Copyright Record Book Class A Vol 2401; Registration Numbers 202000-202499; 1970",
     "contributor": "",
     "date": "1970-01-01",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:50:12:72:65:6:00501272656:00501272656_0001/full/pct:6.25/0/default.jpg#h=282&w=104, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:50:12:72:65:6:00501272",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:50:12:72:65:6:00501272656:00501272656_0001/full/pct:6.25/0/default.jpg#h=282&w=104",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -187,7 +187,7 @@ const books = [
     "title": "Life and letters.",
     "contributor": "lippincott, mary s.",
     "date": "1893",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lifeletters00lipp:lifeletters00lipp_0011/full/pct:25.0/0/default.jpg#h=795&w=503, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lifeletters00lipp:lifeletters00lipp_0011/full/",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lifeletters00lipp:lifeletters00lipp_0011/full/pct:25.0/0/default.jpg#h=795&w=503",
     "language": "english",
     "subject": ""
   },
@@ -203,7 +203,7 @@ const books = [
     "title": "Sons of the revolution.",
     "contributor": "sons of the revolution. new york society",
     "date": "1889",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:sonsofrevolution01sons:sonsofrevolution01sons_0003/full/pct:25.0/0/default.jpg#h=667&w=500, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:sonsofrevolution01sons:sonsofrevolut",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:sonsofrevolution01sons:sonsofrevolution01sons_0003/full/pct:25.0/0/default.jpg#h=667&w=500",
     "language": "english",
     "subject": "united states, societies, revolution, history"
   },
@@ -219,7 +219,7 @@ const books = [
     "title": "Apologie du goût françois, relativement à l'opéra : poeme, avec un Discours apologetique, et des Adieux aux Bouffons.",
     "contributor": "caux de cappeval",
     "date": "1754-01-01",
-    "image_url": "https://tile.loc.gov/storage-services/service/music/muspre1800/100488/0001.gif, https://tile.loc.gov/storage-services/service/music/muspre1800/100488/0001.gif#h=150&w=101, https://tile.loc.gov/image-services/iiif/service:music:muspre1800:100488:0001/full",
+    "image_url": "https://tile.loc.gov/storage-services/service/music/muspre1800/100488/0001.gif, https://tile.loc.gov/storage-services/service/music/muspre1800/100488/0001.gif#h=150&w=101",
     "language": "french",
     "subject": "querelle des bouffons"
   },
@@ -251,7 +251,7 @@ const books = [
     "title": "Statue of Colonel Thomas Knowlton: ceremonies at the unveiling.",
     "contributor": "woodward, ashbel, woodward, patirck henry",
     "date": "1895",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:statueofcolonelt00wood:statueofcolonelt00wood_0005/full/pct:25.0/0/default.jpg#h=790&w=498, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:statueofcolonelt00wood:statueofcolon",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:statueofcolonelt00wood:statueofcolonelt00wood_0005/full/pct:25.0/0/default.jpg#h=790&w=498",
     "language": "english",
     "subject": "3d regt, connecticut infantry, united states infantry, knowlton, thomas, knowlton family (john knowlton,), 20th regt"
   },
@@ -259,7 +259,7 @@ const books = [
     "title": "A mistake in identity; a sketch,",
     "contributor": "griffith, b. l. c. (benjamin lease crozer)",
     "date": "1894",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mistakeinidentit00grif:mistakeinidentit00grif_0003/full/pct:25.0/0/default.jpg#h=874&w=532, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mistakeinidentit00grif:mistakeiniden",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mistakeinidentit00grif:mistakeinidentit00grif_0003/full/pct:25.0/0/default.jpg#h=874&w=532",
     "language": "english",
     "subject": ""
   },
@@ -267,7 +267,7 @@ const books = [
     "title": "We meet by chance. Andrews, Printer, 38 Chatham St., N. Y",
     "contributor": "",
     "date": "",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:as:11:47:50:as114750:001a/full/pct:12.5/0/default.jpg#h=351&w=207, https://tile.loc.gov/image-services/iiif/service:rbc:amss:as:11:47:50:as114750:001a/full/pct:25/0/default.jpg#h=703&w=415, https:",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:as:11:47:50:as114750:001a/full/pct:12.5/0/default.jpg#h=351&w=207",
     "language": "english",
     "subject": "musical scores"
   },
@@ -299,7 +299,7 @@ const books = [
     "title": "A concise history of High Rock Spring",
     "contributor": "mcguier, henry, joseph meredith toner collection (library of congress), ya pamphlet collection (library of congress)",
     "date": "1868",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:concisehistoryof00mcgu:concisehistoryof00mcgu_0009/full/pct:25.0/0/default.jpg#h=693&w=436, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:concisehistoryof00mcgu:concisehistor",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:concisehistoryof00mcgu:concisehistoryof00mcgu_0009/full/pct:25.0/0/default.jpg#h=693&w=436",
     "language": "english",
     "subject": "high rock spring (saratoga springs, n.y.)"
   },
@@ -315,7 +315,7 @@ const books = [
     "title": "The Wonderful Story of Uganda. To Which is Added the Story of Ham Mukasa, Told by Himself.",
     "contributor": "mukasa, ham, mullins, joseph dennis",
     "date": "1904-01-01",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:04:05:9:wdl_04059:0002/full/pct:12.5/0/default.jpg, https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:04:05:9:wdl_04059:0002/full/pct:12.5/0/default.jpg#h=294&w=210, https:",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:04:05:9:wdl_04059:0002/full/pct:12.5/0/default.jpg",
     "language": "english",
     "subject": "1800 to 1904, church missionary society, missionaries, uganda"
   },
@@ -331,7 +331,7 @@ const books = [
     "title": "Anatomy of a civil war : sociopolitical impacts of the Kurdish conflict in Turkey",
     "contributor": "gurses, mehmet",
     "date": "2018",
-    "image_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/18/02/95/36/2018029536/2018029536.gif, https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/18/02/95/36/2018029536/2018029536.gif#h=465&w=310",
+    "image_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/18/02/95/36/2018029536/2018029536.gif",
     "language": "english",
     "subject": "turkey, politics and government, political science / peace, insurgency, partiya karkerên kurdistan, autonomy and independence movements, civil war, social science / women's studies, political science / international relations / general, case studies, eth"
   },
@@ -339,7 +339,7 @@ const books = [
     "title": "The talisman of battle, and other poems,",
     "contributor": "ganyard, a. o.",
     "date": "1864",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:talismanofbattle00gany:talismanofbattle00gany_0007/full/pct:25.0/0/default.jpg#h=679&w=403, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:talismanofbattle00gany:talismanofbat",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:talismanofbattle00gany:talismanofbattle00gany_0007/full/pct:25.0/0/default.jpg#h=679&w=403",
     "language": "english",
     "subject": "united states, poetry, civil war, history"
   },
@@ -347,7 +347,7 @@ const books = [
     "title": "The New York idea; a comedy in four acts,",
     "contributor": "mitchell, langdon elwyn",
     "date": "1908",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:newyorkideacomed00mitc:newyorkideacomed00mitc_0011/full/pct:25.0/0/default.jpg#h=810&w=521, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:newyorkideacomed00mitc:newyorkideaco",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:newyorkideacomed00mitc:newyorkideacomed00mitc_0011/full/pct:25.0/0/default.jpg#h=810&w=521",
     "language": "english",
     "subject": ""
   },
@@ -363,7 +363,7 @@ const books = [
     "title": "The Rev. Peter Brice, bachelor; a play in one act for female characters only,",
     "contributor": "king, beulah",
     "date": "1919",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:revpeterbricebac00king:revpeterbricebac00king_0003/full/pct:25.0/0/default.jpg#h=893&w=563, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:revpeterbricebac00king:revpeterbrice",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:revpeterbricebac00king:revpeterbricebac00king_0003/full/pct:25.0/0/default.jpg#h=893&w=563",
     "language": "english",
     "subject": "drama, women"
   },
@@ -371,7 +371,7 @@ const books = [
     "title": "Welcome Mother. H. De Marsan, Publisher, 60 Chatham Street, N. Y",
     "contributor": "",
     "date": "",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:sb:40:57:4b:sb40574b:001a/full/pct:12.5/0/default.jpg#h=370&w=230, https://tile.loc.gov/image-services/iiif/service:rbc:amss:sb:40:57:4b:sb40574b:001a/full/pct:25/0/default.jpg#h=740&w=460, https:",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:sb:40:57:4b:sb40574b:001a/full/pct:12.5/0/default.jpg#h=370&w=230",
     "language": "english",
     "subject": "musical scores"
   },
@@ -379,7 +379,7 @@ const books = [
     "title": "Water-quality conditions and constituent loads, water years 1996-2002, and water-quality trends, water years 1983-2002, in the Scituate Reservoir drainage area, Rhode Island",
     "contributor": "geological survey (u.s.), providence water supply board, waldron, marcus c., nimiroski, mark t., desimone, leslie a.",
     "date": "2008",
-    "image_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/23/69/33/98/2023693398/2023693398.gif, https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/23/69/33/98/2023693398/2023693398.gif#h=401&w=310",
+    "image_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/23/69/33/98/2023693398/2023693398.gif",
     "language": "english",
     "subject": "rhode island, scituate reservoir watershed, water quality"
   },
@@ -387,7 +387,7 @@ const books = [
     "title": "Copyright Record Book Class A Vol 2979; Registration Numbers 491000-491499; 1973",
     "contributor": "",
     "date": "1973-01-01",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:87:90:77:A:0049879077A:0049879077A_0001/full/pct:6.25/0/default.jpg#h=284&w=90, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:87:90:77:A:004987907",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:87:90:77:A:0049879077A:0049879077A_0001/full/pct:6.25/0/default.jpg#h=284&w=90",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -395,7 +395,7 @@ const books = [
     "title": "Life and letters.",
     "contributor": "lippincott, mary s.",
     "date": "1893",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lifeletters00lipp:lifeletters00lipp_0011/full/pct:25.0/0/default.jpg#h=795&w=503, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lifeletters00lipp:lifeletters00lipp_0011/full/",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lifeletters00lipp:lifeletters00lipp_0011/full/pct:25.0/0/default.jpg#h=795&w=503",
     "language": "english",
     "subject": ""
   },
@@ -411,7 +411,7 @@ const books = [
     "title": "Xi cha hui cao : er juan.",
     "contributor": "gong, hui, chinese rare book collection (library of congress)",
     "date": "1533-01-01",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:asian:lcnclscd:2012402100:1A001:00001a/full/pct:12.5/0/default.jpg, https://tile.loc.gov/image-services/iiif/service:asian:lcnclscd:2012402100:1A001:00001a/full/pct:12.5/0/default.jpg#h=377&w=407, https://",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:asian:lcnclscd:2012402100:1A001:00001a/full/pct:12.5/0/default.jpg",
     "language": "chinese",
     "subject": "painting, chinese"
   },
@@ -419,7 +419,7 @@ const books = [
     "title": "Copyright Record Book Class A [Afo] Vol 41, PART 2; Registration Numbers 40500-40999; 1960",
     "contributor": "",
     "date": "1960-01-01",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:50:29:62:41:3:00502962413:00502962413_0001/full/pct:6.25/0/default.jpg#h=283&w=100, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:50:29:62:41:3:00502962",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:50:29:62:41:3:00502962413:00502962413_0001/full/pct:6.25/0/default.jpg#h=283&w=100",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -467,7 +467,7 @@ const books = [
     "title": "The path of the Pilgrim church, from its origin in England to its establishment in New England. An historical sketch.",
     "contributor": "massachusetts sabbath school society",
     "date": "1862",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:pathofpilgrimchu00mass:pathofpilgrimchu00mass_0009/full/pct:25.0/0/default.jpg#h=702&w=413, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:pathofpilgrimchu00mass:pathofpilgrim",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:pathofpilgrimchu00mass:pathofpilgrimchu00mass_0009/full/pct:25.0/0/default.jpg#h=702&w=413",
     "language": "english",
     "subject": "pilgrims (new plymouth colony)"
   },
@@ -491,7 +491,7 @@ const books = [
     "title": "Copyright Class AA  Vol 335; Registration Numbers 182000-182499; 1951",
     "contributor": "",
     "date": "1951",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:50:21:46:26:9:00502146269:00502146269_0001/full/pct:6.25/0/default.jpg#h=300&w=144, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:50:21:46:26:9:00502146",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:50:21:46:26:9:00502146269:00502146269_0001/full/pct:6.25/0/default.jpg#h=300&w=144",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -507,7 +507,7 @@ const books = [
     "title": "A memorial, with reminiscences historical, personal, and characteristic, of John Farmer, A. M., corresponding secretary of the New-Hampshire historical society ...",
     "contributor": "le bosquet, john",
     "date": "1884",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:memorialwithremi00lebo:memorialwithremi00lebo_0007/full/pct:25.0/0/default.jpg#h=795&w=522, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:memorialwithremi00lebo:memorialwithr",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:memorialwithremi00lebo:memorialwithremi00lebo_0007/full/pct:25.0/0/default.jpg#h=795&w=522",
     "language": "english",
     "subject": "farmer, john"
   },
@@ -515,7 +515,7 @@ const books = [
     "title": "Copyright Record Book Class E [Eu] Vol 715, PART 2; Registration Numbers 714500-714999; 1962",
     "contributor": "",
     "date": "1962",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:13:75:94:2:00491375942:00491375942_0001/full/pct:6.25/0/default.jpg#h=285&w=103, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:13:75:94:2:00491375",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:13:75:94:2:00491375942:00491375942_0001/full/pct:6.25/0/default.jpg#h=285&w=103",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -531,7 +531,7 @@ const books = [
     "title": "In the Senate of the United States. February 10, 1857. -- Ordered to be printed. Mr. Foster made the following report. (To accompany Bill H.R. 656.) The Committee on Private Land Claims, to whom was referred House Bill No. 656, \"An Act for the Relief of ",
     "contributor": "foster, lafayette sabine, united states. congress. senate. committee on private land claims",
     "date": "1857",
-    "image_url": "https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/89/1_/00/_0/0/00891_00_00/00891_00_00-084-0372-0000/0341.gif, https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/89/1_/00/_0/0/00891_00_00/00891_00_00-084-0372-0000/0341.gif",
+    "image_url": "https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/89/1_/00/_0/0/00891_00_00/00891_00_00-084-0372-0000/0341.gif",
     "language": "english",
     "subject": "baldwin, bartholomew, irish, joseph, legislative materials, land grants, minnesota territory, sturgis, william, land tenure, school lands"
   },
@@ -539,7 +539,7 @@ const books = [
     "title": "Do you ever think of me? H. De Marsan, Publisher, 38 & 60 Chatham St., N. Y. [c. 1860]",
     "contributor": "",
     "date": "1860",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:sb:10:08:8b:sb10088b:001a/full/pct:12.5/0/default.jpg#h=405&w=281, https://tile.loc.gov/image-services/iiif/service:rbc:amss:sb:10:08:8b:sb10088b:001a/full/pct:25/0/default.jpg#h=811&w=562, https:",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:sb:10:08:8b:sb10088b:001a/full/pct:12.5/0/default.jpg#h=405&w=281",
     "language": "english",
     "subject": "musical scores"
   },
@@ -547,7 +547,7 @@ const books = [
     "title": "Russian Federation : the nature of the propiska system",
     "contributor": "roudik, peter, law library of congress (u.s.). global legal research directorate",
     "date": "1997",
-    "image_url": "https://tile.loc.gov/storage-services/service/ll/llglrd/2019670777/2019670777.gif, https://tile.loc.gov/storage-services/service/ll/llglrd/2019670777/2019670777.gif#h=150&w=116",
+    "image_url": "https://tile.loc.gov/storage-services/service/ll/llglrd/2019670777/2019670777.gif",
     "language": "english",
     "subject": "passports, russia (federation), domicile, recording and registration"
   },
@@ -555,7 +555,7 @@ const books = [
     "title": "Steel traps. Describes the various makes and tells how to use them--also chapters on care of pelts, etc.,",
     "contributor": "harding, a. r. (arthur robert)",
     "date": "1907",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:steeltrapsdescri00hard:steeltrapsdescri00hard_0011/full/pct:25.0/0/default.jpg#h=762&w=487, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:steeltrapsdescri00hard:steeltrapsdes",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:steeltrapsdescri00hard:steeltrapsdescri00hard_0011/full/pct:25.0/0/default.jpg#h=762&w=487",
     "language": "english",
     "subject": "trapping"
   },
@@ -563,7 +563,7 @@ const books = [
     "title": "The United States and Latin America and the Caribbean : highlights of economy and trade",
     "contributor": "united nations. economic commission for latin america and the caribbean",
     "date": "2011",
-    "image_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/21/76/27/29/2021762729/2021762729.gif, https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/21/76/27/29/2021762729/2021762729.gif#h=306&w=310",
+    "image_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/21/76/27/29/2021762729/2021762729.gif",
     "language": "english",
     "subject": "united states, commerce, foreign economic relations, latin america"
   },
@@ -579,7 +579,7 @@ const books = [
     "title": "Cotton seed oil history and commercial features.",
     "contributor": "tompkins, d[aniel] a[ugustus]",
     "date": "1902",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:cottonseedoilhis00tomp:cottonseedoilhis00tomp_0005/full/pct:12.5/0/default.jpg#h=541&w=317, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:cottonseedoilhis00tomp:cottonseedoil",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:cottonseedoilhis00tomp:cottonseedoilhis00tomp_0005/full/pct:12.5/0/default.jpg#h=541&w=317",
     "language": "english",
     "subject": "cottonseed oil"
   },
@@ -587,7 +587,7 @@ const books = [
     "title": "Poems,",
     "contributor": "maynard, theodore",
     "date": "1919",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:poems00mayn:poems00mayn_0011/full/pct:25.0/0/default.jpg#h=716&w=452, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:poems00mayn:poems00mayn_0011/full/pct:50.0/0/default.jpg#h",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:poems00mayn:poems00mayn_0011/full/pct:25.0/0/default.jpg#h=716&w=452",
     "language": "english",
     "subject": ""
   },
@@ -595,7 +595,7 @@ const books = [
     "title": "The champion skate book and complete amateur's guide.",
     "contributor": "",
     "date": "1884",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:championskateboo00newy:championskateboo00newy_0005/full/pct:25.0/0/default.jpg#h=828&w=558, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:championskateboo00newy:championskate",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:championskateboo00newy:championskateboo00newy_0005/full/pct:25.0/0/default.jpg#h=828&w=558",
     "language": "english",
     "subject": "roller skating"
   },
@@ -603,7 +603,7 @@ const books = [
     "title": "The seventh vial: consisting of brief comments on various Scriptures ...",
     "contributor": "",
     "date": "1849",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:seventhvialconsi00spri:seventhvialconsi00spri_0011/full/pct:12.5/0/default.jpg#h=573&w=297, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:seventhvialconsi00spri:seventhvialco",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:seventhvialconsi00spri:seventhvialconsi00spri_0011/full/pct:12.5/0/default.jpg#h=573&w=297",
     "language": "english",
     "subject": ""
   },
@@ -611,7 +611,7 @@ const books = [
     "title": "Listen to the walking-beam. Written by the world's gifted star, Prof. Zedaker",
     "contributor": "",
     "date": "",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:as:10:79:50:as107950:001a/full/pct:12.5/0/default.jpg#h=309&w=181, https://tile.loc.gov/image-services/iiif/service:rbc:amss:as:10:79:50:as107950:001a/full/pct:25/0/default.jpg#h=619&w=362, https:",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:amss:as:10:79:50:as107950:001a/full/pct:12.5/0/default.jpg#h=309&w=181",
     "language": "english",
     "subject": "musical scores"
   },
@@ -619,7 +619,7 @@ const books = [
     "title": "The child's book of language.",
     "contributor": "stickney, j. h. (jenny h.)",
     "date": "1879",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:childsbookoflang00stic:childsbookoflang00stic_0007/full/pct:25.0/0/default.jpg#h=1002&w=637, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:childsbookoflang00stic:childsbookof",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:childsbookoflang00stic:childsbookoflang00stic_0007/full/pct:25.0/0/default.jpg#h=1002&w=637",
     "language": "english",
     "subject": "study and teaching, english language"
   },
@@ -627,7 +627,7 @@ const books = [
     "title": "Plain tales from the hills,",
     "contributor": "kipling, rudyard",
     "date": "1900",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:plaintalesfromhi00kipl_0:plaintalesfromhi00kipl_0_0009/full/pct:25.0/0/default.jpg, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:plaintalesfromhi00kipl_0:plaintalesfromhi00k",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:plaintalesfromhi00kipl_0:plaintalesfromhi00kipl_0_0009/full/pct:25.0/0/default.jpg",
     "language": "english",
     "subject": "british occupation, fiction, india, british, history"
   },
@@ -651,7 +651,7 @@ const books = [
     "title": "Copyright Record Book Class C Vol 35; Registration Numbers 26000-26499; 1971",
     "contributor": "",
     "date": "1971",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:45:51:16:74:0:00455116740:00455116740_0001/full/pct:6.25/0/default.jpg#h=282&w=97, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:45:51:16:74:0:004551167",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:45:51:16:74:0:00455116740:00455116740_0001/full/pct:6.25/0/default.jpg#h=282&w=97",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -659,7 +659,7 @@ const books = [
     "title": "Memorial of Thomas Law, and others, citizens of the District of Columbia, suggesting a mode for regulating the currency. June 17, 1834. Referred to the Committee on Finance, and ordered to be printed",
     "contributor": "united states. congress. senate, law, thomas",
     "date": "1834",
-    "image_url": "https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/24/3_/00/_0/0/00243_00_00/00243_00_00-023-0445-0000/0337.gif, https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/24/3_/00/_0/0/00243_00_00/00243_00_00-023-0445-0000/0337.gif",
+    "image_url": "https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/24/3_/00/_0/0/00243_00_00/00243_00_00-023-0445-0000/0337.gif",
     "language": "english",
     "subject": "paper money, legislative materials, banks and banking"
   },
@@ -667,7 +667,7 @@ const books = [
     "title": "Willow Willow Waley",
     "contributor": "fine, sylvia",
     "date": "",
-    "image_url": "https://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200185037/0001.tif/164, https://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200185037/0001.tif/164#h=209&w=164, https://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200185037/0001.tif/1313#h=1675&w=1313,",
+    "image_url": "https://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200185037/0001.tif/164, https://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200185037/0001.tif/164#h=209&w=164",
     "language": "",
     "subject": ""
   },
@@ -691,7 +691,7 @@ const books = [
     "title": "Copyright Record Book Class B Vol 1500; Registration Numbers 421500-421999; 1968",
     "contributor": "",
     "date": "1968",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:83:92:10:6:00498392106:00498392106_0001/full/pct:6.25/0/default.jpg#h=282&w=83, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:83:92:10:6:004983921",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:83:92:10:6:00498392106:00498392106_0001/full/pct:6.25/0/default.jpg#h=282&w=83",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -699,7 +699,7 @@ const books = [
     "title": "Aschenbrödel = Cenerentola : musikalisches Märchen in 3 Akten",
     "contributor": "pezzè-pascolato, maria, wolf-ferrari, ermanno",
     "date": "",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:music:musschatz-20984:0001/full/pct:25.0/0/default.jpg, https://tile.loc.gov/image-services/iiif/public:music:musschatz-20984:0001/full/pct:25.0/0/default.jpg#h=556&w=381, https://tile.loc.gov/image-service",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:music:musschatz-20984:0001/full/pct:25.0/0/default.jpg",
     "language": "german",
     "subject": "rosamunde, liliana, nasturzio, syrupin, librettos, trauersang, dramatic music, königin, prinz, könig, aschenbröder, violetta, geist ihrer mutter"
   },
@@ -715,7 +715,7 @@ const books = [
     "title": "Israel : the use of religious courts for family law matters and its impact on minority religious groups",
     "contributor": "levush, ruth, law library of congress (u.s.). global legal research directorate",
     "date": "2009",
-    "image_url": "https://tile.loc.gov/storage-services/service/ll/llglrd/2019669736/2019669736.gif, https://tile.loc.gov/storage-services/service/ll/llglrd/2019669736/2019669736.gif#h=150&w=116",
+    "image_url": "https://tile.loc.gov/storage-services/service/ll/llglrd/2019669736/2019669736.gif",
     "language": "english",
     "subject": "domestic relations, rabbinical courts, israel, religious minorities"
   },
@@ -731,7 +731,7 @@ const books = [
     "title": "Memorial of sundry merchants and traders, of the City of New York, praying for cash payment of duties, and high duties on sales at auction. January 7, 1820. Referred to the Committee on Commerce",
     "contributor": "united states. congress. house",
     "date": "1820",
-    "image_url": "https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/03/3_/00/_0/0/00033_00_00/00033_00_00-001-0034-0000/0001.gif, https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/03/3_/00/_0/0/00033_00_00/00033_00_00-001-0034-0000/0001.gif",
+    "image_url": "https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/03/3_/00/_0/0/00033_00_00/00033_00_00-001-0034-0000/0001.gif",
     "language": "english",
     "subject": "foreign trade promotion, business, credit, imports, legislative materials, foreign trade and employment, economic conditions, auctions, tariff, protectionism"
   },
@@ -747,7 +747,7 @@ const books = [
     "title": "Katolik gagikwe-masinaigan mi sa katolik enamiad gegikimind ...",
     "contributor": "verwyst, chrysostom",
     "date": "1907",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:katolicgagikwema00verw:katolicgagikwema00verw_0007/full/pct:25.0/0/default.jpg#h=1004&w=587, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:katolicgagikwema00verw:katolicgagik",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:katolicgagikwema00verw:katolicgagikwema00verw_0007/full/pct:25.0/0/default.jpg#h=1004&w=587",
     "language": "ojibwa",
     "subject": "texts, ojibwa language"
   },
@@ -763,7 +763,7 @@ const books = [
     "title": "The causes of the American civil war. A letter to the London Times.",
     "contributor": "alfred whital stern collection of lincolniana (library of congress), motley, john lothrop",
     "date": "1861",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:causesofamerican00motl:causesofamerican00motl_0007/full/pct:25.0/0/default.jpg#h=699&w=465, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:causesofamerican00motl:causesofameri",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:causesofamerican00motl:causesofamerican00motl_0007/full/pct:25.0/0/default.jpg#h=699&w=465",
     "language": "english",
     "subject": "united states, causes, civil war, history"
   },
@@ -779,7 +779,7 @@ const books = [
     "title": "The test of linguistic affinity.",
     "contributor": "gatschet, albert s. (albert samuel)",
     "date": "1879",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:testoflinguistic00gats:testoflinguistic00gats_0001/full/pct:12.5/0/default.jpg#h=549&w=345, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:testoflinguistic00gats:testoflinguis",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:testoflinguistic00gats:testoflinguistic00gats_0001/full/pct:12.5/0/default.jpg#h=549&w=345",
     "language": "english",
     "subject": "languages, indians, comparative linguistics"
   },
@@ -795,7 +795,7 @@ const books = [
     "title": "Plans of twelve leading golf links; measurements corrected to end of 1901.",
     "contributor": "anderson, anderson, & anderson limited, london",
     "date": "1902-01-01",
-    "image_url": "https://tile.loc.gov/storage-services/service/gdc/gdcscd/00/27/34/29/63/3/00273429633/0001.gif, https://tile.loc.gov/storage-services/service/gdc/gdcscd/00/27/34/29/63/3/00273429633/0001.gif#h=149&w=96, https://tile.loc.gov/image-services/iiif/service:gd",
+    "image_url": "https://tile.loc.gov/storage-services/service/gdc/gdcscd/00/27/34/29/63/3/00273429633/0001.gif",
     "language": "english",
     "subject": "golf courses"
   },
@@ -811,7 +811,7 @@ const books = [
     "title": "Appeal to the Christian community on the condition and prospects of the New-York Indians,",
     "contributor": "friends, society of (hicksite). executive committee of the yearly meetings, strong, nathaniel t.",
     "date": "1841",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:appealtochristia00stro:appealtochristia00stro_0005/full/pct:25.0/0/default.jpg#h=813&w=460, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:appealtochristia00stro:appealtochris",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:appealtochristia00stro:appealtochristia00stro_0005/full/pct:25.0/0/default.jpg#h=813&w=460",
     "language": "english",
     "subject": "government relations, new york, seneca indians, indians of north america"
   },
@@ -819,7 +819,7 @@ const books = [
     "title": "Yonkers in the world war, including the honor roll of the citizens of Yonkers who served in the military forces of the United States during the world war.",
     "contributor": "yonkers, n.y. mayor's honor roll committee, harrington, purnell frederick",
     "date": "1922",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:yonkersinworldwa00yonk:yonkersinworldwa00yonk_0007/full/pct:25.0/0/default.jpg#h=836&w=577, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:yonkersinworldwa00yonk:yonkersinworl",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:yonkersinworldwa00yonk:yonkersinworldwa00yonk_0007/full/pct:25.0/0/default.jpg#h=836&w=577",
     "language": "english",
     "subject": "yonkers, world war, registers, new york (state)"
   },
@@ -827,7 +827,7 @@ const books = [
     "title": "Around the fire : stories of beginnings",
     "contributor": "burr, hanford m. (hanford montrose), association press",
     "date": "1912",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:aroundfirestorie00burr:aroundfirestorie00burr_0007/full/pct:25.0/0/default.jpg#h=805&w=491, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:aroundfirestorie00burr:aroundfiresto",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:aroundfirestorie00burr:aroundfirestorie00burr_0007/full/pct:25.0/0/default.jpg#h=805&w=491",
     "language": "english",
     "subject": ""
   },
@@ -835,7 +835,7 @@ const books = [
     "title": "Sheridan's comedies: The rivals and The school for scandal;",
     "contributor": "sheridan, richard brinsley, matthews, brander",
     "date": "1904",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:sheridanscomedie00sher:sheridanscomedie00sher_0011/full/pct:25.0/0/default.jpg#h=703&w=438, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:sheridanscomedie00sher:sheridanscome",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:sheridanscomedie00sher:sheridanscomedie00sher_0011/full/pct:25.0/0/default.jpg#h=703&w=438",
     "language": "english",
     "subject": ""
   },
@@ -859,7 +859,7 @@ const books = [
     "title": "Rime.",
     "contributor": "lessing j. rosenwald collection (library of congress), rolandi, guglielmo di, bellincioni, bernardo, martini, giuseppe, crevenna, pietro antonio, adda, gerolamo, tanzi, francesco, wellesley, francis, mantegazzi, filippo, vinci, antonio, murray, charles f",
     "date": "1493",
-    "image_url": "https://tile.loc.gov/storage-services/service/rbc/rbc0001/2020/2020rosen0278/0001.gif, https://tile.loc.gov/storage-services/service/rbc/rbc0001/2020/2020rosen0278/0001.gif#h=150&w=23, https://tile.loc.gov/image-services/iiif/service:rbc:rbc0001:2020:202",
+    "image_url": "https://tile.loc.gov/storage-services/service/rbc/rbc0001/2020/2020rosen0278/0001.gif",
     "language": "italian",
     "subject": "milan, italy, incunabula"
   },
@@ -875,7 +875,7 @@ const books = [
     "title": "Exchange of lands in the Grand Canyon National Park. March 31, 1926. -- Committed to the Committee of the Whole House on the State of the Union and ordered to be printed",
     "contributor": "arentz, samuel shaw, united states. congress. house. committee on public lands",
     "date": "1926",
-    "image_url": "https://tile.loc.gov/storage-services/service/ll/llserialsetce/08/53/2_/00/_0/0/08532_00_00/08532_00_00-212-0732-0000/1011.gif, https://tile.loc.gov/storage-services/service/ll/llserialsetce/08/53/2_/00/_0/0/08532_00_00/08532_00_00-212-0732-0000/1011.gif",
+    "image_url": "https://tile.loc.gov/storage-services/service/ll/llserialsetce/08/53/2_/00/_0/0/08532_00_00/08532_00_00-212-0732-0000/1011.gif",
     "language": "english",
     "subject": "public lands, inholdings, hearst, william randolph, legislative materials, land titles, national parks and reserves, registration and transfer"
   },
@@ -883,7 +883,7 @@ const books = [
     "title": "Copyright Record Book Class A Vol 1217; Registration Numbers 610000-610499; 1963",
     "contributor": "",
     "date": "1963-01-01",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:47:09:41:10:8:00470941108:00470941108_0001/full/pct:6.25/0/default.jpg#h=293&w=109, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:47:09:41:10:8:00470941",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:47:09:41:10:8:00470941108:00470941108_0001/full/pct:6.25/0/default.jpg#h=293&w=109",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -891,7 +891,7 @@ const books = [
     "title": "California - White Pages - Redwood City - May 1981",
     "contributor": "",
     "date": "1981-01-01",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcustel:us:te:le:di:re:c0:31:34:usteledirec03134:usteledirec03134_0010/full/pct:6.25/0/default.jpg#h=396&w=323, https://tile.loc.gov/image-services/iiif/service:gdc:gdcustel:us:te:le:di:re:c0:31:34:us",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcustel:us:te:le:di:re:c0:31:34:usteledirec03134:usteledirec03134_0010/full/pct:6.25/0/default.jpg#h=396&w=323",
     "language": "english",
     "subject": "directory"
   },
@@ -899,7 +899,7 @@ const books = [
     "title": "Pinckney -- administrator of Williams. January 30, 1838. Read, and laid upon the table",
     "contributor": "patton, john mercer, united states. congress. house. committee on foreign affairs",
     "date": "1838",
-    "image_url": "https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/33/4_/00/_0/0/00334_00_00/00334_00_00-173-0503-0000/0901.gif, https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/33/4_/00/_0/0/00334_00_00/00334_00_00-173-0503-0000/0901.gif",
+    "image_url": "https://tile.loc.gov/storage-services/service/ll/llserialsetce/00/33/4_/00/_0/0/00334_00_00/00334_00_00-173-0503-0000/0901.gif",
     "language": "english",
     "subject": "naval battles, seizure of vessels and cargoes, legislative materials, france, united states, pinckney, somerville, government liability (international law), claims, brothers (ship), privateering, williams, james, merchant ships"
   },
@@ -915,7 +915,7 @@ const books = [
     "title": "Copyright Record Book Class A Vol 2998; Registration Numbers 500500-500999; 1974",
     "contributor": "",
     "date": "1974-01-01",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:87:91:78:5:00498791785:00498791785_0001/full/pct:6.25/0/default.jpg#h=287&w=99, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:87:91:78:5:004987917",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:87:91:78:5:00498791785:00498791785_0001/full/pct:6.25/0/default.jpg#h=287&w=99",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -931,7 +931,7 @@ const books = [
     "title": "Through the wilds; a record of sport and adventure in the forests of New Hampshire and Maine,",
     "contributor": "farrar, charles a. j. (charles alden john)",
     "date": "1892",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughwildsreco00farr:throughwildsreco00farr_0011/full/pct:25.0/0/default.jpg#h=862&w=605, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughwildsreco00farr:throughwildsr",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughwildsreco00farr:throughwildsreco00farr_0011/full/pct:25.0/0/default.jpg#h=862&w=605",
     "language": "english",
     "subject": "new hampshire, description and travel, maine"
   },
@@ -939,7 +939,7 @@ const books = [
     "title": "Why be moral?",
     "contributor": "himmelmann, beatrix",
     "date": "2015-01-01",
-    "image_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/66/74/21/2019667421/2019667421.gif, https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/66/74/21/2019667421/2019667421.gif#h=293&w=198",
+    "image_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/66/74/21/2019667421/2019667421.gif",
     "language": "english",
     "subject": "ethics"
   },
@@ -955,7 +955,7 @@ const books = [
     "title": "Flowers and fruits from the wilderness;",
     "contributor": "morrell, z. n.",
     "date": "1872",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:flowersfruitsfro00morr:flowersfruitsfro00morr_0007/full/pct:25.0/0/default.jpg#h=899&w=529, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:flowersfruitsfro00morr:flowersfruits",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:flowersfruitsfro00morr:flowersfruitsfro00morr_0007/full/pct:25.0/0/default.jpg#h=899&w=529",
     "language": "english",
     "subject": "baptists, texas"
   },
@@ -963,7 +963,7 @@ const books = [
     "title": "Brief on behalf Pedro Gil Aguller and his father-in-law Francisco Ratés Botiguer, versus Magin Mercader Moragues in the city of Barcelona, concerning title to possession rights on certain real estate located in Catalonia.  [Ca. 1702].",
     "contributor": "",
     "date": "1702-01-01",
-    "image_url": "https://tile.loc.gov/storage-services/service/ll/llhsp/llhsp_brief_10/01060.gif, https://tile.loc.gov/storage-services/service/ll/llhsp/llhsp_brief_10/01060.gif#h=150&w=107, https://tile.loc.gov/image-services/iiif/service:ll:llhsp:llhsp_brief_10:01060/f",
+    "image_url": "https://tile.loc.gov/storage-services/service/ll/llhsp/llhsp_brief_10/01060.gif",
     "language": "catalan, valencian",
     "subject": "west europe, trials and court proceedings, catalunya, law library of congress, de mercader y moragues, magin, possession, de mercader y de moragues, magin, gil aguller, pedro, guil aguilar, pedro, law, aguilar, pedro gil, spain, possessory actions, catha"
   },
@@ -971,7 +971,7 @@ const books = [
     "title": "A letter to John Murray, esq. from Lord Nugent, touching an article in the last Quarterly review,",
     "contributor": "nugent, [george nugent grenville]",
     "date": "1832",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lettertojohnmurr00nuge:lettertojohnmurr00nuge_0007/full/pct:25.0/0/default.jpg#h=989&w=542, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lettertojohnmurr00nuge:lettertojohnm",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lettertojohnmurr00nuge:lettertojohnmurr00nuge_0007/full/pct:25.0/0/default.jpg#h=989&w=542",
     "language": "english",
     "subject": "nugent, george nugent grenville, baron, some memorials of john hampden"
   },
@@ -995,7 +995,7 @@ const books = [
     "title": "Copyright Record Book Class E [Eu] Vol 1114; Registration Numbers 55500-55999; 1968",
     "contributor": "",
     "date": "1968",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:13:64:29:4:00491364294:00491364294_0001/full/pct:6.25/0/default.jpg#h=281&w=86, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:13:64:29:4:004913642",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:13:64:29:4:00491364294:00491364294_0001/full/pct:6.25/0/default.jpg#h=281&w=86",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -1011,7 +1011,7 @@ const books = [
     "title": "Profitable egg farming.",
     "contributor": "cyphers incubator company",
     "date": "1903",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:profitableeggfar00cyph:profitableeggfar00cyph_0005/full/pct:25.0/0/default.jpg#h=996&w=706, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:profitableeggfar00cyph:profitableegg",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:profitableeggfar00cyph:profitableeggfar00cyph_0005/full/pct:25.0/0/default.jpg#h=996&w=706",
     "language": "english",
     "subject": "poultry, eggs, production"
   },
@@ -1019,7 +1019,7 @@ const books = [
     "title": "The letters of the British spy.",
     "contributor": "wirt, william",
     "date": "1841",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lettersofbritish00wirt:lettersofbritish00wirt_0007/full/pct:25.0/0/default.jpg#h=888&w=473, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lettersofbritish00wirt:lettersofbrit",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:lettersofbritish00wirt:lettersofbritish00wirt_0007/full/pct:25.0/0/default.jpg#h=888&w=473",
     "language": "english",
     "subject": "virginia, biography, description and travel"
   },
@@ -1027,7 +1027,7 @@ const books = [
     "title": "My memories of eighty years",
     "contributor": "depew, chauncey m. (chauncey mitchell), alfred whital stern collection of lincolniana (library of congress)",
     "date": "1922",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mymemoriesofeigh00depe:mymemoriesofeigh00depe_0013/full/pct:25.0/0/default.jpg#h=824&w=496, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mymemoriesofeigh00depe:mymemoriesofe",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mymemoriesofeigh00depe:mymemoriesofeigh00depe_0013/full/pct:25.0/0/default.jpg#h=824&w=496",
     "language": "english",
     "subject": "united states, chauncey mitchell), depew, chauncey m., history"
   },
@@ -1035,7 +1035,7 @@ const books = [
     "title": "The nest of the sparrowhawk, a romance of the XVIIth century.",
     "contributor": "orczy, emmuska orczy",
     "date": "1909",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:nestofsparrowhaw00orcz_0:nestofsparrowhaw00orcz_0_0007/full/pct:25.0/0/default.jpg#h=887&w=539, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:nestofsparrowhaw00orcz_0:nestofs",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:nestofsparrowhaw00orcz_0:nestofsparrowhaw00orcz_0_0007/full/pct:25.0/0/default.jpg#h=887&w=539",
     "language": "english",
     "subject": "historical fiction"
   },
@@ -1043,7 +1043,7 @@ const books = [
     "title": "Not of man but of God.",
     "contributor": "manning, jacob m.",
     "date": "1884",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:notofmanbutofgod01mann:notofmanbutofgod01mann_0011/full/pct:12.5/0/default.jpg#h=571&w=350, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:notofmanbutofgod01mann:notofmanbutof",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:notofmanbutofgod01mann:notofmanbutofgod01mann_0011/full/pct:12.5/0/default.jpg#h=571&w=350",
     "language": "english",
     "subject": ""
   },
@@ -1059,7 +1059,7 @@ const books = [
     "title": "Waldraf, der Wandler : erster Theil : Schauspiel mit Gesang in vier Aufzügen",
     "contributor": "mašek, pavel lambert, schuster, joseph anton",
     "date": "1805",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:music:musschatz-14606:0001/full/pct:25.0/0/default.jpg, https://tile.loc.gov/image-services/iiif/public:music:musschatz-14606:0001/full/pct:25.0/0/default.jpg#h=519&w=339, https://tile.loc.gov/image-service",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:music:musschatz-14606:0001/full/pct:25.0/0/default.jpg",
     "language": "german",
     "subject": "joda, bertilia, rupert von tachenstein, hanns von sommerweil, hainz, tiezmann von hachenburg, moritz von hohenbalken, waldraf, librettos, operas, gerlach von hallenstätt, wolf, herrmann von lindenberg, emeran, günther"
   },
@@ -1067,7 +1067,7 @@ const books = [
     "title": "A guide book containing information for intending settlers.",
     "contributor": "canada. department of agriculture",
     "date": "1882",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:guidebookcontain00cana:guidebookcontain00cana_0007/full/pct:25.0/0/default.jpg#h=764&w=482, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:guidebookcontain00cana:guidebookcont",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:guidebookcontain00cana:guidebookcontain00cana_0007/full/pct:25.0/0/default.jpg#h=764&w=482",
     "language": "english",
     "subject": ""
   },
@@ -1075,7 +1075,7 @@ const books = [
     "title": "Mongrelism.",
     "contributor": "quinby, watson fell",
     "date": "1876",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mongrelism00quin:mongrelism00quin_0003/full/pct:12.5/0/default.jpg#h=547&w=331, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mongrelism00quin:mongrelism00quin_0003/full/pct:",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mongrelism00quin:mongrelism00quin_0003/full/pct:12.5/0/default.jpg#h=547&w=331",
     "language": "english",
     "subject": "black race"
   },
@@ -1107,7 +1107,7 @@ const books = [
     "title": "John Sherman,",
     "contributor": "harn, george u.",
     "date": "1908",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:johnsherman00harn:johnsherman00harn_0005/full/pct:25.0/0/default.jpg#h=772&w=482, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:johnsherman00harn:johnsherman00harn_0005/full/",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:johnsherman00harn:johnsherman00harn_0005/full/pct:25.0/0/default.jpg#h=772&w=482",
     "language": "english",
     "subject": "sherman, john"
   },
@@ -1123,7 +1123,7 @@ const books = [
     "title": "The proceedings at the celebration by the Pilgrim Society at Plymouth, December 21, 1870, of the two hundred and fiftieth anniversary of the landing of the Pilgrims.",
     "contributor": "pilgrim society (plymouth, mass.)",
     "date": "1871",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:proceedingsatcel00pil:proceedingsatcel00pil_0007/full/pct:25.0/0/default.jpg#h=883&w=483, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:proceedingsatcel00pil:proceedingsatcel",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:proceedingsatcel00pil:proceedingsatcel00pil_0007/full/pct:25.0/0/default.jpg#h=883&w=483",
     "language": "english",
     "subject": "pilgrims (new plymouth colony), massachusetts, anniversaries, etc, history"
   },
@@ -1147,7 +1147,7 @@ const books = [
     "title": "Nyere digte",
     "contributor": "richardt, christian",
     "date": "1875",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:nyeredigte00rich:nyeredigte00rich_0005/full/pct:25.0/0/default.jpg#h=892&w=558, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:nyeredigte00rich:nyeredigte00rich_0005/full/pct:",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:nyeredigte00rich:nyeredigte00rich_0005/full/pct:25.0/0/default.jpg#h=892&w=558",
     "language": "danish",
     "subject": ""
   },
@@ -1155,7 +1155,7 @@ const books = [
     "title": "Aunt May's bird talks,",
     "contributor": "poyntz, f. m.",
     "date": "1900",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:auntmaysbirdtalk00poyn:auntmaysbirdtalk00poyn_0005/full/pct:25.0/0/default.jpg#h=998&w=724, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:auntmaysbirdtalk00poyn:auntmaysbirdt",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:auntmaysbirdtalk00poyn:auntmaysbirdtalk00poyn_0005/full/pct:25.0/0/default.jpg#h=998&w=724",
     "language": "english",
     "subject": "juvenile and popular literature, birds"
   },
@@ -1163,7 +1163,7 @@ const books = [
     "title": "The grave of dreams, and other verses,",
     "contributor": "hayes, james m., woodrow wilson collection (library of congress)",
     "date": "1917",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:graveofdreamsoth00haye:graveofdreamsoth00haye_0005/full/pct:25.0/0/default.jpg#h=656&w=427, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:graveofdreamsoth00haye:graveofdreams",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:graveofdreamsoth00haye:graveofdreamsoth00haye_0005/full/pct:25.0/0/default.jpg#h=656&w=427",
     "language": "english",
     "subject": "dlc, authors' presentation copies (provenance)"
   },
@@ -1171,7 +1171,7 @@ const books = [
     "title": "Statement by the Hospital of the Holy Cross of the city of Barcelona on the admission or not of spurious or bastards in the Hospital. July 10, 1656.",
     "contributor": "",
     "date": "1656-01-01",
-    "image_url": "https://tile.loc.gov/storage-services/service/ll/llhsp/llhsp_misc_01/00695.gif, https://tile.loc.gov/storage-services/service/ll/llhsp/llhsp_misc_01/00695.gif#h=115&w=150, https://tile.loc.gov/image-services/iiif/service:ll:llhsp:llhsp_misc_01:00695/full",
+    "image_url": "https://tile.loc.gov/storage-services/service/ll/llhsp/llhsp_misc_01/00695.gif, https://tile.loc.gov/storage-services/service/ll/llhsp/llhsp_misc_01/00695.gif#h=115&w=150",
     "language": "catalan, valencian",
     "subject": "families, paternity, west europe, health facilities and institutions, law library of congress, barcelona, health, law, spain, catalonia"
   },
@@ -1187,7 +1187,7 @@ const books = [
     "title": "Gamle dage. Erindringer og tidsbilleder af Conradine B. Dunker, født Hansteen. Med forfatterindens portrait.",
     "contributor": "dunker, conradine birgitte hansteen, lundh, otto gr. (otto gregerssøn), huitfeldt-kaas, h. j. (henrik jørgen)",
     "date": "1871",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:gamledageerindri00dunk:gamledageerindri00dunk_0011/full/pct:25.0/0/default.jpg#h=891&w=533, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:gamledageerindri00dunk:gamledageerin",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:gamledageerindri00dunk:gamledageerindri00dunk_0011/full/pct:25.0/0/default.jpg#h=891&w=533",
     "language": "danish",
     "subject": "social life and customs, norway"
   },
@@ -1195,7 +1195,7 @@ const books = [
     "title": "In the old paths; memories of literary pilgrimages,",
     "contributor": "grant, arthur",
     "date": "1914",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:inoldpathsmemor00gran:inoldpathsmemor00gran_0009/full/pct:25.0/0/default.jpg#h=1014&w=615, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:inoldpathsmemor00gran:inoldpathsmemor",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:inoldpathsmemor00gran:inoldpathsmemor00gran_0009/full/pct:25.0/0/default.jpg#h=1014&w=615",
     "language": "english",
     "subject": "literary landmarks, homes and haunts, great britain, authors, english, intellectual life"
   },
@@ -1203,7 +1203,7 @@ const books = [
     "title": "Atlantic City, the worlds play ground.",
     "contributor": "national city publicity company",
     "date": "1922",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:atlanticcityworl01nati:atlanticcityworl01nati_0003/full/pct:25.0/0/default.jpg#h=975&w=616, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:atlanticcityworl01nati:atlanticcityw",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:atlanticcityworl01nati:atlanticcityworl01nati_0003/full/pct:25.0/0/default.jpg#h=975&w=616",
     "language": "english",
     "subject": "atlantic city (n.j.), pictorial works"
   },
@@ -1235,7 +1235,7 @@ const books = [
     "title": "A summer siege; a story for girls,",
     "contributor": "poor, lucy tappan",
     "date": "1914",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:summersiegestory00poor:summersiegestory00poor_0007/full/pct:25.0/0/default.jpg#h=916&w=561, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:summersiegestory00poor:summersiegest",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:summersiegestory00poor:summersiegestory00poor_0007/full/pct:25.0/0/default.jpg#h=916&w=561",
     "language": "english",
     "subject": ""
   },
@@ -1243,7 +1243,7 @@ const books = [
     "title": "Copyright Record Book Class E [Eu] Vol 973, PART 2; Registration Numbers 972500-972999; 1966",
     "contributor": "",
     "date": "1966",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:13:80:32:9:00491380329:00491380329_0001/full/pct:6.25/0/default.jpg#h=284&w=91, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:13:80:32:9:004913803",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:49:13:80:32:9:00491380329:00491380329_0001/full/pct:6.25/0/default.jpg#h=284&w=91",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -1259,7 +1259,7 @@ const books = [
     "title": "Historical data relating to counties, cities and towns in Massachusetts.",
     "contributor": "massachusetts. secretary of the commonwealth",
     "date": "1920",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:historicaldatare00mass:historicaldatare00mass_0007/full/pct:25.0/0/default.jpg#h=779&w=459, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:historicaldatare00mass:historicaldat",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:historicaldatare00mass:historicaldatare00mass_0007/full/pct:25.0/0/default.jpg#h=779&w=459",
     "language": "english",
     "subject": "cities and towns, history, local, massachusetts"
   },
@@ -1267,7 +1267,7 @@ const books = [
     "title": "Das St. Wernerfest : Oper in zwei Akten",
     "contributor": "mannheimer, julius, schanz, frida, justinus, oscar",
     "date": "",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:music:musschatz-20447:0001/full/pct:25.0/0/default.jpg, https://tile.loc.gov/image-services/iiif/public:music:musschatz-20447:0001/full/pct:25.0/0/default.jpg#h=584&w=407, https://tile.loc.gov/image-service",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:music:musschatz-20447:0001/full/pct:25.0/0/default.jpg",
     "language": "german",
     "subject": "heinrich frohmuth, madelon, felix von könig, fabricius drosdatius, renate, hirondelle, librettos, operas, mäusle, quisenow"
   },
@@ -1283,7 +1283,7 @@ const books = [
     "title": "El sí de las niñas; comedia en tres actos,",
     "contributor": "burnet, percy b. (bentley), fernández de moratín, leandro",
     "date": "1918",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:elsdelasniascom00fern:elsdelasniascom00fern_0007/full/pct:25.0/0/default.jpg#h=785&w=545, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:elsdelasniascom00fern:elsdelasniascom0",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:elsdelasniascom00fern:elsdelasniascom00fern_0007/full/pct:25.0/0/default.jpg#h=785&w=545",
     "language": "spaeng, spanish",
     "subject": ""
   },
@@ -1307,7 +1307,7 @@ const books = [
     "title": "Turenne, ou, Un trait de modestie : vaudeville historique, en un acte",
     "contributor": "arsène, m., fontenay, m., fulgence, m., d'artois-de-bournonville, achille, armand, m., st. leger, h. j. (heyward john),, m., hypolite, m., dartois, achille, edouard, m., guénée, adolphe,, m.",
     "date": "1815",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:music:musschatz-13859:0001/full/pct:25.0/0/default.jpg, https://tile.loc.gov/image-services/iiif/public:music:musschatz-13859:0001/full/pct:25.0/0/default.jpg#h=634&w=444, https://tile.loc.gov/image-service",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:music:musschatz-13859:0001/full/pct:25.0/0/default.jpg",
     "language": "french",
     "subject": "emma, charles, operas, orfeuil, librettos, beauvesé, turenne, sans-souci, saint abre"
   },
@@ -1315,7 +1315,7 @@ const books = [
     "title": "Opera.",
     "contributor": "virgil",
     "date": "1818",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:ope00virg:ope00virg_0009/full/pct:25.0/0/default.jpg#h=856&w=524, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:ope00virg:ope00virg_0009/full/pct:50.0/0/default.jpg#h=1713&w=",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:ope00virg:ope00virg_0009/full/pct:25.0/0/default.jpg#h=856&w=524",
     "language": "latin",
     "subject": ""
   },
@@ -1331,7 +1331,7 @@ const books = [
     "title": "Eaux continentales",
     "contributor": "académie des sciences (france), marsily, ghislain de",
     "date": "2006-01-01",
-    "image_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/86/68/2020718668/2020718668.gif, https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/86/68/2020718668/2020718668.gif#h=464&w=310",
+    "image_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/86/68/2020718668/2020718668.gif",
     "language": "french",
     "subject": "hydrology, france"
   },
@@ -1339,7 +1339,7 @@ const books = [
     "title": "Passionate passions,",
     "contributor": "gillen, alma",
     "date": "1895",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:passionatepassio00gill:passionatepassio00gill_0005/full/pct:25.0/0/default.jpg#h=867&w=531, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:passionatepassio00gill:passionatepas",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:passionatepassio00gill:passionatepassio00gill_0005/full/pct:25.0/0/default.jpg#h=867&w=531",
     "language": "english",
     "subject": ""
   },
@@ -1371,7 +1371,7 @@ const books = [
     "title": "Dissolved gases in glass,",
     "contributor": "footitt, frank farnsworth, washburn, edward w. (edward wight), bunting, elmer n. (elmer newman)",
     "date": "1920",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:dissolvedgasesin00wash:dissolvedgasesin00wash_0003/full/pct:12.5/0/default.jpg#h=541&w=346, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:dissolvedgasesin00wash:dissolvedgase",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:dissolvedgasesin00wash:dissolvedgasesin00wash_0003/full/pct:12.5/0/default.jpg#h=541&w=346",
     "language": "english",
     "subject": "chemistry, glass manufacture"
   },
@@ -1379,7 +1379,7 @@ const books = [
     "title": "Hampton and his cavalry in '64.",
     "contributor": "wells, edward laight",
     "date": "1899",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:hamptonhiscavalr00well:hamptonhiscavalr00well_0013/full/pct:25.0/0/default.jpg#h=954&w=630, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:hamptonhiscavalr00well:hamptonhiscav",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:hamptonhiscavalr00well:hamptonhiscavalr00well_0013/full/pct:25.0/0/default.jpg#h=954&w=630",
     "language": "english",
     "subject": "confederate states of america, army, hampton, wade, hampton's cavalry division, civil war, united states, regimental histories, history"
   },
@@ -1387,7 +1387,7 @@ const books = [
     "title": "Alice Harmon; and The mother and her dying boy.",
     "contributor": "[newman, m. w.]",
     "date": "1874",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:aliceharmonmothe00newm:aliceharmonmothe00newm_0009/full/pct:25.0/0/default.jpg#h=779&w=478, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:aliceharmonmothe00newm:aliceharmonmo",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:aliceharmonmothe00newm:aliceharmonmothe00newm_0009/full/pct:25.0/0/default.jpg#h=779&w=478",
     "language": "english",
     "subject": ""
   },
@@ -1395,7 +1395,7 @@ const books = [
     "title": "Straight sermons to young men and other human beings, preached before the universities of Yale, Harvard and Princeton,",
     "contributor": "van dyke, henry",
     "date": "1893",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:straightsermons00vand:straightsermons00vand_0009/full/pct:25.0/0/default.jpg#h=1007&w=667, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:straightsermons00vand:straightsermons",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:straightsermons00vand:straightsermons00vand_0009/full/pct:25.0/0/default.jpg#h=1007&w=667",
     "language": "english",
     "subject": "sermons, american, sermons, universities and colleges"
   },
@@ -1411,7 +1411,7 @@ const books = [
     "title": "Postillon del Mensagero Luisianes del Martes 11 de Diciembre de 1810. By the President of the United States of America. A proclamation [regarding Louisiana colony] ... Done at the City of Washington, the twenty-seventh day of October A. D. one t",
     "contributor": "printed ephemera collection (library of congress), mensagero luisianes",
     "date": "1810",
-    "image_url": "https://tile.loc.gov/storage-services/service/rbc/rbpe/rbpe02/rbpe024/02400900/001dq.gif, https://tile.loc.gov/storage-services/service/rbc/rbpe/rbpe02/rbpe024/02400900/001dt.gif#h=144&w=100, https://tile.loc.gov/storage-services/service/rbc/rbpe/rbpe02/",
+    "image_url": "https://tile.loc.gov/storage-services/service/rbc/rbpe/rbpe02/rbpe024/02400900/001dq.gif",
     "language": "english",
     "subject": "united states, proclamations, louisiana"
   },
@@ -1443,7 +1443,7 @@ const books = [
     "title": "[Copyright ledgers.] New York Southern District,",
     "contributor": "early copyright records collection (library of congress)",
     "date": "1861",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:rbccopyledger:ny18610600:0001/full/pct:6.25/0/default.jpg, https://tile.loc.gov/image-services/iiif/service:rbc:rbccopyledger:ny18610600:0001/full/pct:6.25/0/default.jpg#h=365&w=245, https://tile.loc.g",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:rbc:rbccopyledger:ny18610600:0001/full/pct:6.25/0/default.jpg",
     "language": "english",
     "subject": "copyright, united states, sources, new york, imprints, history"
   },
@@ -1451,7 +1451,7 @@ const books = [
     "title": "Marriage and civil status registration in the former Soviet Union",
     "contributor": "butkus, zigmas a., law library of congress (u.s.). global legal research directorate",
     "date": "1992",
-    "image_url": "https://tile.loc.gov/storage-services/service/ll/llglrd/2019670098/2019670098.gif, https://tile.loc.gov/storage-services/service/ll/llglrd/2019670098/2019670098.gif#h=150&w=116",
+    "image_url": "https://tile.loc.gov/storage-services/service/ll/llglrd/2019670098/2019670098.gif",
     "language": "english",
     "subject": "marriage law, recording and registration, registers of births, etc, soviet union, former soviet republics"
   },
@@ -1459,7 +1459,7 @@ const books = [
     "title": "Jottings of Louisiana ...",
     "contributor": "roussel, willis j.",
     "date": "1905",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:jottingsoflouisi01rous:jottingsoflouisi01rous_0005/full/pct:25.0/0/default.jpg#h=825&w=511, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:jottingsoflouisi01rous:jottingsoflou",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:jottingsoflouisi01rous:jottingsoflouisi01rous_0005/full/pct:25.0/0/default.jpg#h=825&w=511",
     "language": "english",
     "subject": ""
   },
@@ -1475,7 +1475,7 @@ const books = [
     "title": "Public education in Delaware; a report to the Public school commission of Delaware, with an appendix containing the new school code.",
     "contributor": "flexner, abraham, general education board (new york, n.y.), bachman, frank p. (frank puterbaugh), delaware. public school commission",
     "date": "1919",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:publiceducationi05gene:publiceducationi05gene_0011/full/pct:25.0/0/default.jpg#h=746&w=460, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:publiceducationi05gene:publiceducati",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:publiceducationi05gene:publiceducationi05gene_0011/full/pct:25.0/0/default.jpg#h=746&w=460",
     "language": "english",
     "subject": "public schools, delaware, educational law and legislation, educational surveys"
   },
@@ -1491,7 +1491,7 @@ const books = [
     "title": "Copyright Record Book Class A Vol 337; Registration Numbers 170000-170499; 1954",
     "contributor": "",
     "date": "1954-01-01",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:47:09:67:28:6:00470967286:00470967286_0001/full/pct:6.25/0/default.jpg#h=293&w=119, https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:47:09:67:28:6:00470967",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:copyright:coprecbooks:00:47:09:67:28:6:00470967286:00470967286_0001/full/pct:6.25/0/default.jpg#h=293&w=119",
     "language": "english",
     "subject": "united states, copyright registration, sources, copyright, history"
   },
@@ -1507,7 +1507,7 @@ const books = [
     "title": "Music Festivals",
     "contributor": "new york herald tribune",
     "date": "1946-04-28",
-    "image_url": "https://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200153619/0001.tif/158, https://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200153619/0001.tif/158#h=310&w=158, https://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200153619/0001.tif/634#h=1241&w=634, h",
+    "image_url": "https://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200153619/0001.tif/158, https://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200153619/0001.tif/158#h=310&w=158",
     "language": "",
     "subject": "serpent heart, cave of the heart"
   },
@@ -1523,7 +1523,7 @@ const books = [
     "title": "Music vs. elocution ...",
     "contributor": "coes, george h.",
     "date": "1893",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:musicvselocution00coes:musicvselocution00coes_0003/full/pct:25.0/0/default.jpg#h=885&w=561, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:musicvselocution00coes:musicvselocut",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:musicvselocution00coes:musicvselocution00coes_0003/full/pct:25.0/0/default.jpg#h=885&w=561",
     "language": "english",
     "subject": ""
   },
@@ -1547,7 +1547,7 @@ const books = [
     "title": "The boy fortune hunters in Egypt,",
     "contributor": "akers, floyd, baum, l. frank (lyman frank)",
     "date": "1908",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:boyfortunehunter00aker:boyfortunehunter00aker_0007/full/pct:25.0/0/default.jpg#h=848&w=546, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:boyfortunehunter00aker:boyfortunehun",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:boyfortunehunter00aker:boyfortunehunter00aker_0007/full/pct:25.0/0/default.jpg#h=848&w=546",
     "language": "english",
     "subject": "egypt, juvenile fiction, treasure troves"
   },
@@ -1555,7 +1555,7 @@ const books = [
     "title": "The history of Preston, in Lancashire; together with The guild merchant, and some account of the duchy and county palatine of Lancaster.",
     "contributor": "",
     "date": "1822",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:historyofpreston00lond:historyofpreston00lond_0013/full/pct:25.0/0/default.jpg#h=764&w=597, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:historyofpreston00lond:historyofpres",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:historyofpreston00lond:historyofpreston00lond_0013/full/pct:25.0/0/default.jpg#h=764&w=597",
     "language": "english",
     "subject": "preston (lancashire), england, preston (lancashire, england), guilds, lancashire (england), history"
   },
@@ -1563,7 +1563,7 @@ const books = [
     "title": "Dreams, or, Lessons from the poppy fields.",
     "contributor": "harry houdini collection (library of congress), bryson, nettie elizabeth",
     "date": "1901",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:dreamsorlessonsf00brys:dreamsorlessonsf00brys_0007/full/pct:25.0/0/default.jpg#h=694&w=439, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:dreamsorlessonsf00brys:dreamsorlesso",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:dreamsorlessonsf00brys:dreamsorlessonsf00brys_0007/full/pct:25.0/0/default.jpg#h=694&w=439",
     "language": "english",
     "subject": ""
   },
@@ -1571,7 +1571,7 @@ const books = [
     "title": "The mechanical engineering of power plants.",
     "contributor": "hutton, frederick remsen",
     "date": "1897",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mechanicalengine02hutt:mechanicalengine02hutt_0007/full/pct:12.5/0/default.jpg#h=533&w=322, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mechanicalengine02hutt:mechanicaleng",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:mechanicalengine02hutt:mechanicalengine02hutt_0007/full/pct:12.5/0/default.jpg#h=533&w=322",
     "language": "english",
     "subject": "steam power plants, mechanical engineering"
   },
@@ -1579,7 +1579,7 @@ const books = [
     "title": "Iowa - White and Yellow Pages - Council Bluffs - 6/1961 to 8/1963",
     "contributor": "",
     "date": "1961-01-01",
-    "image_url": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcustel:us:te:le:di:re:c0:55:42:usteledirec05542:usteledirec05542_0010/full/pct:6.25/0/default.jpg#h=424&w=335, https://tile.loc.gov/image-services/iiif/service:gdc:gdcustel:us:te:le:di:re:c0:55:42:us",
+    "image_url": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcustel:us:te:le:di:re:c0:55:42:usteledirec05542:usteledirec05542_0010/full/pct:6.25/0/default.jpg#h=424&w=335",
     "language": "english",
     "subject": "directory"
   },
@@ -1587,7 +1587,7 @@ const books = [
     "title": "Onion raising; what kinds to raise, and the way to raise them.",
     "contributor": "gregory, james john howard",
     "date": "1880",
-    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:onionraisingwhat00greg_0:onionraisingwhat00greg_0_0009/full/pct:12.5/0/default.jpg#h=572&w=374, https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:onionraisingwhat00greg_0:onionra",
+    "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:onionraisingwhat00greg_0:onionraisingwhat00greg_0_0009/full/pct:12.5/0/default.jpg#h=572&w=374",
     "language": "english",
     "subject": "onions"
   },

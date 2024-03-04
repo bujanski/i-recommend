@@ -2,6 +2,8 @@ import React, { useContext, useState } from "react";
 import { AppContext } from "../store/AppContext";
 import UserFavList from "./UserFavList";
 import MovieSearchBar from "./MovieSearchBar";
+import BookSearchBar from "./BookSearchBar";
+import VideogameSearchBar from "./VideogameSearchBar";
 
 function formatCategoryText(category) {
     return category.replace(/([a-z])([A-Z])/g, '$1 $2').toLowerCase();
@@ -14,6 +16,7 @@ function SelectionWidget({ category }) {
     const formattedCategory = formatCategoryText(category);
 
     const startAddItem = () => {
+        console.log(category);
         dispatch({ type: "startAddItem", payload: category });
     };
     const handleRecommendationAdded = (recommendation) => {
@@ -26,7 +29,9 @@ function SelectionWidget({ category }) {
                 <div className="add-item-button" onClick={startAddItem}>
                     + Add {formattedCategory} to your list
                 </div>
-                {addingItem && category === "movies" ? <MovieSearchBar onRecommendationAdded={handleRecommendationAdded} /> : null}
+                {addingItem && selectingCategory ==="books" && category === "books" ? <BookSearchBar onRecommendationAdded={handleRecommendationAdded} /> : null}
+                {addingItem && selectingCategory === "movies" && category === "movies" ? <MovieSearchBar onRecommendationAdded={handleRecommendationAdded} /> : null}
+                {addingItem && selectingCategory === "videoGames" && category === "videoGames" ? <VideogameSearchBar onRecommendationAdded={handleRecommendationAdded} /> : null}
             </div>
             <div>
                 <UserFavList category={category} onRecommendationAdded={handleRecommendationAdded} />

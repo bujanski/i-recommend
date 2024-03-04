@@ -46,15 +46,11 @@ const bookSearch = async (req, res) => {
                         },
                     },
                     {
-                        language: {
+                        date: {
                             [Sequelize.Op.iLike]: `%${searchText}%`,
                         },
                     },
-                    {
-                        subject: {
-                            [Sequelize.Op.iLike]: `%${searchText}%`,
-                        },
-                    },
+                    
                 ],
             },
         });
