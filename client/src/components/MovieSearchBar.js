@@ -2,9 +2,9 @@ import React, { useState, useContext, useEffect } from "react";
 import { AppContext } from "../store/AppContext";
 import axios from "axios";
 
-function SearchBar() {
+function MovieSearchBar({ onRecommendationAdded }) {
     const { state, dispatch } = useContext(AppContext);
-    const { selectingCategory } = state;
+    const { selectingCategory, loggedInUserId } = state;
     const [searchText, setSearchText] = useState("");
     const [debouncedSearch, setDebouncedSearch] = useState("");
     const [searchResults, setSearchResults] = useState([]);
@@ -24,9 +24,43 @@ function SearchBar() {
         }
     };
 
-    const addUserFav = async () => {
-        
-    }
+    const addRec = async (item) => {
+        try {
+            let ranking = 25;
+            let MovieId = item.id;
+            let UserId = loggedInUserId;
+            const { title } = item;
+            // Send a request to the backend to add the recommendation
+            const response = await axios.post(
+                'http://localhost:8000/recs/addRec',
+                { ranking, title, UserId, MovieId }
+            );
+            dispatch({type: "cancelAddItem"});
+            console.log('Recommendation added successfully:', response.data);
+            if (onRecommendationAdded) {
+                onRecommendationAdded(response.data);
+            }
+        }catch (error) {
+            console.error('Error adding recommendation', error);
+    
+            if (error.response && error.response.status === 400) {
+                // The backend returned a 400 Bad Request status
+                const errorMessage = error.response.data.error;
+    
+                // Check if the error message indicates a duplicate recommendation
+                if (errorMessage === 'User has already recommended the same thing.') {
+                    // Display an alert or show a message to inform the user
+                    alert('You have already recommended this movie.');
+                } else {
+                    // Handle other 400 Bad Request errors as needed
+                    // ...
+                }
+            } else {
+                // Handle other types of errors
+                // ...
+            }
+        }
+    };
 
     const debounce = (func, delay, immediate = false) => {
         let timeoutId;
@@ -114,7 +148,7 @@ function SearchBar() {
                                     </b>
                                 </p>
                                 <br />
-                                <button onClick={addUserFav}>add to my favorites</button>
+                                <button onClick={() => addRec(result)}>add to my favorites</button>
                             </div>
                         </div>
                     ))
@@ -124,4 +158,4 @@ function SearchBar() {
     );
 }
 
-export default SearchBar;
+export default MovieSearchBar;

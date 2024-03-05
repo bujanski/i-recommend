@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { AppContext } from "../store/AppContext";
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
@@ -33,6 +33,10 @@ function LogInWidget() {
         cursor: isInputValid ? "pointer" : "not-allowed",
     };
 
+    const lostPassword = () => {
+        alert("You lost your password? That's too bad. You should use a password manager.");
+    }
+
     const handleLoginClick = async () => {
         try {
             // Make a POST request to the server using Axios
@@ -63,6 +67,22 @@ function LogInWidget() {
         }
     };
 
+    useEffect(() => {
+        const handleKeyPress = (event) => {
+            if (event.key === "Enter" && isInputValid) {
+                handleLoginClick();
+            }
+        };
+
+        // Add event listener for key press
+        window.addEventListener("keydown", handleKeyPress);
+
+        // Remove the event listener when the component unmounts
+        return () => {
+            window.removeEventListener("keydown", handleKeyPress);
+        };
+    }, [isInputValid]);
+
     return (
         <div className="credential-container">
             <div className="login-container">
@@ -89,7 +109,7 @@ function LogInWidget() {
                 </div>
                 <div className="login-links">
                     <div>
-                        <div className="login-links">lost my password</div>
+                        <div className="login-links" onClick={lostPassword}>lost my password</div>
                     </div>
                     <div>
                         <div

@@ -1,22 +1,6 @@
 const { Movie} = require("../models/associations");
 const { Sequelize  } = require('sequelize');
 
-const topMovies = async (req, res) => {
-    try {
-        const topList = await Movie.findAll({
-            limit: 25,
-            // You can add more options like order, where, etc., if needed
-        });
-        // Assuming you want to send the topList as a JSON response
-        res.json(topList);
-    } catch (error) {
-        console.error("Error fetching top movies:", error);
-        res.status(500).send("Internal Server Error");
-    }
-};
-
-
-
 const movieSearch = async (req, res) => {
     const { searchText } = req.params;
 
@@ -55,7 +39,19 @@ const movieSearch = async (req, res) => {
     }
 };
 
+const getMovie = async (req, res) => {
+    const {id} = req.params;
+    try {
+        const movie = await Movie.findByPk(id);
+        // Assuming you want to send the topList as a JSON response
+        res.json(movie);
+    } catch (error) {
+        console.error("Error fetching top movies:", error);
+        res.status(500).send("Internal Server Error");
+    }
+};
+
 module.exports = {
     movieSearch,
-    topMovies
+    getMovie,
 };

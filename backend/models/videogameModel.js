@@ -7,7 +7,7 @@ const Videogame = sequelize.define('Videogames', {
     //     primaryKey: true,
     //     type: DataTypes.INTEGER,
     // },
-    name: {
+    title: {
         type: DataTypes.STRING,
         allowNull: false,
     },

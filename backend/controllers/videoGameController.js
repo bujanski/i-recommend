@@ -1,27 +1,18 @@
 const { Videogame } = require("../models/associations");
 const { Sequelize  } = require('sequelize');
-
-const addGames = async (req, res) => {
-    const { games } = req.body;
-    console.log(req.body);
-    res.json({hello: "true"})
-   
-};
  
-const topVideogames = async (req, res) => {
+
+const getVideogame = async (req, res) => {
+    const {id} = req.params;
     try {
-        const topList = await Videogame.findAll({
-            limit: 25,
-            // You can add more options like order, where, etc., if needed
-        });
+        const game = await Videogame.findByPk(id);
         // Assuming you want to send the topList as a JSON response
-        res.json(topList);
+        res.json(game);
     } catch (error) {
         console.error("Error fetching top movies:", error);
         res.status(500).send("Internal Server Error");
     }
-}
-
+};
 
 const videoGameSearch = async (req, res) => {
     const { searchText } = req.params;
@@ -31,7 +22,7 @@ const videoGameSearch = async (req, res) => {
             where: {
                 [Sequelize.Op.or]: [
                     {
-                        name: {
+                        title: {
                             [Sequelize.Op.iLike]: `%${searchText}%`,
                         },
                     },
@@ -58,7 +49,6 @@ const videoGameSearch = async (req, res) => {
 
 
 module.exports = {
-    addGames,
-    topVideogames,
-    videoGameSearch
+    videoGameSearch,
+    getVideogame
 };

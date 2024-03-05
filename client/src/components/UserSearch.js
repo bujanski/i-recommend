@@ -1,11 +1,11 @@
 import React, {useContext, useState} from 'react'
 
-function TopSearch() {
-    const [siteSearchText,
-        setSiteSearchText] = useState('');
+function UserSearch() {
+    const [userSearchText,
+        setUserSearchText] = useState('');
 
     const handleInputChange = (event) => {
-        setSiteSearchText(event.target.value);
+        setUserSearchText(event.target.value);
         // send the text to API for fetching results here
     };
 
@@ -17,7 +17,7 @@ function TopSearch() {
                     className='search-field'
                     type="text"
                     placeholder='Search'
-                    value={siteSearchText}
+                    value={userSearchText}
                     onChange={handleInputChange}/>
             </div>
             <div>
@@ -27,4 +27,4 @@ function TopSearch() {
     )
 }
 
-export default TopSearch
+export default UserSearch

@@ -1,6 +1,6 @@
 const videogames = [
   {
-    "name": "Grand Theft Auto V",
+    "title": "Grand Theft Auto V",
     "genres": "Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -10,7 +10,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "The Witcher 3: Wild Hunt",
+    "title": "The Witcher 3: Wild Hunt",
     "genres": "Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch, macOS",
     "released": "2015",
@@ -20,7 +20,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Portal 2",
+    "title": "Portal 2",
     "genres": "Shooter, Puzzle",
     "platforms": "PC, Xbox One, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -30,7 +30,7 @@ const videogames = [
     "metacritic": "95"
   },
   {
-    "name": "Counter-Strike: Global Offensive",
+    "title": "Counter-Strike: Global Offensive",
     "genres": "Shooter",
     "platforms": "PC, Linux, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -40,7 +40,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Tomb Raider (2013)",
+    "title": "Tomb Raider (2013)",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -50,7 +50,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Portal",
+    "title": "Portal",
     "genres": "Action, Puzzle",
     "platforms": "PC, Nintendo Switch, Android, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2007",
@@ -60,7 +60,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Left 4 Dead 2",
+    "title": "Left 4 Dead 2",
     "genres": "Shooter, Action",
     "platforms": "PC, macOS, Linux, Xbox 360",
     "released": "2009",
@@ -70,7 +70,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "The Elder Scrolls V: Skyrim",
+    "title": "The Elder Scrolls V: Skyrim",
     "genres": "Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -80,7 +80,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "Red Dead Redemption 2",
+    "title": "Red Dead Redemption 2",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -90,7 +90,7 @@ const videogames = [
     "metacritic": "96"
   },
   {
-    "name": "BioShock Infinite",
+    "title": "BioShock Infinite",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Linux, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -100,7 +100,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "Life is Strange",
+    "title": "Life is Strange",
     "genres": "Adventure",
     "platforms": "PC, PlayStation 4, Xbox One, iOS, Android, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2015",
@@ -110,7 +110,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Borderlands 2",
+    "title": "Borderlands 2",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, Android, macOS, Linux, Xbox 360, PlayStation 3, PS Vita",
     "released": "2012",
@@ -120,7 +120,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Half-Life 2",
+    "title": "Half-Life 2",
     "genres": "Shooter, Action",
     "platforms": "PC, Android, macOS, Linux, Xbox 360, Xbox",
     "released": "2004",
@@ -130,7 +130,7 @@ const videogames = [
     "metacritic": "96"
   },
   {
-    "name": "BioShock",
+    "title": "BioShock",
     "genres": "Shooter, Action",
     "platforms": "PC, macOS, Xbox 360, PlayStation 3",
     "released": "2007",
@@ -140,7 +140,7 @@ const videogames = [
     "metacritic": "96"
   },
   {
-    "name": "Destiny 2",
+    "title": "Destiny 2",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Web",
     "released": "2017",
@@ -150,7 +150,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "God of War (2018)",
+    "title": "God of War (2018)",
     "genres": "Action",
     "platforms": "PC, PlayStation 4",
     "released": "2018",
@@ -160,7 +160,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "Limbo",
+    "title": "Limbo",
     "genres": "Platformer, Indie, Action, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux, Xbox 360, PlayStation 3, PS Vita",
     "released": "2010",
@@ -170,7 +170,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Fallout 4",
+    "title": "Fallout 4",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -180,7 +180,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "DOOM (2016)",
+    "title": "DOOM (2016)",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2016",
@@ -190,7 +190,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "PAYDAY 2",
+    "title": "PAYDAY 2",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Linux",
     "released": "2013",
@@ -200,7 +200,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Team Fortress 2",
+    "title": "Team Fortress 2",
     "genres": "Shooter, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2007",
@@ -210,7 +210,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Cyberpunk 2077",
+    "title": "Cyberpunk 2077",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2020",
@@ -220,7 +220,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Horizon Zero Dawn",
+    "title": "Horizon Zero Dawn",
     "genres": "Action, RPG",
     "platforms": "PC, PlayStation 4",
     "released": "2017",
@@ -230,7 +230,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Grand Theft Auto IV",
+    "title": "Grand Theft Auto IV",
     "genres": "Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -240,7 +240,7 @@ const videogames = [
     "metacritic": "95"
   },
   {
-    "name": "Terraria",
+    "title": "Terraria",
     "genres": "Platformer, Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, Nintendo 3DS, macOS, Linux, Xbox 360, PlayStation 3, PS Vita, Wii U",
     "released": "2011",
@@ -250,7 +250,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Rocket League",
+    "title": "Rocket League",
     "genres": "Racing, Indie, Sports",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2015",
@@ -260,7 +260,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Dota 2",
+    "title": "Dota 2",
     "genres": "Massively Multiplayer, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -270,7 +270,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Warframe",
+    "title": "Warframe",
     "genres": "Shooter, Massively Multiplayer, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2013",
@@ -280,7 +280,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Metro 2033",
+    "title": "Metro 2033",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360",
     "released": "2010",
@@ -290,7 +290,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Rise of the Tomb Raider",
+    "title": "Rise of the Tomb Raider",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS",
     "released": "2015",
@@ -300,7 +300,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Metal Gear Solid V: The Phantom Pain",
+    "title": "Metal Gear Solid V: The Phantom Pain",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2015",
@@ -310,7 +310,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Batman: Arkham Knight",
+    "title": "Batman: Arkham Knight",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2015",
@@ -320,7 +320,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+    "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
     "genres": "RPG",
     "platforms": "PC, macOS, Xbox 360",
     "released": "2012",
@@ -330,7 +330,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Half-Life 2: Lost Coast",
+    "title": "Half-Life 2: Lost Coast",
     "genres": "Action",
     "platforms": "PC, macOS, Linux",
     "released": "2005",
@@ -340,7 +340,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Grand Theft Auto: San Andreas",
+    "title": "Grand Theft Auto: San Andreas",
     "genres": "Racing, Action",
     "platforms": "PC, Xbox One, PlayStation 4, iOS, Android, macOS, Xbox 360, Xbox, PlayStation 3, PlayStation 2",
     "released": "2004",
@@ -350,7 +350,7 @@ const videogames = [
     "metacritic": "93"
   },
   {
-    "name": "The Walking Dead: Season 1",
+    "title": "The Walking Dead: Season 1",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, iOS, Android, macOS, Xbox 360, PlayStation 3, PS Vita",
     "released": "2012",
@@ -360,7 +360,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "The Witcher: Enhanced Edition Director's Cut",
+    "title": "The Witcher: Enhanced Edition Director's Cut",
     "genres": "Action, RPG",
     "platforms": "PC, macOS",
     "released": "2008",
@@ -370,7 +370,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Middle-earth: Shadow of Mordor",
+    "title": "Middle-earth: Shadow of Mordor",
     "genres": "Action, RPG",
     "platforms": "PC, PlayStation 4, Xbox One, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -380,7 +380,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Apex Legends",
+    "title": "Apex Legends",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS",
     "released": "2019",
@@ -390,7 +390,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Half-Life 2: Episode One",
+    "title": "Half-Life 2: Episode One",
     "genres": "Shooter, Action",
     "platforms": "PC, Android, macOS, Linux, Xbox 360",
     "released": "2006",
@@ -400,7 +400,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Half-Life 2: Episode Two",
+    "title": "Half-Life 2: Episode Two",
     "genres": "Shooter, Action, Puzzle",
     "platforms": "PC, Android, macOS, Linux, Xbox 360",
     "released": "2007",
@@ -410,7 +410,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "BioShock 2",
+    "title": "BioShock 2",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -420,7 +420,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Hollow Knight",
+    "title": "Hollow Knight",
     "genres": "Platformer, Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2017",
@@ -430,7 +430,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Little Nightmares",
+    "title": "Little Nightmares",
     "genres": "Platformer, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -440,7 +440,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Hitman",
+    "title": "Hitman",
     "genres": "Shooter, Action, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2016",
@@ -450,7 +450,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Dark Souls III",
+    "title": "Dark Souls III",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -460,7 +460,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Mirror's Edge",
+    "title": "Mirror's Edge",
     "genres": "Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -470,7 +470,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Hotline Miami",
+    "title": "Hotline Miami",
     "genres": "Indie, Shooter, Arcade, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Linux, PS Vita",
     "released": "2012",
@@ -480,7 +480,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Outlast",
+    "title": "Outlast",
     "genres": "Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2013",
@@ -490,7 +490,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Half-Life",
+    "title": "Half-Life",
     "genres": "Shooter, Action",
     "platforms": "PC, macOS, Linux, PlayStation 2, Dreamcast",
     "released": "1998",
@@ -500,7 +500,7 @@ const videogames = [
     "metacritic": "96"
   },
   {
-    "name": "Deus Ex: Mankind Divided",
+    "title": "Deus Ex: Mankind Divided",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2016",
@@ -510,7 +510,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Far Cry 3",
+    "title": "Far Cry 3",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -520,7 +520,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "BioShock Remastered",
+    "title": "BioShock Remastered",
     "genres": "Shooter",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS",
     "released": "2016",
@@ -530,7 +530,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Half-Life 2: Deathmatch",
+    "title": "Half-Life 2: Deathmatch",
     "genres": "Action",
     "platforms": "PC, macOS, Linux",
     "released": "2004",
@@ -540,7 +540,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Marvel's Spider-Man",
+    "title": "Marvel's Spider-Man",
     "genres": "Action",
     "platforms": "PC, PlayStation 5, PlayStation 4",
     "released": "2018",
@@ -550,7 +550,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Spec Ops: The Line",
+    "title": "Spec Ops: The Line",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -560,7 +560,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Alan Wake",
+    "title": "Alan Wake",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, Xbox 360",
     "released": "2010",
@@ -570,7 +570,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Amnesia: The Dark Descent",
+    "title": "Amnesia: The Dark Descent",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2010",
@@ -580,7 +580,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Wolfenstein: The New Order",
+    "title": "Wolfenstein: The New Order",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -590,7 +590,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Saints Row: The Third",
+    "title": "Saints Row: The Third",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, Linux, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -600,7 +600,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Stardew Valley",
+    "title": "Stardew Valley",
     "genres": "Indie, RPG, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux, PS Vita",
     "released": "2016",
@@ -610,7 +610,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Path of Exile",
+    "title": "Path of Exile",
     "genres": "Indie, Massively Multiplayer, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2013",
@@ -620,7 +620,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Detroit: Become Human",
+    "title": "Detroit: Become Human",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 4",
     "released": "2018",
@@ -630,7 +630,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "PlayerUnknown’s Battlegrounds",
+    "title": "PlayerUnknown’s Battlegrounds",
     "genres": "Shooter, Massively Multiplayer, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -640,7 +640,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Borderlands",
+    "title": "Borderlands",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -650,7 +650,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Prey",
+    "title": "Prey",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -660,7 +660,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Garry's Mod",
+    "title": "Garry's Mod",
     "genres": "Adventure, Action, Casual, Simulation, Indie",
     "platforms": "PC, macOS, Linux",
     "released": "2004",
@@ -670,7 +670,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Fallout: New Vegas",
+    "title": "Fallout: New Vegas",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -680,7 +680,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Injustice: Gods Among Us Ultimate Edition",
+    "title": "Injustice: Gods Among Us Ultimate Edition",
     "genres": "Arcade, Action, Fighting",
     "platforms": "PC, PlayStation 4, Xbox 360, PlayStation 3, PS Vita",
     "released": "2013",
@@ -690,7 +690,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "L.A. Noire",
+    "title": "L.A. Noire",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -700,7 +700,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Dishonored",
+    "title": "Dishonored",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -710,7 +710,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "The Elder Scrolls V: Skyrim Special Edition",
+    "title": "The Elder Scrolls V: Skyrim Special Edition",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -720,7 +720,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Super Meat Boy",
+    "title": "Super Meat Boy",
     "genres": "Platformer, Indie",
     "platforms": "PC, PlayStation 4, Nintendo Switch, Android, macOS, Linux, Xbox 360, PS Vita, Wii U, Web",
     "released": "2010",
@@ -730,7 +730,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Dishonored 2",
+    "title": "Dishonored 2",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -740,7 +740,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Sid Meier's Civilization V",
+    "title": "Sid Meier's Civilization V",
     "genres": "Strategy",
     "platforms": "PC, macOS, Linux",
     "released": "2010",
@@ -750,7 +750,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Grand Theft Auto: Vice City",
+    "title": "Grand Theft Auto: Vice City",
     "genres": "Action",
     "platforms": "PC, iOS, Android, macOS, Xbox, PlayStation 2, PS Vita",
     "released": "2002",
@@ -760,7 +760,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "For Honor",
+    "title": "For Honor",
     "genres": "Massively Multiplayer, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -770,7 +770,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Uncharted 4: A Thief’s End",
+    "title": "Uncharted 4: A Thief’s End",
     "genres": "Shooter, Action",
     "platforms": "PlayStation 5, PlayStation 4",
     "released": "2016",
@@ -780,7 +780,7 @@ const videogames = [
     "metacritic": "93"
   },
   {
-    "name": "Hellblade: Senua's Sacrifice",
+    "title": "Hellblade: Senua's Sacrifice",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -790,7 +790,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Company of Heroes 2",
+    "title": "Company of Heroes 2",
     "genres": "Strategy",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -800,7 +800,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Assassin’s Creed IV: Black Flag",
+    "title": "Assassin’s Creed IV: Black Flag",
     "genres": "Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, Xbox 360, PlayStation 3, Wii U",
     "released": "2013",
@@ -810,7 +810,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Dead Space (2008)",
+    "title": "Dead Space (2008)",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -820,7 +820,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Hitman: Absolution",
+    "title": "Hitman: Absolution",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 4, macOS, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -830,7 +830,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Half-Life Deathmatch: Source",
+    "title": "Half-Life Deathmatch: Source",
     "genres": "Action",
     "platforms": "PC, macOS, Linux",
     "released": "2006",
@@ -840,7 +840,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Mass Effect 2",
+    "title": "Mass Effect 2",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -850,7 +850,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "Control",
+    "title": "Control",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2019",
@@ -860,7 +860,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Don't Starve Together",
+    "title": "Don't Starve Together",
     "genres": "Indie, Action, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2016",
@@ -870,7 +870,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Star Wars Jedi: Fallen Order",
+    "title": "Star Wars Jedi: Fallen Order",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4",
     "released": "2019",
@@ -880,7 +880,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Death Stranding",
+    "title": "Death Stranding",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 4",
     "released": "2019",
@@ -890,7 +890,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Counter-Strike: Source",
+    "title": "Counter-Strike: Source",
     "genres": "Shooter",
     "platforms": "PC, macOS, Linux",
     "released": "2004",
@@ -900,7 +900,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "The Last Of Us Remastered",
+    "title": "The Last Of Us Remastered",
     "genres": "Adventure, Action",
     "platforms": "PlayStation 4",
     "released": "2014",
@@ -910,7 +910,7 @@ const videogames = [
     "metacritic": "95"
   },
   {
-    "name": "Just Cause 3",
+    "title": "Just Cause 3",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -920,7 +920,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Borderlands: The Pre-Sequel",
+    "title": "Borderlands: The Pre-Sequel",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, Android, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -930,7 +930,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Metal Gear Solid V: Ground Zeroes",
+    "title": "Metal Gear Solid V: Ground Zeroes",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -940,7 +940,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Mass Effect",
+    "title": "Mass Effect",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2007",
@@ -950,7 +950,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Metro: Last Light Redux",
+    "title": "Metro: Last Light Redux",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2014",
@@ -960,7 +960,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Mortal Kombat X",
+    "title": "Mortal Kombat X",
     "genres": "Action, Fighting",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -970,7 +970,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Counter-Strike",
+    "title": "Counter-Strike",
     "genres": "Shooter, Action",
     "platforms": "PC, macOS, Linux, Xbox",
     "released": "2000",
@@ -980,7 +980,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Left 4 Dead",
+    "title": "Left 4 Dead",
     "genres": "Shooter, Action",
     "platforms": "PC, macOS, Xbox 360",
     "released": "2008",
@@ -990,7 +990,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Metro 2033 Redux",
+    "title": "Metro 2033 Redux",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2014",
@@ -1000,7 +1000,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Bloodborne",
+    "title": "Bloodborne",
     "genres": "Action, RPG",
     "platforms": "PlayStation 4",
     "released": "2015",
@@ -1010,7 +1010,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Bastion",
+    "title": "Bastion",
     "genres": "Indie, Adventure, Action, RPG",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, iOS, macOS, Linux, Xbox 360, PS Vita",
     "released": "2011",
@@ -1020,7 +1020,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Just Cause 2",
+    "title": "Just Cause 2",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -1030,7 +1030,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "BioShock 2 Remastered",
+    "title": "BioShock 2 Remastered",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS",
     "released": "2016",
@@ -1040,7 +1040,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "NieR:Automata",
+    "title": "NieR:Automata",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -1050,7 +1050,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Fall Guys: Ultimate Knockout",
+    "title": "Fall Guys: Ultimate Knockout",
     "genres": "Action, Casual, Sports, Indie, Massively Multiplayer",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2020",
@@ -1060,7 +1060,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Mad Max",
+    "title": "Mad Max",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux, Xbox 360",
     "released": "2015",
@@ -1070,7 +1070,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Journey",
+    "title": "Journey",
     "genres": "Family, Indie, Adventure",
     "platforms": "PC, PlayStation 4, iOS, PlayStation 3",
     "released": "2012",
@@ -1080,7 +1080,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Minecraft",
+    "title": "Minecraft",
     "genres": "Action, Arcade, Simulation, Indie, Massively Multiplayer",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, Nintendo 3DS, macOS, Linux, Xbox 360, PlayStation 3, PS Vita, Wii U",
     "released": "2009",
@@ -1090,7 +1090,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Monster Hunter: World",
+    "title": "Monster Hunter: World",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -1100,7 +1100,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Resident Evil 7: Biohazard",
+    "title": "Resident Evil 7: Biohazard",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -1110,7 +1110,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "XCOM: Enemy Unknown",
+    "title": "XCOM: Enemy Unknown",
     "genres": "Strategy",
     "platforms": "PC, iOS, Android, macOS, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -1120,7 +1120,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Brothers: A Tale of Two Sons",
+    "title": "Brothers: A Tale of Two Sons",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, iOS, Android, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -1130,7 +1130,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Hades",
+    "title": "Hades",
     "genres": "Indie, Adventure, Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2020",
@@ -1140,7 +1140,7 @@ const videogames = [
     "metacritic": "93"
   },
   {
-    "name": "Brutal Legend",
+    "title": "Brutal Legend",
     "genres": "Strategy, Action",
     "platforms": "PC, Xbox One, iOS, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -1150,7 +1150,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Titanfall 2",
+    "title": "Titanfall 2",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -1160,7 +1160,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Cities: Skylines",
+    "title": "Cities: Skylines",
     "genres": "Strategy, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2015",
@@ -1170,7 +1170,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Paladins",
+    "title": "Paladins",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS",
     "released": "2016",
@@ -1180,7 +1180,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Batman: Arkham City - Game of the Year Edition",
+    "title": "Batman: Arkham City - Game of the Year Edition",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -1190,7 +1190,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Middle-earth: Shadow of War",
+    "title": "Middle-earth: Shadow of War",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Android",
     "released": "2017",
@@ -1200,7 +1200,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Mafia II",
+    "title": "Mafia II",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -1210,7 +1210,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "ARK: Survival Of The Fittest",
+    "title": "ARK: Survival Of The Fittest",
     "genres": "Action, RPG, Strategy, Indie, Massively Multiplayer",
     "platforms": "PC, iOS, Android, macOS, Linux",
     "released": "2016",
@@ -1220,7 +1220,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Heavy Rain",
+    "title": "Heavy Rain",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 4, PlayStation 3",
     "released": "2010",
@@ -1230,7 +1230,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Watch Dogs",
+    "title": "Watch Dogs",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3, Wii U",
     "released": "2014",
@@ -1240,7 +1240,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "SEGA Mega Drive and Genesis Classics",
+    "title": "SEGA Mega Drive and Genesis Classics",
     "genres": "Adventure, Action, RPG, Fighting, Platformer",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2010",
@@ -1250,7 +1250,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Psychonauts",
+    "title": "Psychonauts",
     "genres": "Platformer, Action",
     "platforms": "PC, PlayStation 4, Xbox One, iOS, macOS, Linux, Xbox 360, Xbox, PlayStation 3, PlayStation 2",
     "released": "2005",
@@ -1260,7 +1260,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Batman: Arkham Asylum Game of the Year Edition",
+    "title": "Batman: Arkham Asylum Game of the Year Edition",
     "genres": "Platformer, Adventure, Action",
     "platforms": "PC, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -1270,7 +1270,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Far Cry 5",
+    "title": "Far Cry 5",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -1280,7 +1280,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "INSIDE",
+    "title": "INSIDE",
     "genres": "Adventure, Action, Puzzle, Indie, Platformer",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS",
     "released": "2016",
@@ -1290,7 +1290,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Max Payne 3",
+    "title": "Max Payne 3",
     "genres": "Shooter, Action",
     "platforms": "PC, macOS, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -1300,7 +1300,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Fallout",
+    "title": "Fallout",
     "genres": "RPG",
     "platforms": "PC, macOS, Linux, Classic Macintosh",
     "released": "1997",
@@ -1310,7 +1310,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Shadow of the Tomb Raider",
+    "title": "Shadow of the Tomb Raider",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2018",
@@ -1320,7 +1320,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Undertale",
+    "title": "Undertale",
     "genres": "Indie, RPG",
     "platforms": "PC, PlayStation 4, Xbox One, Xbox Series S/X, Nintendo Switch, macOS, Linux, PS Vita",
     "released": "2015",
@@ -1330,7 +1330,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Saints Row IV",
+    "title": "Saints Row IV",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Linux, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -1340,7 +1340,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "The Darkness II",
+    "title": "The Darkness II",
     "genres": "Action",
     "platforms": "PC, Xbox One, macOS, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -1350,7 +1350,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Alien: Isolation",
+    "title": "Alien: Isolation",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android",
     "released": "2014",
@@ -1360,7 +1360,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Assassin's Creed II",
+    "title": "Assassin's Creed II",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -1370,7 +1370,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Firewatch",
+    "title": "Firewatch",
     "genres": "Indie, Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2016",
@@ -1380,7 +1380,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Assassin's Creed Odyssey",
+    "title": "Assassin's Creed Odyssey",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -1390,7 +1390,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Unturned",
+    "title": "Unturned",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2014",
@@ -1400,7 +1400,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Warhammer: Vermintide 2",
+    "title": "Warhammer: Vermintide 2",
     "genres": "Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -1410,7 +1410,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Darksiders",
+    "title": "Darksiders",
     "genres": "Action",
     "platforms": "PC, Xbox One, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -1420,7 +1420,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Sekiro: Shadows Die Twice",
+    "title": "Sekiro: Shadows Die Twice",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -1430,7 +1430,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "ARK: Survival Evolved",
+    "title": "ARK: Survival Evolved",
     "genres": "Adventure, Action, RPG, Indie, Massively Multiplayer",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2015",
@@ -1440,7 +1440,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "Tom Clancy's Rainbow Six Siege",
+    "title": "Tom Clancy's Rainbow Six Siege",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2015",
@@ -1450,7 +1450,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Metro Exodus",
+    "title": "Metro Exodus",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -1460,7 +1460,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Transistor",
+    "title": "Transistor",
     "genres": "Indie, Action, RPG",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2014",
@@ -1470,7 +1470,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Hitman 2",
+    "title": "Hitman 2",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -1480,7 +1480,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Cuphead",
+    "title": "Cuphead",
     "genres": "Platformer, Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS",
     "released": "2017",
@@ -1490,7 +1490,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Batman: Arkham Origins",
+    "title": "Batman: Arkham Origins",
     "genres": "Action",
     "platforms": "PC, Android, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -1500,7 +1500,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "No Man's Sky",
+    "title": "No Man's Sky",
     "genres": "Adventure, Action, RPG, Simulation, Indie, Massively Multiplayer",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2016",
@@ -1510,7 +1510,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Assassin's Creed Origins",
+    "title": "Assassin's Creed Origins",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -1520,7 +1520,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Titan Quest Anniversary Edition",
+    "title": "Titan Quest Anniversary Edition",
     "genres": "Action, RPG",
     "platforms": "PC",
     "released": "2016",
@@ -1530,7 +1530,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Brawlhalla",
+    "title": "Brawlhalla",
     "genres": "Casual, Indie, Action, Fighting",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS",
     "released": "2014",
@@ -1540,7 +1540,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "War Thunder",
+    "title": "War Thunder",
     "genres": "Shooter, Massively Multiplayer, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2013",
@@ -1550,7 +1550,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Layers of Fear",
+    "title": "Layers of Fear",
     "genres": "Indie, Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2016",
@@ -1560,7 +1560,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "The Wolf Among Us",
+    "title": "The Wolf Among Us",
     "genres": "Adventure",
     "platforms": "PC, PlayStation 4, Xbox One, iOS, Android, macOS, Xbox 360, PS Vita",
     "released": "2013",
@@ -1570,7 +1570,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Battlefield 1",
+    "title": "Battlefield 1",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -1580,7 +1580,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "GRID 2",
+    "title": "GRID 2",
     "genres": "Racing, Arcade",
     "platforms": "PC, macOS, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -1590,7 +1590,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Crusader Kings II",
+    "title": "Crusader Kings II",
     "genres": "Strategy, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2012",
@@ -1600,7 +1600,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "The Stanley Parable",
+    "title": "The Stanley Parable",
     "genres": "Indie, Adventure",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -1610,7 +1610,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "DOOM Eternal",
+    "title": "DOOM Eternal",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2020",
@@ -1620,7 +1620,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Deus Ex: Human Revolution - Director's Cut",
+    "title": "Deus Ex: Human Revolution - Director's Cut",
     "genres": "Action, RPG",
     "platforms": "PC, macOS, Xbox 360, PlayStation 3, Wii U",
     "released": "2013",
@@ -1630,7 +1630,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Far Cry 4",
+    "title": "Far Cry 4",
     "genres": "Shooter",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -1640,7 +1640,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Halo Infinite",
+    "title": "Halo Infinite",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, Xbox Series S/X",
     "released": "2021",
@@ -1650,7 +1650,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Resident Evil 5",
+    "title": "Resident Evil 5",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -1660,7 +1660,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Call of Duty: Modern Warfare 2",
+    "title": "Call of Duty: Modern Warfare 2",
     "genres": "Shooter",
     "platforms": "PC, Xbox One, macOS, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -1670,7 +1670,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "XCOM 2",
+    "title": "XCOM 2",
     "genres": "Strategy, RPG",
     "platforms": "PC, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2016",
@@ -1680,7 +1680,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Insurgency",
+    "title": "Insurgency",
     "genres": "Shooter, Indie, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2014",
@@ -1690,7 +1690,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Assassin’s Creed III",
+    "title": "Assassin’s Creed III",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3, Wii U",
     "released": "2012",
@@ -1700,7 +1700,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Ori and the Blind Forest: Definitive Edition",
+    "title": "Ori and the Blind Forest: Definitive Edition",
     "genres": "Platformer, Adventure",
     "platforms": "PC, Xbox One, Nintendo Switch, Xbox 360",
     "released": "2016",
@@ -1710,7 +1710,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Saints Row 2",
+    "title": "Saints Row 2",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Linux, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -1720,7 +1720,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Disco Elysium",
+    "title": "Disco Elysium",
     "genres": "Indie, Adventure, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch, macOS",
     "released": "2019",
@@ -1730,7 +1730,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Trine 2: Complete Story",
+    "title": "Trine 2: Complete Story",
     "genres": "Platformer, Indie, Action, Puzzle",
     "platforms": "PC, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2013",
@@ -1740,7 +1740,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Viscera Cleanup Detail: Shadow Warrior",
+    "title": "Viscera Cleanup Detail: Shadow Warrior",
     "genres": "Indie, Action, Simulation",
     "platforms": "PC, macOS",
     "released": "2013",
@@ -1750,7 +1750,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Counter-Strike: Condition Zero",
+    "title": "Counter-Strike: Condition Zero",
     "genres": "Action",
     "platforms": "PC, macOS, Linux",
     "released": "2004",
@@ -1760,7 +1760,7 @@ const videogames = [
     "metacritic": "65"
   },
   {
-    "name": "Among Us",
+    "title": "Among Us",
     "genres": "Casual, Action, Simulation",
     "platforms": "PC, Xbox One, Nintendo Switch, iOS, Android",
     "released": "2018",
@@ -1770,7 +1770,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Amnesia: A Machine for Pigs",
+    "title": "Amnesia: A Machine for Pigs",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -1780,7 +1780,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "SOMA",
+    "title": "SOMA",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2015",
@@ -1790,7 +1790,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Total War: SHOGUN 2",
+    "title": "Total War: SHOGUN 2",
     "genres": "Strategy",
     "platforms": "PC, macOS, Linux",
     "released": "2011",
@@ -1800,7 +1800,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Watch Dogs 2",
+    "title": "Watch Dogs 2",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -1810,7 +1810,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Red Dead Redemption",
+    "title": "Red Dead Redemption",
     "genres": "Shooter, Action",
     "platforms": "Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -1820,7 +1820,7 @@ const videogames = [
     "metacritic": "95"
   },
   {
-    "name": "Shadowrun Returns",
+    "title": "Shadowrun Returns",
     "genres": "Strategy, Indie, RPG",
     "platforms": "PC, iOS, Android, macOS, Linux",
     "released": "2013",
@@ -1830,7 +1830,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Thief",
+    "title": "Thief",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -1840,7 +1840,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "Grand Theft Auto III",
+    "title": "Grand Theft Auto III",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 4, iOS, Android, macOS, Xbox, PlayStation 2",
     "released": "2001",
@@ -1850,7 +1850,7 @@ const videogames = [
     "metacritic": "93"
   },
   {
-    "name": "Ori and the Blind Forest",
+    "title": "Ori and the Blind Forest",
     "genres": "Platformer, Adventure",
     "platforms": "PC, Xbox One, Xbox 360",
     "released": "2015",
@@ -1860,7 +1860,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "The Last of Us Part II",
+    "title": "The Last of Us Part II",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PlayStation 5, PlayStation 4",
     "released": "2020",
@@ -1870,7 +1870,7 @@ const videogames = [
     "metacritic": "93"
   },
   {
-    "name": "Call of Duty: Black Ops III",
+    "title": "Call of Duty: Black Ops III",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2015",
@@ -1880,7 +1880,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Wolfenstein II: The New Colossus",
+    "title": "Wolfenstein II: The New Colossus",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -1890,7 +1890,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "This War of Mine",
+    "title": "This War of Mine",
     "genres": "Indie, Adventure, Simulation",
     "platforms": "PC, Nintendo Switch, iOS, Android, macOS, Linux, PS Vita",
     "released": "2014",
@@ -1900,7 +1900,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Dead Island",
+    "title": "Dead Island",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -1910,7 +1910,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Magicka",
+    "title": "Magicka",
     "genres": "Action, RPG",
     "platforms": "PC, Android",
     "released": "2011",
@@ -1920,7 +1920,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Darksiders Warmastered Edition",
+    "title": "Darksiders Warmastered Edition",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Wii U",
     "released": "2016",
@@ -1930,7 +1930,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Lara Croft and the Temple of Osiris",
+    "title": "Lara Croft and the Temple of Osiris",
     "genres": "Adventure, Action, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2014",
@@ -1940,7 +1940,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "FEZ",
+    "title": "FEZ",
     "genres": "Adventure, Action, Puzzle, Indie, Platformer",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, macOS, Linux, Xbox 360, PlayStation 3, PS Vita",
     "released": "2012",
@@ -1950,7 +1950,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Elden Ring",
+    "title": "Elden Ring",
     "genres": "Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2022",
@@ -1960,7 +1960,7 @@ const videogames = [
     "metacritic": "95"
   },
   {
-    "name": "Killing Floor",
+    "title": "Killing Floor",
     "genres": "Action",
     "platforms": "PC, macOS, Linux",
     "released": "2009",
@@ -1970,7 +1970,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "The Last Of Us",
+    "title": "The Last Of Us",
     "genres": "Adventure, Action",
     "platforms": "PlayStation 4, PlayStation 3",
     "released": "2013",
@@ -1980,7 +1980,7 @@ const videogames = [
     "metacritic": "95"
   },
   {
-    "name": "Papers, Please",
+    "title": "Papers, Please",
     "genres": "Educational, Indie, Simulation, Puzzle",
     "platforms": "PC, iOS, Android, macOS, Linux, PS Vita",
     "released": "2013",
@@ -1990,7 +1990,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Sid Meier’s Civilization VI",
+    "title": "Sid Meier’s Civilization VI",
     "genres": "Strategy, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2016",
@@ -2000,7 +2000,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Kingdom Come: Deliverance",
+    "title": "Kingdom Come: Deliverance",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -2010,7 +2010,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "Dead Cells",
+    "title": "Dead Cells",
     "genres": "Platformer, Indie, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2018",
@@ -2020,7 +2020,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Dragon Age: Origins",
+    "title": "Dragon Age: Origins",
     "genres": "RPG",
     "platforms": "PC, Xbox One, macOS, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -2030,7 +2030,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Call of Duty: Black Ops",
+    "title": "Call of Duty: Black Ops",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, iOS, Nintendo DS, macOS, Xbox 360, PlayStation 3, Wii",
     "released": "2010",
@@ -2040,7 +2040,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "South Park: The Stick of Truth",
+    "title": "South Park: The Stick of Truth",
     "genres": "Adventure, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -2050,7 +2050,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Quake Champions",
+    "title": "Quake Champions",
     "genres": "Shooter, Action",
     "platforms": "PC",
     "released": "2017",
@@ -2060,7 +2060,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Call of Juarez: Gunslinger",
+    "title": "Call of Juarez: Gunslinger",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -2070,7 +2070,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "DiRT Rally",
+    "title": "DiRT Rally",
     "genres": "Racing, Simulation, Sports",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2015",
@@ -2080,7 +2080,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Black Desert Online",
+    "title": "Black Desert Online",
     "genres": "Adventure, Action, RPG, Strategy, Simulation, Massively Multiplayer",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2014",
@@ -2090,7 +2090,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Assassin's Creed Unity",
+    "title": "Assassin's Creed Unity",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2014",
@@ -2100,7 +2100,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "Star Wars: Knights of the Old Republic",
+    "title": "Star Wars: Knights of the Old Republic",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, Nintendo Switch, iOS, Android, macOS, Xbox 360, Xbox",
     "released": "2003",
@@ -2110,7 +2110,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Subnautica",
+    "title": "Subnautica",
     "genres": "Indie, Adventure",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch, macOS",
     "released": "2018",
@@ -2120,7 +2120,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Resident Evil 4 (2005)",
+    "title": "Resident Evil 4 (2005)",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 4, iOS, Android, PlayStation 2, Wii, GameCube",
     "released": "2005",
@@ -2130,7 +2130,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Chivalry: Medieval Warfare",
+    "title": "Chivalry: Medieval Warfare",
     "genres": "Indie, Action",
     "platforms": "PC, PlayStation 4, Xbox One, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -2140,7 +2140,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Halo: The Master Chief Collection",
+    "title": "Halo: The Master Chief Collection",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One",
     "released": "2014",
@@ -2150,7 +2150,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Castle Crashers",
+    "title": "Castle Crashers",
     "genres": "Indie, Action",
     "platforms": "PC, Nintendo Switch, macOS, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -2160,7 +2160,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Divinity: Original Sin 2",
+    "title": "Divinity: Original Sin 2",
     "genres": "Strategy, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -2170,7 +2170,7 @@ const videogames = [
     "metacritic": "95"
   },
   {
-    "name": "Darkest Dungeon",
+    "title": "Darkest Dungeon",
     "genres": "Strategy, Indie, RPG",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, macOS, Linux, PS Vita",
     "released": "2016",
@@ -2180,7 +2180,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Half-Life: Blue Shift",
+    "title": "Half-Life: Blue Shift",
     "genres": "Action",
     "platforms": "PC, macOS, Linux, Dreamcast",
     "released": "2001",
@@ -2190,7 +2190,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "Rayman Legends",
+    "title": "Rayman Legends",
     "genres": "Platformer",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, PlayStation 3, PS Vita, Wii U",
     "released": "2013",
@@ -2200,7 +2200,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Don't Starve",
+    "title": "Don't Starve",
     "genres": "Indie",
     "platforms": "PC, PlayStation 4, Xbox One, macOS, Linux, PlayStation 3, PS Vita, Wii U",
     "released": "2013",
@@ -2210,7 +2210,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Half-Life: Opposing Force",
+    "title": "Half-Life: Opposing Force",
     "genres": "Action",
     "platforms": "PC, macOS, Linux",
     "released": "1999",
@@ -2220,7 +2220,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Fallout Shelter",
+    "title": "Fallout Shelter",
     "genres": "RPG, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android",
     "released": "2015",
@@ -2230,7 +2230,7 @@ const videogames = [
     "metacritic": "63"
   },
   {
-    "name": "The Binding of Isaac",
+    "title": "The Binding of Isaac",
     "genres": "Indie, Action, RPG",
     "platforms": "PC, macOS",
     "released": "2011",
@@ -2240,7 +2240,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Dead Space 2",
+    "title": "Dead Space 2",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -2250,7 +2250,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "DmC: Devil May Cry",
+    "title": "DmC: Devil May Cry",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -2260,7 +2260,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Quantum Break",
+    "title": "Quantum Break",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One",
     "released": "2016",
@@ -2270,7 +2270,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "Uncharted 3: Drake's Deception",
+    "title": "Uncharted 3: Drake's Deception",
     "genres": "Action",
     "platforms": "PlayStation 4, PlayStation 3",
     "released": "2011",
@@ -2280,7 +2280,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Batman: Arkham City",
+    "title": "Batman: Arkham City",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -2290,7 +2290,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "The Bureau: XCOM Declassified",
+    "title": "The Bureau: XCOM Declassified",
     "genres": "Shooter, Action",
     "platforms": "PC, macOS, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -2300,7 +2300,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "A Plague Tale: Innocence",
+    "title": "A Plague Tale: Innocence",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2019",
@@ -2310,7 +2310,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Fallout 3",
+    "title": "Fallout 3",
     "genres": "Shooter, RPG",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -2320,7 +2320,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Syberia",
+    "title": "Syberia",
     "genres": "Adventure, Puzzle",
     "platforms": "PC, Nintendo Switch, iOS, Android, Nintendo DS, macOS, Xbox 360, PlayStation 3",
     "released": "2002",
@@ -2330,7 +2330,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Dying Light: The Following - Enhanced Edition",
+    "title": "Dying Light: The Following - Enhanced Edition",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2015",
@@ -2340,7 +2340,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Guacamelee! Super Turbo Championship Edition",
+    "title": "Guacamelee! Super Turbo Championship Edition",
     "genres": "Platformer, Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, Wii U",
     "released": "2014",
@@ -2350,7 +2350,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Beyond: Two Souls",
+    "title": "Beyond: Two Souls",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 4, PlayStation 3",
     "released": "2013",
@@ -2360,7 +2360,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "What Remains of Edith Finch",
+    "title": "What Remains of Edith Finch",
     "genres": "Indie, Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS",
     "released": "2017",
@@ -2370,7 +2370,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Devil May Cry 5",
+    "title": "Devil May Cry 5",
     "genres": "Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4",
     "released": "2019",
@@ -2380,7 +2380,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Battlefield 4",
+    "title": "Battlefield 4",
     "genres": "Shooter",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -2390,7 +2390,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Torchlight II",
+    "title": "Torchlight II",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2012",
@@ -2400,7 +2400,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Mafia III",
+    "title": "Mafia III",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS",
     "released": "2016",
@@ -2410,7 +2410,7 @@ const videogames = [
     "metacritic": "62"
   },
   {
-    "name": "Goat Simulator",
+    "title": "Goat Simulator",
     "genres": "Casual, Indie, Action, Simulation",
     "platforms": "PC, PlayStation 4, Xbox One, iOS, Android, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -2420,7 +2420,7 @@ const videogames = [
     "metacritic": "62"
   },
   {
-    "name": "Yakuza 0",
+    "title": "Yakuza 0",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, PlayStation 3",
     "released": "2015",
@@ -2430,7 +2430,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Grim Fandango Remastered",
+    "title": "Grim Fandango Remastered",
     "genres": "Adventure, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux, PS Vita",
     "released": "2015",
@@ -2440,7 +2440,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Call of Duty: WWII",
+    "title": "Call of Duty: WWII",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -2450,7 +2450,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Homefront",
+    "title": "Homefront",
     "genres": "Shooter",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -2460,7 +2460,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "SUPERHOT",
+    "title": "SUPERHOT",
     "genres": "Shooter, Indie, Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, macOS, Linux, Web",
     "released": "2016",
@@ -2470,7 +2470,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Sleeping Dogs: Definitive Edition",
+    "title": "Sleeping Dogs: Definitive Edition",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS",
     "released": "2014",
@@ -2480,7 +2480,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "The Witness",
+    "title": "The Witness",
     "genres": "Indie, Adventure, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, iOS, Android, macOS",
     "released": "2016",
@@ -2490,7 +2490,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Sniper Elite V2",
+    "title": "Sniper Elite V2",
     "genres": "Shooter, Action",
     "platforms": "PC, Nintendo Switch, Xbox 360, PlayStation 3, Wii U",
     "released": "2012",
@@ -2500,7 +2500,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "Days Gone",
+    "title": "Days Gone",
     "genres": "Action",
     "platforms": "PC, PlayStation 4",
     "released": "2019",
@@ -2510,7 +2510,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Broforce",
+    "title": "Broforce",
     "genres": "Platformer, Indie, Action",
     "platforms": "PC, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2015",
@@ -2520,7 +2520,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Call of Duty: Modern Warfare 3",
+    "title": "Call of Duty: Modern Warfare 3",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, iOS, macOS, Xbox 360, PlayStation 3, Wii",
     "released": "2011",
@@ -2530,7 +2530,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Dragon Age: Inquisition",
+    "title": "Dragon Age: Inquisition",
     "genres": "Strategy, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -2540,7 +2540,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "FTL: Faster Than Light",
+    "title": "FTL: Faster Than Light",
     "genres": "Strategy, Indie, Simulation",
     "platforms": "PC, iOS, macOS, Linux",
     "released": "2012",
@@ -2550,7 +2550,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Hotline Miami 2: Wrong Number",
+    "title": "Hotline Miami 2: Wrong Number",
     "genres": "Indie, Shooter, Arcade, Action",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux, PlayStation 3, PS Vita",
     "released": "2015",
@@ -2560,7 +2560,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Resident Evil 6",
+    "title": "Resident Evil 6",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, Xbox 360, PlayStation 3, Web",
     "released": "2012",
@@ -2570,7 +2570,7 @@ const videogames = [
     "metacritic": "67"
   },
   {
-    "name": "The Walking Dead: Season 2",
+    "title": "The Walking Dead: Season 2",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, iOS, Android, macOS, Xbox 360, PlayStation 3, PS Vita",
     "released": "2013",
@@ -2580,7 +2580,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Deus Ex: Human Revolution",
+    "title": "Deus Ex: Human Revolution",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, macOS, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -2590,7 +2590,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Resident Evil 2 (1998)",
+    "title": "Resident Evil 2 (1998)",
     "genres": "Action",
     "platforms": "PC, PlayStation, GameCube, Nintendo 64, Dreamcast",
     "released": "1998",
@@ -2600,7 +2600,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Ratchet & Clank",
+    "title": "Ratchet & Clank",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PlayStation 4",
     "released": "2016",
@@ -2610,7 +2610,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Sleeping Dogs",
+    "title": "Sleeping Dogs",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -2620,7 +2620,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Kingdom: Classic",
+    "title": "Kingdom: Classic",
     "genres": "Strategy, Indie, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2015",
@@ -2630,7 +2630,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Ori and the Will of the Wisps",
+    "title": "Ori and the Will of the Wisps",
     "genres": "Platformer, Adventure, Action",
     "platforms": "PC, Xbox One, Xbox Series S/X, Nintendo Switch",
     "released": "2020",
@@ -2640,7 +2640,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Forza Horizon 4",
+    "title": "Forza Horizon 4",
     "genres": "Racing, Arcade",
     "platforms": "PC, Xbox One, Xbox Series S/X",
     "released": "2018",
@@ -2650,7 +2650,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "The Outer Worlds",
+    "title": "The Outer Worlds",
     "genres": "Shooter, Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2019",
@@ -2660,7 +2660,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "inFAMOUS Second Son",
+    "title": "inFAMOUS Second Son",
     "genres": "Action",
     "platforms": "PlayStation 4",
     "released": "2014",
@@ -2670,7 +2670,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Tom Clancy’s The Division",
+    "title": "Tom Clancy’s The Division",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -2680,7 +2680,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "POSTAL 2",
+    "title": "POSTAL 2",
     "genres": "Indie, Shooter, Adventure, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2003",
@@ -2690,7 +2690,7 @@ const videogames = [
     "metacritic": "59"
   },
   {
-    "name": "Surviving Mars",
+    "title": "Surviving Mars",
     "genres": "Strategy, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2018",
@@ -2700,7 +2700,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Bayonetta",
+    "title": "Bayonetta",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, Xbox 360, PlayStation 3, Wii U",
     "released": "2009",
@@ -2710,7 +2710,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "A Story About My Uncle",
+    "title": "A Story About My Uncle",
     "genres": "Adventure, Casual, Arcade, Indie, Platformer",
     "platforms": "PC, macOS, Linux",
     "released": "2014",
@@ -2720,7 +2720,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "The Legend of Zelda: Breath of the Wild",
+    "title": "The Legend of Zelda: Breath of the Wild",
     "genres": "Adventure, Action, RPG",
     "platforms": "Nintendo Switch, Wii U",
     "released": "2017",
@@ -2730,7 +2730,7 @@ const videogames = [
     "metacritic": "97"
   },
   {
-    "name": "To the Moon",
+    "title": "To the Moon",
     "genres": "Indie, Adventure, RPG",
     "platforms": "PC, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2011",
@@ -2740,7 +2740,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Alan Wake's American Nightmare",
+    "title": "Alan Wake's American Nightmare",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360",
     "released": "2012",
@@ -2750,7 +2750,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Call of Duty: Black Ops II",
+    "title": "Call of Duty: Black Ops II",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3, Wii U",
     "released": "2012",
@@ -2760,7 +2760,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "PAYDAY The Heist",
+    "title": "PAYDAY The Heist",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 3",
     "released": "2011",
@@ -2770,7 +2770,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Syberia 2",
+    "title": "Syberia 2",
     "genres": "Adventure, Puzzle",
     "platforms": "PC, Nintendo Switch, iOS, Android, macOS, Xbox 360, Xbox, PlayStation 3, PlayStation 2",
     "released": "2004",
@@ -2780,7 +2780,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Batman: Arkham Asylum",
+    "title": "Batman: Arkham Asylum",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -2790,7 +2790,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Euro Truck Simulator 2",
+    "title": "Euro Truck Simulator 2",
     "genres": "Indie, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2012",
@@ -2800,7 +2800,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Warhammer 40,000: Space Marine",
+    "title": "Warhammer 40,000: Space Marine",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -2810,7 +2810,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Dark Souls II: Scholar of the First Sin",
+    "title": "Dark Souls II: Scholar of the First Sin",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -2820,7 +2820,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Overcooked",
+    "title": "Overcooked",
     "genres": "Casual, Indie, Arcade, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2016",
@@ -2830,7 +2830,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "FINAL FANTASY XV",
+    "title": "FINAL FANTASY XV",
     "genres": "RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -2840,7 +2840,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Until Dawn (2015)",
+    "title": "Until Dawn (2015)",
     "genres": "Adventure, Action",
     "platforms": "PlayStation 4, PlayStation 3",
     "released": "2015",
@@ -2850,7 +2850,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Team Fortress Classic",
+    "title": "Team Fortress Classic",
     "genres": "Action",
     "platforms": "PC, macOS, Linux",
     "released": "1999",
@@ -2860,7 +2860,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Borderlands Game of the Year Enhanced",
+    "title": "Borderlands Game of the Year Enhanced",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2019",
@@ -2870,7 +2870,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "STAR WARS Battlefront II",
+    "title": "STAR WARS Battlefront II",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -2880,7 +2880,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "The Sims 4",
+    "title": "The Sims 4",
     "genres": "Casual, Strategy, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox Series S/X, macOS",
     "released": "2014",
@@ -2890,7 +2890,7 @@ const videogames = [
     "metacritic": "67"
   },
   {
-    "name": "Assassin's Creed Syndicate",
+    "title": "Assassin's Creed Syndicate",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -2900,7 +2900,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Age of Wonders III",
+    "title": "Age of Wonders III",
     "genres": "Strategy, RPG",
     "platforms": "PC, macOS, Linux",
     "released": "2014",
@@ -2910,7 +2910,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "SMITE",
+    "title": "SMITE",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS",
     "released": "2015",
@@ -2920,7 +2920,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Metal Gear Rising: Revengeance",
+    "title": "Metal Gear Rising: Revengeance",
     "genres": "Action",
     "platforms": "PC, Xbox One, Android, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -2930,7 +2930,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Borderlands 3",
+    "title": "Borderlands 3",
     "genres": "Shooter, Adventure, Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2019",
@@ -2940,7 +2940,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Dark Souls: Prepare To Die Edition",
+    "title": "Dark Souls: Prepare To Die Edition",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -2950,7 +2950,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Deus Ex: Game of the Year Edition",
+    "title": "Deus Ex: Game of the Year Edition",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, macOS, PlayStation 3, PlayStation 2",
     "released": "2000",
@@ -2960,7 +2960,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Celeste",
+    "title": "Celeste",
     "genres": "Platformer, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2018",
@@ -2970,7 +2970,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Black Mesa",
+    "title": "Black Mesa",
     "genres": "Shooter, Indie, Action",
     "platforms": "PC, Linux",
     "released": "2020",
@@ -2980,7 +2980,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "The Forest",
+    "title": "The Forest",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, PlayStation 4",
     "released": "2018",
@@ -2990,7 +2990,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Half-Life: Source",
+    "title": "Half-Life: Source",
     "genres": "Action",
     "platforms": "PC, macOS, Linux",
     "released": "2004",
@@ -3000,7 +3000,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Company of Heroes",
+    "title": "Company of Heroes",
     "genres": "Strategy",
     "platforms": "PC, iOS",
     "released": "2006",
@@ -3010,7 +3010,7 @@ const videogames = [
     "metacritic": "93"
   },
   {
-    "name": "Mafia: The City of Lost Heaven",
+    "title": "Mafia: The City of Lost Heaven",
     "genres": "Action",
     "platforms": "PC, Xbox, PlayStation 2",
     "released": "2002",
@@ -3020,7 +3020,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Hitman: Blood Money",
+    "title": "Hitman: Blood Money",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 4, Xbox 360, Xbox, PlayStation 3, PlayStation 2",
     "released": "2006",
@@ -3030,7 +3030,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "A Way Out",
+    "title": "A Way Out",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -3040,7 +3040,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Oddworld: Abe's Oddysee",
+    "title": "Oddworld: Abe's Oddysee",
     "genres": "Platformer, Action",
     "platforms": "PC, PlayStation 5, PlayStation 4, PlayStation",
     "released": "1997",
@@ -3050,7 +3050,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Human: Fall Flat",
+    "title": "Human: Fall Flat",
     "genres": "Indie, Action, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2016",
@@ -3060,7 +3060,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "Frostpunk",
+    "title": "Frostpunk",
     "genres": "Strategy, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -3070,7 +3070,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Dead by Daylight",
+    "title": "Dead by Daylight",
     "genres": "Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2016",
@@ -3080,7 +3080,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Ghost of Tsushima",
+    "title": "Ghost of Tsushima",
     "genres": "Adventure, Action, RPG",
     "platforms": "PlayStation 5, PlayStation 4",
     "released": "2020",
@@ -3090,7 +3090,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+    "title": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
     "genres": "Shooter, Adventure, Action, RPG",
     "platforms": "PC",
     "released": "2007",
@@ -3100,7 +3100,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "The Long Dark",
+    "title": "The Long Dark",
     "genres": "Indie, Adventure, Action, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2014",
@@ -3110,7 +3110,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Rust",
+    "title": "Rust",
     "genres": "Shooter, Action, RPG, Indie, Massively Multiplayer",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2018",
@@ -3120,7 +3120,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "Wallpaper Engine",
+    "title": "Wallpaper Engine",
     "genres": "Casual",
     "platforms": "PC, Android",
     "released": "2016",
@@ -3130,7 +3130,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "LEGO The Lord of the Rings",
+    "title": "LEGO The Lord of the Rings",
     "genres": "Casual, Platformer, Family, Action",
     "platforms": "PC, iOS, Android, Nintendo 3DS, Nintendo DS, Xbox 360, PlayStation 3, PS Vita, Wii",
     "released": "2012",
@@ -3140,7 +3140,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Titan Souls",
+    "title": "Titan Souls",
     "genres": "Indie, Action",
     "platforms": "PC, PlayStation 4, macOS, PS Vita",
     "released": "2015",
@@ -3150,7 +3150,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Max Payne",
+    "title": "Max Payne",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 4, Xbox 360, Xbox, PlayStation 3, PlayStation 2, Classic Macintosh",
     "released": "2001",
@@ -3160,7 +3160,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "The Binding of Isaac: Rebirth",
+    "title": "The Binding of Isaac: Rebirth",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Nintendo 3DS, macOS, Linux, PS Vita, Wii U",
     "released": "2014",
@@ -3170,7 +3170,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Wolfenstein: The Old Blood",
+    "title": "Wolfenstein: The Old Blood",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -3180,7 +3180,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Race Driver: Grid",
+    "title": "Race Driver: Grid",
     "genres": "Racing",
     "platforms": "PC, Xbox One, Nintendo DS, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -3190,7 +3190,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Ryse: Son of Rome",
+    "title": "Ryse: Son of Rome",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One",
     "released": "2013",
@@ -3200,7 +3200,7 @@ const videogames = [
     "metacritic": "61"
   },
   {
-    "name": "Guns of Icarus Online",
+    "title": "Guns of Icarus Online",
     "genres": "Indie, Action, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2012",
@@ -3210,7 +3210,7 @@ const videogames = [
     "metacritic": "64"
   },
   {
-    "name": "Tropico 4",
+    "title": "Tropico 4",
     "genres": "Strategy, Simulation",
     "platforms": "PC, Xbox One, macOS, Xbox 360",
     "released": "2011",
@@ -3220,7 +3220,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Darksiders II Deathinitive Edition",
+    "title": "Darksiders II Deathinitive Edition",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2015",
@@ -3230,7 +3230,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Doki Doki Literature Club!",
+    "title": "Doki Doki Literature Club!",
     "genres": "Indie, Adventure",
     "platforms": "PC, macOS, Linux",
     "released": "2017",
@@ -3240,7 +3240,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Divinity: Original Sin - Enhanced Edition",
+    "title": "Divinity: Original Sin - Enhanced Edition",
     "genres": "Indie, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2015",
@@ -3250,7 +3250,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "The Evil Within",
+    "title": "The Evil Within",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -3260,7 +3260,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Dear Esther: Landmark Edition",
+    "title": "Dear Esther: Landmark Edition",
     "genres": "Casual, Indie, Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, macOS",
     "released": "2017",
@@ -3270,7 +3270,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Star Wars: Knights of the Old Republic II – The Sith Lords",
+    "title": "Star Wars: Knights of the Old Republic II – The Sith Lords",
     "genres": "Adventure, RPG",
     "platforms": "PC, Nintendo Switch, Android, macOS, Linux, Xbox 360, Xbox",
     "released": "2004",
@@ -3280,7 +3280,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Jotun: Valhalla Edition",
+    "title": "Jotun: Valhalla Edition",
     "genres": "Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2015",
@@ -3290,7 +3290,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Hacknet",
+    "title": "Hacknet",
     "genres": "Indie, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2015",
@@ -3300,7 +3300,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Sid Meier's Civilization III Complete",
+    "title": "Sid Meier's Civilization III Complete",
     "genres": "Strategy, Simulation",
     "platforms": "PC",
     "released": "2001",
@@ -3310,7 +3310,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Braid",
+    "title": "Braid",
     "genres": "Action, Puzzle, Arcade, Indie, Platformer",
     "platforms": "PC, Xbox One, iOS, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -3320,7 +3320,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Sea of Thieves",
+    "title": "Sea of Thieves",
     "genres": "Massively Multiplayer, Adventure, Action",
     "platforms": "PC, PlayStation 5, Xbox One, Xbox Series S/X",
     "released": "2018",
@@ -3330,7 +3330,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Mortal Kombat 11",
+    "title": "Mortal Kombat 11",
     "genres": "Adventure, Action, Fighting",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2019",
@@ -3340,7 +3340,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Prison Architect",
+    "title": "Prison Architect",
     "genres": "Strategy, Indie, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2015",
@@ -3350,7 +3350,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Murdered: Soul Suspect",
+    "title": "Murdered: Soul Suspect",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -3360,7 +3360,7 @@ const videogames = [
     "metacritic": "59"
   },
   {
-    "name": "Assassin's Creed",
+    "title": "Assassin's Creed",
     "genres": "Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2007",
@@ -3370,7 +3370,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Red Orchestra 2: Heroes of Stalingrad with Rising Storm",
+    "title": "Red Orchestra 2: Heroes of Stalingrad with Rising Storm",
     "genres": "Action",
     "platforms": "PC",
     "released": "2011",
@@ -3380,7 +3380,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Darksiders II",
+    "title": "Darksiders II",
     "genres": "Action, RPG",
     "platforms": "PC, Nintendo Switch, Xbox 360, PlayStation 3, Wii U",
     "released": "2012",
@@ -3390,7 +3390,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Sanctum 2",
+    "title": "Sanctum 2",
     "genres": "Indie, Shooter, Strategy, Action",
     "platforms": "PC, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -3400,7 +3400,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Counter-Strike: Condition Zero Deleted Scenes",
+    "title": "Counter-Strike: Condition Zero Deleted Scenes",
     "genres": "Shooter",
     "platforms": "PC, macOS, Linux",
     "released": "2004",
@@ -3410,7 +3410,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Dark Souls: Remastered",
+    "title": "Dark Souls: Remastered",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -3420,7 +3420,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Serious Sam Fusion 2017 (beta)",
+    "title": "Serious Sam Fusion 2017 (beta)",
     "genres": "Indie, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2017",
@@ -3430,7 +3430,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Beholder",
+    "title": "Beholder",
     "genres": "Indie, Strategy, Adventure, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2016",
@@ -3440,7 +3440,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Resident Evil 2",
+    "title": "Resident Evil 2",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2019",
@@ -3450,7 +3450,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Resident Evil",
+    "title": "Resident Evil",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation, SEGA Saturn",
     "released": "1996",
@@ -3460,7 +3460,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Game of Thrones - A Telltale Games Series",
+    "title": "Game of Thrones - A Telltale Games Series",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 4, Xbox One, iOS, Android, macOS, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -3470,7 +3470,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "Lords of the Fallen (2014)",
+    "title": "Lords of the Fallen (2014)",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, iOS, Android",
     "released": "2014",
@@ -3480,7 +3480,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Mark of the Ninja",
+    "title": "Mark of the Ninja",
     "genres": "Platformer, Indie, Action",
     "platforms": "PC, Nintendo Switch, macOS, Linux, Xbox 360",
     "released": "2012",
@@ -3490,7 +3490,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Minion Masters",
+    "title": "Minion Masters",
     "genres": "Strategy, Indie, Action",
     "platforms": "PC, Xbox One",
     "released": "2019",
@@ -3500,7 +3500,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Trine Enchanted Edition",
+    "title": "Trine Enchanted Edition",
     "genres": "Indie, Platformer, Arcade, Action",
     "platforms": "PC, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2009",
@@ -3510,7 +3510,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Starbound",
+    "title": "Starbound",
     "genres": "Casual, Indie, Action, RPG",
     "platforms": "PC, macOS, Linux",
     "released": "2016",
@@ -3520,7 +3520,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Far Cry 3: Blood Dragon",
+    "title": "Far Cry 3: Blood Dragon",
     "genres": "Shooter",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -3530,7 +3530,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "The Playroom",
+    "title": "The Playroom",
     "genres": "Arcade",
     "platforms": "PlayStation 4",
     "released": "2013",
@@ -3540,7 +3540,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Fallout 2",
+    "title": "Fallout 2",
     "genres": "RPG",
     "platforms": "PC, macOS",
     "released": "1998",
@@ -3550,7 +3550,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Serious Sam 3: BFE",
+    "title": "Serious Sam 3: BFE",
     "genres": "Shooter, Indie, Action",
     "platforms": "PC, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -3560,7 +3560,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Neverwinter",
+    "title": "Neverwinter",
     "genres": "Massively Multiplayer, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2013",
@@ -3570,7 +3570,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Jet Set Radio",
+    "title": "Jet Set Radio",
     "genres": "Platformer, Action, Sports",
     "platforms": "PC, iOS, Android, Xbox 360, PlayStation 3, PS Vita, Game Boy Advance, Dreamcast",
     "released": "2000",
@@ -3580,7 +3580,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "F.E.A.R.",
+    "title": "F.E.A.R.",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2005",
@@ -3590,7 +3590,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Enter the Gungeon",
+    "title": "Enter the Gungeon",
     "genres": "Shooter, Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2016",
@@ -3600,7 +3600,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Endless Space - Collection",
+    "title": "Endless Space - Collection",
     "genres": "Strategy",
     "platforms": "PC, macOS",
     "released": "2012",
@@ -3610,7 +3610,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Destiny",
+    "title": "Destiny",
     "genres": "Shooter, Action",
     "platforms": "Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -3620,7 +3620,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Killing Floor 2",
+    "title": "Killing Floor 2",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -3630,7 +3630,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Resident Evil Revelations 2",
+    "title": "Resident Evil Revelations 2",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, Xbox 360, PlayStation 3, PS Vita",
     "released": "2015",
@@ -3640,7 +3640,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Assassin’s Creed Brotherhood",
+    "title": "Assassin’s Creed Brotherhood",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -3650,7 +3650,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Child of Light",
+    "title": "Child of Light",
     "genres": "Indie, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, PlayStation 3, PS Vita, Wii U",
     "released": "2014",
@@ -3660,7 +3660,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Fortnite Battle Royale",
+    "title": "Fortnite Battle Royale",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch, iOS, Android, macOS",
     "released": "2017",
@@ -3670,7 +3670,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Final Fantasy VII",
+    "title": "Final Fantasy VII",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, PlayStation 5, PlayStation 4",
     "released": "2020",
@@ -3680,7 +3680,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "The Elder Scrolls Online: Tamriel Unlimited",
+    "title": "The Elder Scrolls Online: Tamriel Unlimited",
     "genres": "Massively Multiplayer, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS",
     "released": "2015",
@@ -3690,7 +3690,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "BattleBlock Theater",
+    "title": "BattleBlock Theater",
     "genres": "Adventure, Action, Casual, Indie, Platformer",
     "platforms": "PC, Xbox One, macOS, Linux, Xbox 360",
     "released": "2013",
@@ -3700,7 +3700,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Fallout 3: Game of the Year Edition",
+    "title": "Fallout 3: Game of the Year Edition",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -3710,7 +3710,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Remember Me",
+    "title": "Remember Me",
     "genres": "Platformer, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -3720,7 +3720,7 @@ const videogames = [
     "metacritic": "65"
   },
   {
-    "name": "Broken Age",
+    "title": "Broken Age",
     "genres": "Adventure, Puzzle, Casual, Family, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux, PS Vita",
     "released": "2014",
@@ -3730,7 +3730,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Orwell: Keeping an Eye On You",
+    "title": "Orwell: Keeping an Eye On You",
     "genres": "Indie, Adventure, Simulation, Puzzle",
     "platforms": "PC, iOS, Android, macOS, Linux",
     "released": "2016",
@@ -3740,7 +3740,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "LEGO The Hobbit",
+    "title": "LEGO The Hobbit",
     "genres": "Family, Adventure, Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo 3DS, macOS, Xbox 360, PlayStation 3, PS Vita, Wii U",
     "released": "2014",
@@ -3750,7 +3750,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "Oxenfree",
+    "title": "Oxenfree",
     "genres": "Indie, Adventure, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2016",
@@ -3760,7 +3760,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "ABZU",
+    "title": "ABZU",
     "genres": "Indie, Adventure, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2016",
@@ -3770,7 +3770,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Far Cry 2",
+    "title": "Far Cry 2",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -3780,7 +3780,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Tales from the Borderlands: A Telltale Game Series",
+    "title": "Tales from the Borderlands: A Telltale Game Series",
     "genres": "Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Xbox 360, PlayStation 3",
     "released": "2015",
@@ -3790,7 +3790,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "STAR WARS Battlefront",
+    "title": "STAR WARS Battlefront",
     "genres": "Strategy, Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -3800,7 +3800,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Stray",
+    "title": "Stray",
     "genres": "Adventure, Action, Puzzle, Indie, Platformer",
     "platforms": "PC, PlayStation 5, PlayStation 4, Xbox Series S/X",
     "released": "2022",
@@ -3810,7 +3810,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Sonic Mania",
+    "title": "Sonic Mania",
     "genres": "Casual, Platformer, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -3820,7 +3820,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Monaco: What's Yours Is Mine",
+    "title": "Monaco: What's Yours Is Mine",
     "genres": "Casual, Strategy, Indie, Action",
     "platforms": "PC, macOS, Linux, Xbox 360",
     "released": "2013",
@@ -3830,7 +3830,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Battlefield 3",
+    "title": "Battlefield 3",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -3840,7 +3840,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "F.E.A.R. 3",
+    "title": "F.E.A.R. 3",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -3850,7 +3850,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Dying Light",
+    "title": "Dying Light",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2015",
@@ -3860,7 +3860,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Lara Croft and the Guardian of Light",
+    "title": "Lara Croft and the Guardian of Light",
     "genres": "Adventure, Action",
     "platforms": "PC, iOS, Android, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -3870,7 +3870,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "The Flame in the Flood",
+    "title": "The Flame in the Flood",
     "genres": "Indie, Action, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS",
     "released": "2016",
@@ -3880,7 +3880,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "F.E.A.R. 2: Project Origin",
+    "title": "F.E.A.R. 2: Project Origin",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -3890,7 +3890,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Dragon's Dogma: Dark Arisen",
+    "title": "Dragon's Dogma: Dark Arisen",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -3900,7 +3900,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Rogue Legacy",
+    "title": "Rogue Legacy",
     "genres": "Platformer, Indie, Action, RPG",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, Xbox 360, PlayStation 3, PS Vita",
     "released": "2013",
@@ -3910,7 +3910,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Mafia II: Definitive Edition",
+    "title": "Mafia II: Definitive Edition",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2020",
@@ -3920,7 +3920,7 @@ const videogames = [
     "metacritic": "65"
   },
   {
-    "name": "Resident Evil 3",
+    "title": "Resident Evil 3",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2020",
@@ -3930,7 +3930,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "PlanetSide 2",
+    "title": "PlanetSide 2",
     "genres": "Shooter, Massively Multiplayer, Action",
     "platforms": "PC, PlayStation 4",
     "released": "2012",
@@ -3940,7 +3940,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Slay the Spire",
+    "title": "Slay the Spire",
     "genres": "Card, Strategy, Indie, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2019",
@@ -3950,7 +3950,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Stellaris",
+    "title": "Stellaris",
     "genres": "Strategy, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2016",
@@ -3960,7 +3960,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "The Elder Scrolls III: Morrowind",
+    "title": "The Elder Scrolls III: Morrowind",
     "genres": "RPG",
     "platforms": "PC, Xbox 360, Xbox",
     "released": "2002",
@@ -3970,7 +3970,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Vampyr",
+    "title": "Vampyr",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -3980,7 +3980,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "Drawful 2",
+    "title": "Drawful 2",
     "genres": "Casual, Strategy, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS",
     "released": "2016",
@@ -3990,7 +3990,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Killer is Dead - Nightmare Edition",
+    "title": "Killer is Dead - Nightmare Edition",
     "genres": "Action",
     "platforms": "PC",
     "released": "2014",
@@ -4000,7 +4000,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "The Talos Principle",
+    "title": "The Talos Principle",
     "genres": "Indie, Adventure, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2014",
@@ -4010,7 +4010,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Dust: An Elysian Tail",
+    "title": "Dust: An Elysian Tail",
     "genres": "Platformer, Indie, Action, RPG",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, macOS, Linux, Xbox 360",
     "released": "2012",
@@ -4020,7 +4020,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Overlord",
+    "title": "Overlord",
     "genres": "Action, RPG",
     "platforms": "PC, macOS, Linux, Xbox 360",
     "released": "2007",
@@ -4030,7 +4030,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Gwent: The Witcher Card Game",
+    "title": "Gwent: The Witcher Card Game",
     "genres": "Card, Strategy, Board Games, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, iOS, Android",
     "released": "2018",
@@ -4040,7 +4040,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Deponia",
+    "title": "Deponia",
     "genres": "Indie, Adventure, RPG, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2012",
@@ -4050,7 +4050,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Crysis 2 - Maximum Edition",
+    "title": "Crysis 2 - Maximum Edition",
     "genres": "Action",
     "platforms": "PC",
     "released": "2011",
@@ -4060,7 +4060,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Persona 5",
+    "title": "Persona 5",
     "genres": "Adventure, Action, RPG",
     "platforms": "PlayStation 4, PlayStation 3",
     "released": "2016",
@@ -4070,7 +4070,7 @@ const videogames = [
     "metacritic": "93"
   },
   {
-    "name": "Burnout Paradise: The Ultimate Box",
+    "title": "Burnout Paradise: The Ultimate Box",
     "genres": "Racing, Arcade",
     "platforms": "PC",
     "released": "2009",
@@ -4080,7 +4080,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Valiant Hearts: The Great War",
+    "title": "Valiant Hearts: The Great War",
     "genres": "Adventure, Puzzle",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, iOS, Android, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -4090,7 +4090,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "DiRT Showdown",
+    "title": "DiRT Showdown",
     "genres": "Racing, Arcade",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -4100,7 +4100,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Spelunky",
+    "title": "Spelunky",
     "genres": "Platformer, Indie",
     "platforms": "PC, PlayStation 4, Xbox 360, PlayStation 3, PS Vita",
     "released": "2012",
@@ -4110,7 +4110,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Heroes & Generals",
+    "title": "Heroes & Generals",
     "genres": "Indie, Shooter, Massively Multiplayer, Action",
     "platforms": "PC",
     "released": "2016",
@@ -4120,7 +4120,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "It Takes Two",
+    "title": "It Takes Two",
     "genres": "Platformer, Adventure, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2021",
@@ -4130,7 +4130,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Battlefield V",
+    "title": "Battlefield V",
     "genres": "Massively Multiplayer, Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -4140,7 +4140,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Divinity: Original Sin",
+    "title": "Divinity: Original Sin",
     "genres": "Strategy, Indie, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS",
     "released": "2014",
@@ -4150,7 +4150,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Medal of Honor",
+    "title": "Medal of Honor",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -4160,7 +4160,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Star Wars: Battlefront II (2005)",
+    "title": "Star Wars: Battlefront II (2005)",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox, PlayStation 2, PSP",
     "released": "2005",
@@ -4170,7 +4170,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Assassin's Creed Revelations",
+    "title": "Assassin's Creed Revelations",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -4180,7 +4180,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Deep Rock Galactic",
+    "title": "Deep Rock Galactic",
     "genres": "Indie, Action",
     "platforms": "PC, PlayStation 5, PlayStation 4",
     "released": "2020",
@@ -4190,7 +4190,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Gris",
+    "title": "Gris",
     "genres": "Indie, Platformer, Adventure, Puzzle",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch, iOS, Android, macOS",
     "released": "2018",
@@ -4200,7 +4200,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Shadow of the Colossus (2011)",
+    "title": "Shadow of the Colossus (2011)",
     "genres": "Action",
     "platforms": "PlayStation 3",
     "released": "2011",
@@ -4210,7 +4210,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Crash Bandicoot N. Sane Trilogy",
+    "title": "Crash Bandicoot N. Sane Trilogy",
     "genres": "Platformer, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -4220,7 +4220,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "The Swapper",
+    "title": "The Swapper",
     "genres": "Adventure, Action, Puzzle, Indie, Platformer",
     "platforms": "PC, PlayStation 4, Xbox One, macOS, Linux, PlayStation 3, PS Vita, Wii U",
     "released": "2013",
@@ -4230,7 +4230,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "VRChat",
+    "title": "VRChat",
     "genres": "Adventure, Casual, Simulation, Sports, Massively Multiplayer",
     "platforms": "PC",
     "released": "2017",
@@ -4240,7 +4240,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Uncharted: Legacy of Thieves Collection",
+    "title": "Uncharted: Legacy of Thieves Collection",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 5",
     "released": "2022",
@@ -4250,7 +4250,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Tomb Raider: Underworld",
+    "title": "Tomb Raider: Underworld",
     "genres": "Adventure, Action",
     "platforms": "PC, Nintendo DS, macOS, Xbox 360, PlayStation 3, Wii",
     "released": "2008",
@@ -4260,7 +4260,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Red Faction: Guerrilla",
+    "title": "Red Faction: Guerrilla",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -4270,7 +4270,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Max Payne 2: The Fall of Max Payne",
+    "title": "Max Payne 2: The Fall of Max Payne",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox, PlayStation 2",
     "released": "2003",
@@ -4280,7 +4280,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Pillars of Eternity",
+    "title": "Pillars of Eternity",
     "genres": "RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2015",
@@ -4290,7 +4290,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Gothic Playable Teaser",
+    "title": "Gothic Playable Teaser",
     "genres": "RPG",
     "platforms": "PC",
     "released": "2019",
@@ -4300,7 +4300,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Mass Effect 3",
+    "title": "Mass Effect 3",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3, Wii U",
     "released": "2012",
@@ -4310,7 +4310,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Machinarium",
+    "title": "Machinarium",
     "genres": "Family, Indie, Adventure, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux, PlayStation 3, PS Vita",
     "released": "2009",
@@ -4320,7 +4320,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Call of Duty: Modern Warfare Remastered",
+    "title": "Call of Duty: Modern Warfare Remastered",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -4330,7 +4330,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Resident Evil: Village",
+    "title": "Resident Evil: Village",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch, iOS",
     "released": "2021",
@@ -4340,7 +4340,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Binary Domain",
+    "title": "Binary Domain",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -4350,7 +4350,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Crysis",
+    "title": "Crysis",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2007",
@@ -4360,7 +4360,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Mafia: Definitive Edition",
+    "title": "Mafia: Definitive Edition",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2020",
@@ -4370,7 +4370,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Day of Defeat: Source",
+    "title": "Day of Defeat: Source",
     "genres": "Action",
     "platforms": "PC, macOS, Linux",
     "released": "2005",
@@ -4380,7 +4380,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Sniper Elite 4",
+    "title": "Sniper Elite 4",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -4390,7 +4390,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Forza Horizon 5",
+    "title": "Forza Horizon 5",
     "genres": "Racing, Arcade",
     "platforms": "PC, Xbox One, Xbox Series S/X, iOS",
     "released": "2021",
@@ -4400,7 +4400,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Rage",
+    "title": "Rage",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -4410,7 +4410,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Vampire Survivors",
+    "title": "Vampire Survivors",
     "genres": "Casual, Indie, Action, RPG",
     "platforms": "PC, Xbox One, Nintendo Switch, iOS, Android, Web",
     "released": "2022",
@@ -4420,7 +4420,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Yakuza Kiwami",
+    "title": "Yakuza Kiwami",
     "genres": "Adventure, Action, RPG, Fighting",
     "platforms": "PC, Xbox One, PlayStation 4, PlayStation 3",
     "released": "2016",
@@ -4430,7 +4430,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Sins of a Solar Empire: Rebellion",
+    "title": "Sins of a Solar Empire: Rebellion",
     "genres": "Strategy, Indie",
     "platforms": "PC",
     "released": "2012",
@@ -4440,7 +4440,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "The LEGO NINJAGO Movie Video Game",
+    "title": "The LEGO NINJAGO Movie Video Game",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -4450,7 +4450,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "Gears 5",
+    "title": "Gears 5",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox Series S/X",
     "released": "2019",
@@ -4460,7 +4460,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "World of Goo",
+    "title": "World of Goo",
     "genres": "Educational, Puzzle, Strategy, Indie, Family",
     "platforms": "PC, Nintendo Switch, iOS, Android, macOS, Linux, Wii",
     "released": "2008",
@@ -4470,7 +4470,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Call of Duty: World at War",
+    "title": "Call of Duty: World at War",
     "genres": "Shooter",
     "platforms": "PC, Xbox One, Nintendo DS, Xbox 360, PlayStation 3, Wii",
     "released": "2008",
@@ -4480,7 +4480,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Outer Wilds",
+    "title": "Outer Wilds",
     "genres": "Indie, Adventure, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2019",
@@ -4490,7 +4490,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Tabletop Simulator",
+    "title": "Tabletop Simulator",
     "genres": "RPG, Casual, Strategy, Simulation, Indie",
     "platforms": "PC, macOS, Linux",
     "released": "2015",
@@ -4500,7 +4500,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Hitman 2: Silent Assassin",
+    "title": "Hitman 2: Silent Assassin",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, Xbox, PlayStation 3, PlayStation 2, GameCube",
     "released": "2002",
@@ -4510,7 +4510,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "The Elder Scrolls IV: Oblivion Game of the Year Edition",
+    "title": "The Elder Scrolls IV: Oblivion Game of the Year Edition",
     "genres": "RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -4520,7 +4520,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "Life is Strange 2",
+    "title": "Life is Strange 2",
     "genres": "Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2018",
@@ -4530,7 +4530,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Magicka 2",
+    "title": "Magicka 2",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, PlayStation 4, macOS, Linux",
     "released": "2015",
@@ -4540,7 +4540,7 @@ const videogames = [
     "metacritic": "69"
   },
   {
-    "name": "Injustice 2",
+    "title": "Injustice 2",
     "genres": "Fighting",
     "platforms": "PC, Xbox One, PlayStation 4, iOS, Android",
     "released": "2017",
@@ -4550,7 +4550,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "S.T.A.L.K.E.R.: Call of Pripyat",
+    "title": "S.T.A.L.K.E.R.: Call of Pripyat",
     "genres": "Shooter, RPG",
     "platforms": "PC",
     "released": "2009",
@@ -4560,7 +4560,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "The Awesome Adventures of Captain Spirit",
+    "title": "The Awesome Adventures of Captain Spirit",
     "genres": "Adventure",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -4570,7 +4570,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Valheim",
+    "title": "Valheim",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, Linux",
     "released": "2021",
@@ -4580,7 +4580,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Shadow Tactics: Blades of the Shogun",
+    "title": "Shadow Tactics: Blades of the Shogun",
     "genres": "Strategy, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2016",
@@ -4590,7 +4590,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Deponia: The Complete Journey",
+    "title": "Deponia: The Complete Journey",
     "genres": "Adventure, RPG",
     "platforms": "PC, iOS, macOS, Linux",
     "released": "2014",
@@ -4600,7 +4600,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "S.T.A.L.K.E.R.: Clear Sky",
+    "title": "S.T.A.L.K.E.R.: Clear Sky",
     "genres": "Shooter, RPG",
     "platforms": "PC",
     "released": "2008",
@@ -4610,7 +4610,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Torchlight",
+    "title": "Torchlight",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, macOS, Linux, Xbox 360",
     "released": "2009",
@@ -4620,7 +4620,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Gone Home",
+    "title": "Gone Home",
     "genres": "Indie, Adventure",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2013",
@@ -4630,7 +4630,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Satellite Reign",
+    "title": "Satellite Reign",
     "genres": "Strategy, Indie, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2015",
@@ -4640,7 +4640,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Life is Strange: Before The Storm",
+    "title": "Life is Strange: Before The Storm",
     "genres": "Adventure",
     "platforms": "PC, PlayStation 4, Xbox One, iOS, Android, macOS, Linux",
     "released": "2017",
@@ -4650,7 +4650,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Day of Defeat",
+    "title": "Day of Defeat",
     "genres": "Action",
     "platforms": "PC, macOS, Linux",
     "released": "2003",
@@ -4660,7 +4660,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Sunset Overdrive",
+    "title": "Sunset Overdrive",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One",
     "released": "2014",
@@ -4670,7 +4670,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Metro: Last Light",
+    "title": "Metro: Last Light",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -4680,7 +4680,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Red Faction: Armageddon",
+    "title": "Red Faction: Armageddon",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -4690,7 +4690,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Shadow Warrior",
+    "title": "Shadow Warrior",
     "genres": "Shooter, Action",
     "platforms": "PC, macOS, Linux",
     "released": "1997",
@@ -4700,7 +4700,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Street Fighter V",
+    "title": "Street Fighter V",
     "genres": "Action, Fighting",
     "platforms": "PC, PlayStation 4",
     "released": "2016",
@@ -4710,7 +4710,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Alien Swarm",
+    "title": "Alien Swarm",
     "genres": "Shooter, Action",
     "platforms": "PC",
     "released": "2010",
@@ -4720,7 +4720,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Bully: Scholarship Edition",
+    "title": "Bully: Scholarship Edition",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox 360, Wii",
     "released": "2008",
@@ -4730,7 +4730,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Ricochet",
+    "title": "Ricochet",
     "genres": "Indie, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2000",
@@ -4740,7 +4740,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Never Alone",
+    "title": "Never Alone",
     "genres": "Casual, Indie, Adventure",
     "platforms": "PC, PlayStation 4, Xbox One, macOS, Linux, PlayStation 3, Wii U",
     "released": "2014",
@@ -4750,7 +4750,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "System Shock 2",
+    "title": "System Shock 2",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, macOS, Linux",
     "released": "1999",
@@ -4760,7 +4760,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Deathloop",
+    "title": "Deathloop",
     "genres": "Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox Series S/X",
     "released": "2021",
@@ -4770,7 +4770,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Marvel's Guardians of the Galaxy",
+    "title": "Marvel's Guardians of the Galaxy",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2021",
@@ -4780,7 +4780,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Deathmatch Classic",
+    "title": "Deathmatch Classic",
     "genres": "Action",
     "platforms": "PC, macOS, Linux",
     "released": "2001",
@@ -4790,7 +4790,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Shadowrun: Dragonfall - Director's Cut",
+    "title": "Shadowrun: Dragonfall - Director's Cut",
     "genres": "Indie, Strategy, Adventure, RPG",
     "platforms": "PC, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2014",
@@ -4800,7 +4800,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Resident Evil Revelations",
+    "title": "Resident Evil Revelations",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Nintendo 3DS, Xbox 360, PlayStation 3, Wii U",
     "released": "2012",
@@ -4810,7 +4810,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Outlast 2",
+    "title": "Outlast 2",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -4820,7 +4820,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Awesomenauts",
+    "title": "Awesomenauts",
     "genres": "Platformer, Strategy, Indie, Action",
     "platforms": "PC, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -4830,7 +4830,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Call of Duty 4: Modern Warfare",
+    "title": "Call of Duty 4: Modern Warfare",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo DS, macOS, Xbox 360, PlayStation 3, Wii",
     "released": "2007",
@@ -4840,7 +4840,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Orcs Must Die! 2",
+    "title": "Orcs Must Die! 2",
     "genres": "Strategy, Indie, Action",
     "platforms": "PC",
     "released": "2012",
@@ -4850,7 +4850,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Star Wars Jedi Knight: Jedi Academy",
+    "title": "Star Wars Jedi Knight: Jedi Academy",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Xbox 360, Xbox",
     "released": "2003",
@@ -4860,7 +4860,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Robocraft",
+    "title": "Robocraft",
     "genres": "Action, RPG, Simulation, Indie, Massively Multiplayer",
     "platforms": "PC, macOS, Linux",
     "released": "2014",
@@ -4870,7 +4870,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Sonic Generations",
+    "title": "Sonic Generations",
     "genres": "Family, Platformer, Arcade, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo 3DS, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -4880,7 +4880,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "ARMA: Cold War Assault",
+    "title": "ARMA: Cold War Assault",
     "genres": "Strategy, Action, Simulation",
     "platforms": "PC",
     "released": "2001",
@@ -4890,7 +4890,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "God of War III Remastered",
+    "title": "God of War III Remastered",
     "genres": "Adventure, Action",
     "platforms": "PlayStation 4",
     "released": "2015",
@@ -4900,7 +4900,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Deadlight",
+    "title": "Deadlight",
     "genres": "Platformer, Indie, Action",
     "platforms": "PC, Xbox 360",
     "released": "2012",
@@ -4910,7 +4910,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Assassin's Creed Valhalla",
+    "title": "Assassin's Creed Valhalla",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2020",
@@ -4920,7 +4920,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "The Evil Within 2",
+    "title": "The Evil Within 2",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -4930,7 +4930,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Final Fantasy VII (1997)",
+    "title": "Final Fantasy VII (1997)",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, PlayStation",
     "released": "1997",
@@ -4940,7 +4940,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Uncharted: The Lost Legacy",
+    "title": "Uncharted: The Lost Legacy",
     "genres": "Adventure, Action",
     "platforms": "PlayStation 5, PlayStation 4",
     "released": "2017",
@@ -4950,7 +4950,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Trove",
+    "title": "Trove",
     "genres": "Casual, Massively Multiplayer, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS",
     "released": "2015",
@@ -4960,7 +4960,7 @@ const videogames = [
     "metacritic": "65"
   },
   {
-    "name": "Battlefield: Bad Company 2",
+    "title": "Battlefield: Bad Company 2",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -4970,7 +4970,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Tomb Raider: Legend",
+    "title": "Tomb Raider: Legend",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox 360, Xbox, PlayStation 3, PlayStation 2, PSP, GameCube",
     "released": "2006",
@@ -4980,7 +4980,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Kholat",
+    "title": "Kholat",
     "genres": "Indie, Adventure, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2015",
@@ -4990,7 +4990,7 @@ const videogames = [
     "metacritic": "64"
   },
   {
-    "name": "Outland",
+    "title": "Outland",
     "genres": "Indie, Platformer, Adventure, Action",
     "platforms": "PC, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -5000,7 +5000,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Spyro Reignited Trilogy",
+    "title": "Spyro Reignited Trilogy",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -5010,7 +5010,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "HELL YEAH! Wrath of the Dead Rabbit",
+    "title": "HELL YEAH! Wrath of the Dead Rabbit",
     "genres": "Platformer, Arcade, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -5020,7 +5020,7 @@ const videogames = [
     "metacritic": "64"
   },
   {
-    "name": "Battlerite",
+    "title": "Battlerite",
     "genres": "Action",
     "platforms": "PC",
     "released": "2016",
@@ -5030,7 +5030,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Katana ZERO",
+    "title": "Katana ZERO",
     "genres": "Platformer, Indie, Action",
     "platforms": "PC, Xbox One, Nintendo Switch, macOS",
     "released": "2019",
@@ -5040,7 +5040,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Clicker Heroes",
+    "title": "Clicker Heroes",
     "genres": "Adventure, RPG, Casual, Strategy, Simulation, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, iOS, Android, macOS",
     "released": "2015",
@@ -5050,7 +5050,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Deus Ex 2: Invisible War",
+    "title": "Deus Ex 2: Invisible War",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox",
     "released": "2003",
@@ -5060,7 +5060,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Galactic Civilizations II: Ultimate Edition",
+    "title": "Galactic Civilizations II: Ultimate Edition",
     "genres": "Strategy",
     "platforms": "PC",
     "released": "2011",
@@ -5070,7 +5070,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Stories: The Path of Destinies",
+    "title": "Stories: The Path of Destinies",
     "genres": "Platformer, Indie, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -5080,7 +5080,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Renegade Ops",
+    "title": "Renegade Ops",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -5090,7 +5090,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Mass Effect: Andromeda",
+    "title": "Mass Effect: Andromeda",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -5100,7 +5100,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Overcooked! 2",
+    "title": "Overcooked! 2",
     "genres": "Casual, Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2018",
@@ -5110,7 +5110,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Tomb Raider: Anniversary",
+    "title": "Tomb Raider: Anniversary",
     "genres": "Adventure, Action",
     "platforms": "PC, iOS, macOS, Xbox 360, PlayStation 2, PSP, Wii",
     "released": "2007",
@@ -5120,7 +5120,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Steep",
+    "title": "Steep",
     "genres": "Action, Simulation, Sports",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -5130,7 +5130,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Dota Underlords",
+    "title": "Dota Underlords",
     "genres": "Casual, Strategy, Board Games",
     "platforms": "PC, iOS, Android, macOS, Linux",
     "released": "2020",
@@ -5140,7 +5140,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Ghostrunner",
+    "title": "Ghostrunner",
     "genres": "Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2020",
@@ -5150,7 +5150,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Everlasting Summer",
+    "title": "Everlasting Summer",
     "genres": "Indie",
     "platforms": "PC, iOS, Android, macOS, Linux",
     "released": "2013",
@@ -5160,7 +5160,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "VVVVVV",
+    "title": "VVVVVV",
     "genres": "Adventure, Action, Puzzle, Casual, Arcade, Indie, Platformer",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, Android, Nintendo 3DS, macOS, Linux, PS Vita",
     "released": "2010",
@@ -5170,7 +5170,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Mortal Kombat Komplete Edition",
+    "title": "Mortal Kombat Komplete Edition",
     "genres": "Arcade, Fighting",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -5180,7 +5180,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "TEKKEN 7",
+    "title": "TEKKEN 7",
     "genres": "Action, Fighting, Sports",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -5190,7 +5190,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Uncharted 2: Among Thieves",
+    "title": "Uncharted 2: Among Thieves",
     "genres": "Shooter, Action",
     "platforms": "PlayStation 4, PlayStation 3",
     "released": "2009",
@@ -5200,7 +5200,7 @@ const videogames = [
     "metacritic": "96"
   },
   {
-    "name": "Shadow Warrior 2",
+    "title": "Shadow Warrior 2",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -5210,7 +5210,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Evolve Stage 2",
+    "title": "Evolve Stage 2",
     "genres": "Action",
     "platforms": "PC",
     "released": "2015",
@@ -5220,7 +5220,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Just Cause",
+    "title": "Just Cause",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, Xbox, PlayStation 2",
     "released": "2006",
@@ -5230,7 +5230,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Styx: Master of Shadows",
+    "title": "Styx: Master of Shadows",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2014",
@@ -5240,7 +5240,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "Totally Accurate Battlegrounds",
+    "title": "Totally Accurate Battlegrounds",
     "genres": "Shooter, Indie, Action",
     "platforms": "PC",
     "released": "2018",
@@ -5250,7 +5250,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Saints Row: Gat Out of Hell",
+    "title": "Saints Row: Gat Out of Hell",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Linux, Xbox 360, PlayStation 3",
     "released": "2015",
@@ -5260,7 +5260,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "Surgeon Simulator",
+    "title": "Surgeon Simulator",
     "genres": "Educational, Indie, Action, Simulation",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2013",
@@ -5270,7 +5270,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "FINAL FANTASY XIII",
+    "title": "FINAL FANTASY XIII",
     "genres": "RPG",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -5280,7 +5280,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Mount & Blade: Warband",
+    "title": "Mount & Blade: Warband",
     "genres": "Strategy, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Android, macOS, Linux",
     "released": "2010",
@@ -5290,7 +5290,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Marvel's Spider-Man: Miles Morales",
+    "title": "Marvel's Spider-Man: Miles Morales",
     "genres": "Action",
     "platforms": "PC, PlayStation 5, PlayStation 4",
     "released": "2020",
@@ -5300,7 +5300,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Tell Me Why",
+    "title": "Tell Me Why",
     "genres": "Adventure",
     "platforms": "PC, Xbox One",
     "released": "2020",
@@ -5310,7 +5310,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Furi",
+    "title": "Furi",
     "genres": "Arcade, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2016",
@@ -5320,7 +5320,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "F1 2015",
+    "title": "F1 2015",
     "genres": "Racing, Sports",
     "platforms": "PC, Xbox One, PlayStation 4, Linux",
     "released": "2015",
@@ -5330,7 +5330,7 @@ const videogames = [
     "metacritic": "61"
   },
   {
-    "name": "LEGO Marvel Super Heroes",
+    "title": "LEGO Marvel Super Heroes",
     "genres": "Family, Adventure, Action",
     "platforms": "PC, PlayStation 4, Xbox One, iOS, Android, Nintendo 3DS, Nintendo DS, macOS, Xbox 360, PlayStation 3, PS Vita, Wii U",
     "released": "2013",
@@ -5340,7 +5340,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Warhammer: End Times - Vermintide",
+    "title": "Warhammer: End Times - Vermintide",
     "genres": "Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -5350,7 +5350,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Titan Quest",
+    "title": "Titan Quest",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android",
     "released": "2006",
@@ -5360,7 +5360,7 @@ const videogames = [
     "metacritic": "69"
   },
   {
-    "name": "Fable Anniversary",
+    "title": "Fable Anniversary",
     "genres": "RPG",
     "platforms": "PC, Xbox 360",
     "released": "2014",
@@ -5370,7 +5370,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Serious Sam: The First Encounter",
+    "title": "Serious Sam: The First Encounter",
     "genres": "Shooter, Indie, Action",
     "platforms": "PC",
     "released": "2001",
@@ -5380,7 +5380,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Enclave",
+    "title": "Enclave",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, macOS, Linux",
     "released": "2002",
@@ -5390,7 +5390,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "Grand Theft Auto: Episodes from Liberty City",
+    "title": "Grand Theft Auto: Episodes from Liberty City",
     "genres": "Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -5400,7 +5400,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Sniper Elite 3",
+    "title": "Sniper Elite 3",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -5410,7 +5410,7 @@ const videogames = [
     "metacritic": "67"
   },
   {
-    "name": "Viking: Battle for Asgard",
+    "title": "Viking: Battle for Asgard",
     "genres": "Adventure, Action, RPG, Fighting",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -5420,7 +5420,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "Prince of Persia (2008)",
+    "title": "Prince of Persia (2008)",
     "genres": "Adventure, Action",
     "platforms": "PC, macOS, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -5430,7 +5430,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Strider",
+    "title": "Strider",
     "genres": "Arcade, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -5440,7 +5440,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Uncharted: Drake's Fortune",
+    "title": "Uncharted: Drake's Fortune",
     "genres": "Shooter, Action",
     "platforms": "PlayStation 4, PlayStation 3",
     "released": "2007",
@@ -5450,7 +5450,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Serious Sam HD:  The First Encounter",
+    "title": "Serious Sam HD:  The First Encounter",
     "genres": "Shooter, Indie, Action",
     "platforms": "PC, Xbox 360",
     "released": "2009",
@@ -5460,7 +5460,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Mirror's Edge Catalyst",
+    "title": "Mirror's Edge Catalyst",
     "genres": "Platformer, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -5470,7 +5470,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Kerbal Space Program",
+    "title": "Kerbal Space Program",
     "genres": "Indie, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2015",
@@ -5480,7 +5480,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "SteamWorld Dig",
+    "title": "SteamWorld Dig",
     "genres": "Adventure, Action, Puzzle, Indie, Platformer",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Nintendo 3DS, macOS, Linux, PS Vita, Wii U",
     "released": "2013",
@@ -5490,7 +5490,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Genshin Impact",
+    "title": "Genshin Impact",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, PlayStation 5, PlayStation 4, Nintendo Switch, iOS, Android",
     "released": "2020",
@@ -5500,7 +5500,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "7 Days to Die",
+    "title": "7 Days to Die",
     "genres": "Shooter, Indie, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2013",
@@ -5510,7 +5510,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "H1Z1: King of the Kill",
+    "title": "H1Z1: King of the Kill",
     "genres": "Massively Multiplayer, Adventure, Action",
     "platforms": "PC",
     "released": "2016",
@@ -5520,7 +5520,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Prototype",
+    "title": "Prototype",
     "genres": "Casual, Strategy, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -5530,7 +5530,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Call of Duty: Modern Warfare (2019)",
+    "title": "Call of Duty: Modern Warfare (2019)",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -5540,7 +5540,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "The Order: 1886",
+    "title": "The Order: 1886",
     "genres": "Adventure, Action",
     "platforms": "PlayStation 4",
     "released": "2015",
@@ -5550,7 +5550,7 @@ const videogames = [
     "metacritic": "63"
   },
   {
-    "name": "Blasphemous",
+    "title": "Blasphemous",
     "genres": "Indie, Platformer, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2019",
@@ -5560,7 +5560,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Hitman: Codename 47",
+    "title": "Hitman: Codetitle 47",
     "genres": "Shooter, Action",
     "platforms": "PC",
     "released": "2000",
@@ -5570,7 +5570,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "The Banner Saga",
+    "title": "The Banner Saga",
     "genres": "Strategy, Indie, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2014",
@@ -5580,7 +5580,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Warhammer 40,000: Dawn of War - Game of the Year Edition",
+    "title": "Warhammer 40,000: Dawn of War - Game of the Year Edition",
     "genres": "Strategy",
     "platforms": "PC",
     "released": "2007",
@@ -5590,7 +5590,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Unravel",
+    "title": "Unravel",
     "genres": "Adventure, Action, Puzzle, Arcade, Platformer",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360",
     "released": "2016",
@@ -5600,7 +5600,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Thomas Was Alone",
+    "title": "Thomas Was Alone",
     "genres": "Family, Indie, Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux, PlayStation 3, PS Vita, Wii U",
     "released": "2012",
@@ -5610,7 +5610,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "The Vanishing of Ethan Carter",
+    "title": "The Vanishing of Ethan Carter",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2014",
@@ -5620,7 +5620,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Risk of Rain 2",
+    "title": "Risk of Rain 2",
     "genres": "Shooter, Arcade, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2020",
@@ -5630,7 +5630,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Crypt of the NecroDancer",
+    "title": "Crypt of the NecroDancer",
     "genres": "Indie, Action, RPG",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, iOS, macOS, Linux, PS Vita",
     "released": "2015",
@@ -5640,7 +5640,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "World of Tanks",
+    "title": "World of Tanks",
     "genres": "Shooter, Massively Multiplayer, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360",
     "released": "2010",
@@ -5650,7 +5650,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Darksiders III",
+    "title": "Darksiders III",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -5660,7 +5660,7 @@ const videogames = [
     "metacritic": "65"
   },
   {
-    "name": "Fallout 76",
+    "title": "Fallout 76",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -5670,7 +5670,7 @@ const videogames = [
     "metacritic": "51"
   },
   {
-    "name": "Grim Dawn",
+    "title": "Grim Dawn",
     "genres": "Indie, Action, RPG",
     "platforms": "PC, Xbox One, Xbox Series S/X",
     "released": "2016",
@@ -5680,7 +5680,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Dead Rising 2",
+    "title": "Dead Rising 2",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -5690,7 +5690,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Tropico 5",
+    "title": "Tropico 5",
     "genres": "Strategy, RPG, Simulation",
     "platforms": "PC, PlayStation 4, macOS, Linux, Xbox 360",
     "released": "2014",
@@ -5700,7 +5700,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Plants vs. Zombies GOTY Edition",
+    "title": "Plants vs. Zombies GOTY Edition",
     "genres": "Strategy",
     "platforms": "PC, PlayStation 4, iOS, Android, Nintendo DS, Nintendo DSi, macOS, Xbox 360, PlayStation 3, PS Vita",
     "released": "2010",
@@ -5710,7 +5710,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "RiME",
+    "title": "RiME",
     "genres": "Adventure, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -5720,7 +5720,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Alpha Protocol",
+    "title": "Alpha Protocol",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -5730,7 +5730,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Overlord II",
+    "title": "Overlord II",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -5740,7 +5740,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Super Mario Odyssey",
+    "title": "Super Mario Odyssey",
     "genres": "Platformer, Arcade",
     "platforms": "Nintendo Switch",
     "released": "2017",
@@ -5750,7 +5750,7 @@ const videogames = [
     "metacritic": "97"
   },
   {
-    "name": "Dishonored: Death of the Outsider",
+    "title": "Dishonored: Death of the Outsider",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -5760,7 +5760,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Superhot: Mind Control Delete",
+    "title": "Superhot: Mind Control Delete",
     "genres": "Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2020",
@@ -5770,7 +5770,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Age of Empires II HD",
+    "title": "Age of Empires II HD",
     "genres": "Strategy",
     "platforms": "PC",
     "released": "2013",
@@ -5780,7 +5780,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "The Surge",
+    "title": "The Surge",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -5790,7 +5790,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Elite Dangerous",
+    "title": "Elite Dangerous",
     "genres": "Adventure, Action, RPG, Simulation, Massively Multiplayer",
     "platforms": "PC, Xbox One, PlayStation 4, macOS",
     "released": "2015",
@@ -5800,7 +5800,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Need for Speed",
+    "title": "Need for Speed",
     "genres": "Racing, Arcade",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -5810,7 +5810,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "Shadow Warrior (2013)",
+    "title": "Shadow Warrior (2013)",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, iOS, macOS, Linux",
     "released": "2013",
@@ -5820,7 +5820,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Nioh",
+    "title": "Nioh",
     "genres": "Action, RPG",
     "platforms": "PC, PlayStation 4",
     "released": "2017",
@@ -5830,7 +5830,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Tom Clancy's Ghost Recon Wildlands",
+    "title": "Tom Clancy's Ghost Recon Wildlands",
     "genres": "Shooter, Massively Multiplayer, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -5840,7 +5840,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Need for Speed Payback",
+    "title": "Need for Speed Payback",
     "genres": "Racing, Arcade",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -5850,7 +5850,7 @@ const videogames = [
     "metacritic": "61"
   },
   {
-    "name": "Dungeons 2",
+    "title": "Dungeons 2",
     "genres": "Strategy, RPG, Simulation",
     "platforms": "PC, PlayStation 4, iOS, macOS, Linux",
     "released": "2015",
@@ -5860,7 +5860,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "SpeedRunners",
+    "title": "SpeedRunners",
     "genres": "Racing, Action, Casual, Sports, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2016",
@@ -5870,7 +5870,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "The Expendabros",
+    "title": "The Expendabros",
     "genres": "Platformer, Indie, Action",
     "platforms": "PC, macOS",
     "released": "2014",
@@ -5880,7 +5880,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "LittleBigPlanet 3",
+    "title": "LittleBigPlanet 3",
     "genres": "Platformer, Adventure, Puzzle",
     "platforms": "PlayStation 4, PlayStation 3",
     "released": "2014",
@@ -5890,7 +5890,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Hellblade: Senua's Sacrifice VR Edition",
+    "title": "Hellblade: Senua's Sacrifice VR Edition",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC",
     "released": "2018",
@@ -5900,7 +5900,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Far Cry Primal",
+    "title": "Far Cry Primal",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -5910,7 +5910,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Star Wars Jedi Knight II: Jedi Outcast",
+    "title": "Star Wars Jedi Knight II: Jedi Outcast",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, PlayStation 4, Nintendo Switch, macOS, Xbox, GameCube, Classic Macintosh",
     "released": "2002",
@@ -5920,7 +5920,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "ArmA II",
+    "title": "ArmA II",
     "genres": "Strategy, Action, Simulation",
     "platforms": "PC",
     "released": "2009",
@@ -5930,7 +5930,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Dark Messiah of Might and Magic",
+    "title": "Dark Messiah of Might and Magic",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox 360",
     "released": "2006",
@@ -5940,7 +5940,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Company of Heroes: Opposing Fronts",
+    "title": "Company of Heroes: Opposing Fronts",
     "genres": "Strategy, Action",
     "platforms": "PC",
     "released": "2007",
@@ -5950,7 +5950,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Mass Effect: Legendary Edition",
+    "title": "Mass Effect: Legendary Edition",
     "genres": "Shooter, Adventure, Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2021",
@@ -5960,7 +5960,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Ultimate Epic Battle Simulator",
+    "title": "Ultimate Epic Battle Simulator",
     "genres": "Adventure, Action, Strategy, Simulation, Indie",
     "platforms": "PC",
     "released": "2017",
@@ -5970,7 +5970,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Scribblenauts Unlimited",
+    "title": "Scribblenauts Unlimited",
     "genres": "Casual, Strategy, Adventure, Puzzle",
     "platforms": "PC, iOS, Android, Nintendo 3DS, Wii U",
     "released": "2012",
@@ -5980,7 +5980,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "DOOM 3",
+    "title": "DOOM 3",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, macOS, Linux, Xbox",
     "released": "2004",
@@ -5990,7 +5990,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Dirty Bomb",
+    "title": "Dirty Bomb",
     "genres": "Shooter, Action",
     "platforms": "PC",
     "released": "2015",
@@ -6000,7 +6000,7 @@ const videogames = [
     "metacritic": "63"
   },
   {
-    "name": "Risk of Rain",
+    "title": "Risk of Rain",
     "genres": "Platformer, Indie, Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, macOS, Linux, PS Vita",
     "released": "2013",
@@ -6010,7 +6010,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Need For Speed: Hot Pursuit",
+    "title": "Need For Speed: Hot Pursuit",
     "genres": "Racing, Arcade",
     "platforms": "PC, Nintendo Switch, iOS, Android, Xbox 360, PlayStation 3, Wii",
     "released": "2010",
@@ -6020,7 +6020,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Plague Inc: Evolved",
+    "title": "Plague Inc: Evolved",
     "genres": "Casual, Strategy, Indie, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2015",
@@ -6030,7 +6030,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "The Uncertain: Episode 1 - The Last Quiet Day",
+    "title": "The Uncertain: Episode 1 - The Last Quiet Day",
     "genres": "Indie, Adventure",
     "platforms": "PC, macOS",
     "released": "2016",
@@ -6040,7 +6040,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "TERA",
+    "title": "TERA",
     "genres": "Massively Multiplayer, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -6050,7 +6050,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Need for Speed Heat",
+    "title": "Need for Speed Heat",
     "genres": "Racing, Arcade",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -6060,7 +6060,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "No More Room in Hell",
+    "title": "No More Room in Hell",
     "genres": "Indie, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -6070,7 +6070,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "X-COM: UFO Defense",
+    "title": "X-COM: UFO Defense",
     "genres": "Strategy",
     "platforms": "PC, PlayStation, Commodore / Amiga",
     "released": "1993",
@@ -6080,7 +6080,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Unreal Gold",
+    "title": "Unreal Gold",
     "genres": "Shooter, Action",
     "platforms": "PC",
     "released": "2000",
@@ -6090,7 +6090,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "EVE Online",
+    "title": "EVE Online",
     "genres": "Strategy, Massively Multiplayer, Action, RPG",
     "platforms": "PC, macOS, Linux",
     "released": "2003",
@@ -6100,7 +6100,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Rayman Origins",
+    "title": "Rayman Origins",
     "genres": "Family, Platformer, Arcade, Action",
     "platforms": "PC, Xbox One, iOS, Nintendo 3DS, macOS, Xbox 360, PlayStation 3, PS Vita, Wii",
     "released": "2011",
@@ -6110,7 +6110,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "SpaceChem",
+    "title": "SpaceChem",
     "genres": "Strategy, Indie, Simulation, Puzzle",
     "platforms": "PC, Android, macOS, Linux",
     "released": "2011",
@@ -6120,7 +6120,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Risen",
+    "title": "Risen",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox 360",
     "released": "2009",
@@ -6130,7 +6130,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Fallout Tactics: Brotherhood of Steel",
+    "title": "Fallout Tactics: Brotherhood of Steel",
     "genres": "Strategy, RPG",
     "platforms": "PC",
     "released": "2001",
@@ -6140,7 +6140,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Bulletstorm",
+    "title": "Bulletstorm",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -6150,7 +6150,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Loadout",
+    "title": "Loadout",
     "genres": "Indie, Action",
     "platforms": "PC, PlayStation 4",
     "released": "2014",
@@ -6160,7 +6160,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "This is the Police",
+    "title": "This is the Police",
     "genres": "Indie, Strategy, Adventure, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2016",
@@ -6170,7 +6170,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "Gothic",
+    "title": "Gothic",
     "genres": "Action, RPG",
     "platforms": "PC",
     "released": "2001",
@@ -6180,7 +6180,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "The Red Solstice",
+    "title": "The Red Solstice",
     "genres": "Strategy, Indie, Action, RPG",
     "platforms": "PC",
     "released": "2015",
@@ -6190,7 +6190,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Overwatch",
+    "title": "Overwatch",
     "genres": "Casual, Shooter, Massively Multiplayer, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2016",
@@ -6200,7 +6200,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "My Friend Pedro",
+    "title": "My Friend Pedro",
     "genres": "Shooter, Adventure, Action, Arcade, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS",
     "released": "2019",
@@ -6210,7 +6210,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Tropico 3",
+    "title": "Tropico 3",
     "genres": "Strategy, Simulation",
     "platforms": "PC, Xbox 360",
     "released": "2009",
@@ -6220,7 +6220,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "South Park: The Fractured But Whole",
+    "title": "South Park: The Fractured But Whole",
     "genres": "Adventure, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -6230,7 +6230,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Thief Gold",
+    "title": "Thief Gold",
     "genres": "Action, Simulation",
     "platforms": "PC",
     "released": "1999",
@@ -6240,7 +6240,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Hyper Light Drifter",
+    "title": "Hyper Light Drifter",
     "genres": "Indie, Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2016",
@@ -6250,7 +6250,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Race The Sun",
+    "title": "Race The Sun",
     "genres": "Racing, Arcade, Action, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, iOS, macOS, Linux, PlayStation 3, PS Vita, Wii U, Web",
     "released": "2013",
@@ -6260,7 +6260,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Remnant: From the Ashes",
+    "title": "Remnant: From the Ashes",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -6270,7 +6270,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "RUINER",
+    "title": "RUINER",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2017",
@@ -6280,7 +6280,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Call of Duty: Advanced Warfare",
+    "title": "Call of Duty: Advanced Warfare",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -6290,7 +6290,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Skullgirls",
+    "title": "Skullgirls",
     "genres": "Action, Fighting",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -6300,7 +6300,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Just Cause 4",
+    "title": "Just Cause 4",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -6310,7 +6310,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "SteamWorld Dig 2",
+    "title": "SteamWorld Dig 2",
     "genres": "Indie, Platformer, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Nintendo 3DS, macOS, Linux, PS Vita",
     "released": "2017",
@@ -6320,7 +6320,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Oddworld: New 'n' Tasty",
+    "title": "Oddworld: New 'n' Tasty",
     "genres": "Indie, Platformer, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux, PlayStation 3, PS Vita, Wii U",
     "released": "2014",
@@ -6330,7 +6330,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Vanquish",
+    "title": "Vanquish",
     "genres": "Indie, Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -6340,7 +6340,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Snake Pass",
+    "title": "Snake Pass",
     "genres": "Adventure, Puzzle, Casual, Simulation, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -6350,7 +6350,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "Vampire: The Masquerade - Bloodlines",
+    "title": "Vampire: The Masquerade - Bloodlines",
     "genres": "Action, RPG",
     "platforms": "PC",
     "released": "2004",
@@ -6360,7 +6360,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Serious Sam HD: The Second Encounter",
+    "title": "Serious Sam HD: The Second Encounter",
     "genres": "Shooter, Indie, Action",
     "platforms": "PC, Xbox 360",
     "released": "2010",
@@ -6370,7 +6370,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Kane & Lynch 2: Dog Days",
+    "title": "Kane & Lynch 2: Dog Days",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -6380,7 +6380,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "Besiege",
+    "title": "Besiege",
     "genres": "Strategy, Indie, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2015",
@@ -6390,7 +6390,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Orcs Must Die!",
+    "title": "Orcs Must Die!",
     "genres": "Strategy, Indie, Action",
     "platforms": "PC, Xbox 360",
     "released": "2011",
@@ -6400,7 +6400,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Far Cry",
+    "title": "Far Cry",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, Xbox, PlayStation 3, PlayStation 2, Wii",
     "released": "2004",
@@ -6410,7 +6410,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "STAR WARS: The Force Unleashed II",
+    "title": "STAR WARS: The Force Unleashed II",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, Nintendo DS, Xbox 360, PlayStation 3, Wii",
     "released": "2010",
@@ -6420,7 +6420,7 @@ const videogames = [
     "metacritic": "59"
   },
   {
-    "name": "Tom Clancy's Splinter Cell: Conviction",
+    "title": "Tom Clancy's Splinter Cell: Conviction",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, Android, macOS, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -6430,7 +6430,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Gothic 3",
+    "title": "Gothic 3",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC",
     "released": "2006",
@@ -6440,7 +6440,7 @@ const videogames = [
     "metacritic": "63"
   },
   {
-    "name": "Project Zomboid",
+    "title": "Project Zomboid",
     "genres": "Indie, RPG",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -6450,7 +6450,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "SPORE",
+    "title": "SPORE",
     "genres": "Family, Simulation",
     "platforms": "PC",
     "released": "2008",
@@ -6460,7 +6460,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Aegis Defenders",
+    "title": "Aegis Defenders",
     "genres": "Adventure, Action, RPG, Strategy, Indie",
     "platforms": "PC, PlayStation 4, Nintendo Switch, macOS",
     "released": "2018",
@@ -6470,7 +6470,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Risen 2: Dark Waters",
+    "title": "Risen 2: Dark Waters",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -6480,7 +6480,7 @@ const videogames = [
     "metacritic": "69"
   },
   {
-    "name": "AdVenture Capitalist",
+    "title": "AdVenture Capitalist",
     "genres": "Casual, Indie, Board Games, Simulation",
     "platforms": "PC, PlayStation 4, iOS, Android, macOS, Linux",
     "released": "2015",
@@ -6490,7 +6490,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Game Dev Tycoon",
+    "title": "Game Dev Tycoon",
     "genres": "Casual, Strategy, Indie, Simulation",
     "platforms": "PC, iOS, Android, macOS, Linux",
     "released": "2012",
@@ -6500,7 +6500,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Anomaly: Warzone Earth",
+    "title": "Anomaly: Warzone Earth",
     "genres": "Strategy, Indie, Action, Simulation",
     "platforms": "PC, iOS, Android, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -6510,7 +6510,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "HELLDIVERS",
+    "title": "HELLDIVERS",
     "genres": "Action",
     "platforms": "PC, PlayStation 4, PlayStation 3",
     "released": "2015",
@@ -6520,7 +6520,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Gears of War",
+    "title": "Gears of War",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360",
     "released": "2006",
@@ -6530,7 +6530,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Dark Souls",
+    "title": "Dark Souls",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -6540,7 +6540,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Red Faction Guerrilla Re-Mars-tered",
+    "title": "Red Faction Guerrilla Re-Mars-tered",
     "genres": "Shooter, Arcade, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -6550,7 +6550,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "DiRT Rally 2.0",
+    "title": "DiRT Rally 2.0",
     "genres": "Racing, Simulation, Sports",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -6560,7 +6560,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Lord of the Rings: War in the North",
+    "title": "Lord of the Rings: War in the North",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -6570,7 +6570,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "Golf With Your Friends",
+    "title": "Golf With Your Friends",
     "genres": "Casual, Indie, Sports",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2016",
@@ -6580,7 +6580,7 @@ const videogames = [
     "metacritic": "69"
   },
   {
-    "name": "inFAMOUS: First Light",
+    "title": "inFAMOUS: First Light",
     "genres": "Action",
     "platforms": "PlayStation 4",
     "released": "2014",
@@ -6590,7 +6590,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Fable III",
+    "title": "Fable III",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, Xbox 360",
     "released": "2010",
@@ -6600,7 +6600,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Company of Heroes: Tales of Valor",
+    "title": "Company of Heroes: Tales of Valor",
     "genres": "Strategy",
     "platforms": "PC",
     "released": "2009",
@@ -6610,7 +6610,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "The Dark Pictures Anthology: Man of Medan",
+    "title": "The Dark Pictures Anthology: Man of Medan",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -6620,7 +6620,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "The Lab",
+    "title": "The Lab",
     "genres": "",
     "platforms": "PC",
     "released": "2016",
@@ -6630,7 +6630,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Prince of Persia: The Sands of Time",
+    "title": "Prince of Persia: The Sands of Time",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox, PlayStation 3, PlayStation 2, GameCube",
     "released": "2003",
@@ -6640,7 +6640,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Her Story",
+    "title": "Her Story",
     "genres": "Indie, Adventure, Simulation, Puzzle",
     "platforms": "PC, iOS, Android, macOS",
     "released": "2015",
@@ -6650,7 +6650,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Moonlighter",
+    "title": "Moonlighter",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2018",
@@ -6660,7 +6660,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Star Wars: Republic Commando",
+    "title": "Star Wars: Republic Commando",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, Xbox",
     "released": "2005",
@@ -6670,7 +6670,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Factorio",
+    "title": "Factorio",
     "genres": "Casual, Strategy, Indie, Simulation",
     "platforms": "PC, Nintendo Switch, macOS, Linux",
     "released": "2020",
@@ -6680,7 +6680,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Deceit",
+    "title": "Deceit",
     "genres": "Action",
     "platforms": "PC",
     "released": "2017",
@@ -6690,7 +6690,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "LEGO Star Wars - The Complete Saga",
+    "title": "LEGO Star Wars - The Complete Saga",
     "genres": "Family, Adventure, Action",
     "platforms": "PC, Xbox One, iOS, Android, Nintendo DS, macOS, Xbox 360, PlayStation 3, Wii",
     "released": "2007",
@@ -6700,7 +6700,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Warhammer 40,000: Dawn of War II",
+    "title": "Warhammer 40,000: Dawn of War II",
     "genres": "Strategy, RPG",
     "platforms": "PC, macOS, Linux",
     "released": "2009",
@@ -6710,7 +6710,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "PAC-MAN CHAMPIONSHIP EDITION 2",
+    "title": "PAC-MAN CHAMPIONSHIP EDITION 2",
     "genres": "Casual, Arcade",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2016",
@@ -6720,7 +6720,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Trials Fusion",
+    "title": "Trials Fusion",
     "genres": "Racing",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360",
     "released": "2014",
@@ -6730,7 +6730,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Need for Speed Rivals",
+    "title": "Need for Speed Rivals",
     "genres": "Racing, Arcade",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -6740,7 +6740,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Duke Nukem Forever",
+    "title": "Duke Nukem Forever",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, macOS, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -6750,7 +6750,7 @@ const videogames = [
     "metacritic": "54"
   },
   {
-    "name": "The Incredible Adventures of Van Helsing",
+    "title": "The Incredible Adventures of Van Helsing",
     "genres": "Indie, Action, RPG",
     "platforms": "PC, Xbox One, macOS",
     "released": "2013",
@@ -6760,7 +6760,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "The Elder Scrolls IV: Oblivion",
+    "title": "The Elder Scrolls IV: Oblivion",
     "genres": "RPG",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2006",
@@ -6770,7 +6770,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "AudioSurf",
+    "title": "AudioSurf",
     "genres": "Indie",
     "platforms": "PC",
     "released": "2008",
@@ -6780,7 +6780,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Headsnatchers",
+    "title": "Headsnatchers",
     "genres": "Casual, Indie, Action, Sports",
     "platforms": "PC, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -6790,7 +6790,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "ArmA II: Operation Arrowhead",
+    "title": "ArmA II: Operation Arrowhead",
     "genres": "Strategy, Action, Simulation",
     "platforms": "PC",
     "released": "2010",
@@ -6800,7 +6800,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Call of Duty: Ghosts",
+    "title": "Call of Duty: Ghosts",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3, Wii U",
     "released": "2013",
@@ -6810,7 +6810,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Cortex Command",
+    "title": "Cortex Command",
     "genres": "Strategy, Indie, Action",
     "platforms": "PC, macOS",
     "released": "2012",
@@ -6820,7 +6820,7 @@ const videogames = [
     "metacritic": "44"
   },
   {
-    "name": "Serious Sam 2",
+    "title": "Serious Sam 2",
     "genres": "Indie, Action",
     "platforms": "PC, Xbox",
     "released": "2005",
@@ -6830,7 +6830,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "The Last Guardian",
+    "title": "The Last Guardian",
     "genres": "Action, Puzzle",
     "platforms": "PlayStation 4",
     "released": "2016",
@@ -6840,7 +6840,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Tom Clancy’s The Division 2",
+    "title": "Tom Clancy’s The Division 2",
     "genres": "Shooter, Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Web",
     "released": "2019",
@@ -6850,7 +6850,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Valkyria Chronicles",
+    "title": "Valkyria Chronicles",
     "genres": "Strategy, Action, RPG",
     "platforms": "PC, Nintendo Switch, PlayStation 3",
     "released": "2008",
@@ -6860,7 +6860,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Bloodstained: Ritual of the Night",
+    "title": "Bloodstained: Ritual of the Night",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android",
     "released": "2019",
@@ -6870,7 +6870,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Dungeon of the Endless",
+    "title": "Dungeon of the Endless",
     "genres": "Indie, Strategy, Adventure, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS",
     "released": "2014",
@@ -6880,7 +6880,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Alice: Madness Returns",
+    "title": "Alice: Madness Returns",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -6890,7 +6890,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Call of Duty: Infinite Warfare",
+    "title": "Call of Duty: Infinite Warfare",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -6900,7 +6900,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Quake",
+    "title": "Quake",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch, macOS, Linux, Xbox, Nintendo 64, Classic Macintosh, Commodore / Amiga, SEGA Saturn",
     "released": "1996",
@@ -6910,7 +6910,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "Into the Breach",
+    "title": "Into the Breach",
     "genres": "Strategy, Indie, RPG",
     "platforms": "PC, Nintendo Switch, Android, macOS",
     "released": "2018",
@@ -6920,7 +6920,7 @@ const videogames = [
     "metacritic": "90"
   },
   {
-    "name": "Day of the Tentacle Remastered",
+    "title": "Day of the Tentacle Remastered",
     "genres": "Family, Adventure",
     "platforms": "PC, PlayStation 4, Xbox One, iOS, macOS, Linux, PS Vita",
     "released": "2016",
@@ -6930,7 +6930,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Battlefield Hardline",
+    "title": "Battlefield Hardline",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2015",
@@ -6940,7 +6940,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Unravel Two",
+    "title": "Unravel Two",
     "genres": "Platformer, Adventure, Action, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -6950,7 +6950,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Realm Royale",
+    "title": "Realm Royale",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -6960,7 +6960,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "DOOM II",
+    "title": "DOOM II",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, iOS, Android, macOS, Xbox 360, Game Boy Advance, Classic Macintosh",
     "released": "1994",
@@ -6970,7 +6970,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Slime Rancher",
+    "title": "Slime Rancher",
     "genres": "Indie, Adventure, Action, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2016",
@@ -6980,7 +6980,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Antichamber",
+    "title": "Antichamber",
     "genres": "Indie, Puzzle",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -6990,7 +6990,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Goat of Duty",
+    "title": "Goat of Duty",
     "genres": "Action",
     "platforms": "PC",
     "released": "2019",
@@ -7000,7 +7000,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Divinity II: Developer's Cut",
+    "title": "Divinity II: Developer's Cut",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox 360",
     "released": "2012",
@@ -7010,7 +7010,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Guns of Icarus Alliance",
+    "title": "Guns of Icarus Alliance",
     "genres": "Indie, Action, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2017",
@@ -7020,7 +7020,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Tomb Raider II",
+    "title": "Tomb Raider II",
     "genres": "Platformer, Shooter, Adventure, Action",
     "platforms": "PC, iOS, Android, macOS, PlayStation 3, PlayStation, PSP, Classic Macintosh",
     "released": "1997",
@@ -7030,7 +7030,7 @@ const videogames = [
     "metacritic": "69"
   },
   {
-    "name": "Dungeon Defenders",
+    "title": "Dungeon Defenders",
     "genres": "Strategy, Indie, Action, RPG",
     "platforms": "PC, iOS, Android, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -7040,7 +7040,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Fahrenheit: Indigo Prophecy Remastered",
+    "title": "Fahrenheit: Indigo Prophecy Remastered",
     "genres": "Adventure, Action",
     "platforms": "PC, PlayStation 4, iOS, macOS, Linux",
     "released": "2015",
@@ -7050,7 +7050,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Assassin's Creed 2 Deluxe Edition",
+    "title": "Assassin's Creed 2 Deluxe Edition",
     "genres": "Adventure, Action",
     "platforms": "PC, macOS",
     "released": "2010",
@@ -7060,7 +7060,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Gothic II: Gold Edition",
+    "title": "Gothic II: Gold Edition",
     "genres": "Action, RPG",
     "platforms": "PC",
     "released": "2010",
@@ -7070,7 +7070,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Deiland",
+    "title": "Deiland",
     "genres": "Indie, Adventure, RPG",
     "platforms": "PC, PlayStation 4, iOS, Android, macOS",
     "released": "2016",
@@ -7080,7 +7080,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "STAR WARS - The Force Unleashed Ultimate Sith Edition",
+    "title": "STAR WARS - The Force Unleashed Ultimate Sith Edition",
     "genres": "Action",
     "platforms": "PC, macOS, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -7090,7 +7090,7 @@ const videogames = [
     "metacritic": "65"
   },
   {
-    "name": "Halo 3",
+    "title": "Halo 3",
     "genres": "Shooter",
     "platforms": "PC, Xbox One, Xbox 360",
     "released": "2007",
@@ -7100,7 +7100,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Serious Sam: The Second Encounter",
+    "title": "Serious Sam: The Second Encounter",
     "genres": "Shooter, Indie, Action",
     "platforms": "PC",
     "released": "2002",
@@ -7110,7 +7110,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "How to Survive",
+    "title": "How to Survive",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3, Wii U",
     "released": "2013",
@@ -7120,7 +7120,7 @@ const videogames = [
     "metacritic": "60"
   },
   {
-    "name": "We Were Here",
+    "title": "We Were Here",
     "genres": "Adventure, Action, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2017",
@@ -7130,7 +7130,7 @@ const videogames = [
     "metacritic": "63"
   },
   {
-    "name": "Dead Space 3",
+    "title": "Dead Space 3",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -7140,7 +7140,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Sonic & All-Stars Racing Transformed",
+    "title": "Sonic & All-Stars Racing Transformed",
     "genres": "Racing, Family, Sports",
     "platforms": "PC, Xbox One, iOS, Android, Nintendo 3DS, Xbox 360, PlayStation 3, PS Vita, Wii U",
     "released": "2012",
@@ -7150,7 +7150,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Conan Exiles",
+    "title": "Conan Exiles",
     "genres": "Massively Multiplayer, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -7160,7 +7160,7 @@ const videogames = [
     "metacritic": "67"
   },
   {
-    "name": "Children of Morta",
+    "title": "Children of Morta",
     "genres": "Indie, Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2019",
@@ -7170,7 +7170,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Phasmophobia",
+    "title": "Phasmophobia",
     "genres": "Indie, Action",
     "platforms": "PC",
     "released": "2020",
@@ -7180,7 +7180,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Kane and Lynch: Dead Men",
+    "title": "Kane and Lynch: Dead Men",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2007",
@@ -7190,7 +7190,7 @@ const videogames = [
     "metacritic": "67"
   },
   {
-    "name": "Persona 4 Golden",
+    "title": "Persona 4 Golden",
     "genres": "RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch, PS Vita",
     "released": "2012",
@@ -7200,7 +7200,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Halo: Reach",
+    "title": "Halo: Reach",
     "genres": "Shooter",
     "platforms": "PC, Xbox One, Xbox 360",
     "released": "2010",
@@ -7210,7 +7210,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Sherlock Holmes: The Devil's Daughter",
+    "title": "Sherlock Holmes: The Devil's Daughter",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2016",
@@ -7220,7 +7220,7 @@ const videogames = [
     "metacritic": "65"
   },
   {
-    "name": "F1 2018",
+    "title": "F1 2018",
     "genres": "Racing, Indie, Action, Sports",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -7230,7 +7230,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Dino D-Day",
+    "title": "Dino D-Day",
     "genres": "Indie, Action",
     "platforms": "PC",
     "released": "2011",
@@ -7240,7 +7240,7 @@ const videogames = [
     "metacritic": "53"
   },
   {
-    "name": "Diablo III: Reaper of Souls",
+    "title": "Diablo III: Reaper of Souls",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -7250,7 +7250,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "LEGO Batman",
+    "title": "LEGO Batman",
     "genres": "Family, Action",
     "platforms": "PC, Xbox One, Nintendo DS, macOS, Xbox 360, PlayStation 3, PlayStation 2, PSP, Wii",
     "released": "2008",
@@ -7260,7 +7260,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Condemned: Criminal Origins",
+    "title": "Condemned: Criminal Origins",
     "genres": "Action",
     "platforms": "PC, Xbox 360",
     "released": "2005",
@@ -7270,7 +7270,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Super Hexagon",
+    "title": "Super Hexagon",
     "genres": "Casual, Indie, Arcade, Action",
     "platforms": "PC, iOS, Android, macOS, Linux",
     "released": "2012",
@@ -7280,7 +7280,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "The Elder Scrolls II: Daggerfall",
+    "title": "The Elder Scrolls II: Daggerfall",
     "genres": "Action, RPG",
     "platforms": "PC",
     "released": "1996",
@@ -7290,7 +7290,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Trackmania Turbo",
+    "title": "Trackmania Turbo",
     "genres": "Racing, Massively Multiplayer",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -7300,7 +7300,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Stealth Inc 2: A Game of Clones",
+    "title": "Stealth Inc 2: A Game of Clones",
     "genres": "Indie, Adventure, Action, Puzzle",
     "platforms": "PC, PlayStation 4, Xbox One, Android, PlayStation 3, PS Vita, Wii U",
     "released": "2014",
@@ -7310,7 +7310,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "OKAMI HD",
+    "title": "OKAMI HD",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, PlayStation 3",
     "released": "2017",
@@ -7320,7 +7320,7 @@ const videogames = [
     "metacritic": "92"
   },
   {
-    "name": "Marvel Heroes",
+    "title": "Marvel Heroes",
     "genres": "Massively Multiplayer, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS",
     "released": "2013",
@@ -7330,7 +7330,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Cry of Fear",
+    "title": "Cry of Fear",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC",
     "released": "2012",
@@ -7340,7 +7340,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Resident Evil 0 / Biohazard 0 HD REMASTER",
+    "title": "Resident Evil 0 / Biohazard 0 HD REMASTER",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2016",
@@ -7350,7 +7350,7 @@ const videogames = [
     "metacritic": "69"
   },
   {
-    "name": "Worms Armageddon",
+    "title": "Worms Armageddon",
     "genres": "Strategy",
     "platforms": "PC, PlayStation, Nintendo 64, Game Boy Color, Dreamcast",
     "released": "1999",
@@ -7360,7 +7360,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Hero Siege",
+    "title": "Hero Siege",
     "genres": "Adventure, Action, RPG, Indie, Massively Multiplayer",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -7370,7 +7370,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Baldur's Gate III",
+    "title": "Baldur's Gate III",
     "genres": "Strategy, Adventure, RPG",
     "platforms": "PC, PlayStation 5, macOS",
     "released": "2023",
@@ -7380,7 +7380,7 @@ const videogames = [
     "metacritic": "97"
   },
   {
-    "name": "Northgard",
+    "title": "Northgard",
     "genres": "Adventure, RPG, Strategy, Simulation, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2018",
@@ -7390,7 +7390,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Helltaker",
+    "title": "Helltaker",
     "genres": "Indie, Adventure, Puzzle",
     "platforms": "PC, macOS, Linux",
     "released": "2020",
@@ -7400,7 +7400,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Catherine",
+    "title": "Catherine",
     "genres": "Adventure, Action, RPG, Puzzle",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -7410,7 +7410,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Gears of War 2",
+    "title": "Gears of War 2",
     "genres": "Shooter",
     "platforms": "Xbox One, Xbox 360",
     "released": "2008",
@@ -7420,7 +7420,7 @@ const videogames = [
     "metacritic": "93"
   },
   {
-    "name": "Bulletstorm: Full Clip Edition",
+    "title": "Bulletstorm: Full Clip Edition",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -7430,7 +7430,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Hitman: Contracts",
+    "title": "Hitman: Contracts",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, macOS, Xbox 360, Xbox, PlayStation 3, PlayStation 2",
     "released": "2004",
@@ -7440,7 +7440,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Dead Island Riptide",
+    "title": "Dead Island Riptide",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -7450,7 +7450,7 @@ const videogames = [
     "metacritic": "60"
   },
   {
-    "name": "Lost Ark",
+    "title": "Lost Ark",
     "genres": "Massively Multiplayer, RPG",
     "platforms": "PC",
     "released": "2022",
@@ -7460,7 +7460,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Prince of Persia: Warrior Within",
+    "title": "Prince of Persia: Warrior Within",
     "genres": "Adventure, Action",
     "platforms": "PC, iOS, Xbox, PlayStation 3, PlayStation 2, GameCube",
     "released": "2004",
@@ -7470,7 +7470,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Marvel’s Avengers",
+    "title": "Marvel’s Avengers",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2020",
@@ -7480,7 +7480,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Regions Of Ruin",
+    "title": "Regions Of Ruin",
     "genres": "Adventure, Action, RPG, Strategy, Simulation, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2018",
@@ -7490,7 +7490,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Teleglitch: Die More Edition",
+    "title": "Teleglitch: Die More Edition",
     "genres": "Indie, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -7500,7 +7500,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Fortnite: Save The World",
+    "title": "Fortnite: Save The World",
     "genres": "Shooter, Strategy, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS",
     "released": "2017",
@@ -7510,7 +7510,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Serial Cleaner",
+    "title": "Serial Cleaner",
     "genres": "Indie, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2016",
@@ -7520,7 +7520,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "MultiVersus",
+    "title": "MultiVersus",
     "genres": "Action, Fighting",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2022",
@@ -7530,7 +7530,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Star Wars: Dark Forces",
+    "title": "Star Wars: Dark Forces",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation, Classic Macintosh",
     "released": "1995",
@@ -7540,7 +7540,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Hawken",
+    "title": "Hawken",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2014",
@@ -7550,7 +7550,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Doom 3: BFG Edition",
+    "title": "Doom 3: BFG Edition",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 4, Android, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -7560,7 +7560,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "DayZ",
+    "title": "DayZ",
     "genres": "Indie, Massively Multiplayer, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2013",
@@ -7570,7 +7570,7 @@ const videogames = [
     "metacritic": "44"
   },
   {
-    "name": "Aim Lab",
+    "title": "Aim Lab",
     "genres": "Indie, Action",
     "platforms": "PC",
     "released": "2018",
@@ -7580,7 +7580,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Assassin’s Creed Rogue",
+    "title": "Assassin’s Creed Rogue",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -7590,7 +7590,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Mount & Blade",
+    "title": "Mount & Blade",
     "genres": "Indie, Action, RPG",
     "platforms": "PC",
     "released": "2008",
@@ -7600,7 +7600,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Deus Ex: The Fall",
+    "title": "Deus Ex: The Fall",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, iOS, Android",
     "released": "2013",
@@ -7610,7 +7610,7 @@ const videogames = [
     "metacritic": "45"
   },
   {
-    "name": "Full Throttle Remastered",
+    "title": "Full Throttle Remastered",
     "genres": "Adventure",
     "platforms": "PC, PlayStation 4, Xbox One, iOS, macOS, Linux, PS Vita",
     "released": "2017",
@@ -7620,7 +7620,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Hard Reset Extended Edition",
+    "title": "Hard Reset Extended Edition",
     "genres": "Indie, Action",
     "platforms": "PC",
     "released": "2012",
@@ -7630,7 +7630,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "RaceRoom Racing Experience",
+    "title": "RaceRoom Racing Experience",
     "genres": "Racing, Simulation, Sports",
     "platforms": "PC",
     "released": "2013",
@@ -7640,7 +7640,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Observеr",
+    "title": "Observеr",
     "genres": "Casual, Indie, Adventure, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2017",
@@ -7650,7 +7650,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Guacamelee! Gold Edition",
+    "title": "Guacamelee! Gold Edition",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -7660,7 +7660,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Command & Conquer: Red Alert 3 - Uprising",
+    "title": "Command & Conquer: Red Alert 3 - Uprising",
     "genres": "Strategy",
     "platforms": "PC",
     "released": "2009",
@@ -7670,7 +7670,7 @@ const videogames = [
     "metacritic": "64"
   },
   {
-    "name": "Crossout",
+    "title": "Crossout",
     "genres": "Racing, Massively Multiplayer, Action, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -7680,7 +7680,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Graveyard Keeper",
+    "title": "Graveyard Keeper",
     "genres": "Adventure, RPG, Casual, Strategy, Simulation, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2018",
@@ -7690,7 +7690,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Divine Divinity",
+    "title": "Divine Divinity",
     "genres": "Action, RPG",
     "platforms": "PC, macOS",
     "released": "2002",
@@ -7700,7 +7700,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Kingdom: New Lands",
+    "title": "Kingdom: New Lands",
     "genres": "Casual, Strategy, Arcade, Simulation, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2015",
@@ -7710,7 +7710,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "LEGO Batman 2 DC Super Heroes",
+    "title": "LEGO Batman 2 DC Super Heroes",
     "genres": "Family, Action",
     "platforms": "PC, Xbox One, iOS, Android, Nintendo 3DS, Nintendo DS, macOS, Xbox 360, PlayStation 3, PS Vita, Wii U, Wii",
     "released": "2012",
@@ -7720,7 +7720,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Endless Legend",
+    "title": "Endless Legend",
     "genres": "Strategy, RPG",
     "platforms": "PC, macOS",
     "released": "2014",
@@ -7730,7 +7730,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Two Point Hospital",
+    "title": "Two Point Hospital",
     "genres": "RPG, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS",
     "released": "2018",
@@ -7740,7 +7740,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Invisible, Inc.",
+    "title": "Invisible, Inc.",
     "genres": "Strategy, Adventure",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2015",
@@ -7750,7 +7750,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Grow Home",
+    "title": "Grow Home",
     "genres": "Casual, Indie, Adventure",
     "platforms": "PC, PlayStation 4, Linux",
     "released": "2014",
@@ -7760,7 +7760,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Rage 2",
+    "title": "Rage 2",
     "genres": "Racing, Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -7770,7 +7770,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "Dungeon Defenders II",
+    "title": "Dungeon Defenders II",
     "genres": "Strategy, Indie, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2014",
@@ -7780,7 +7780,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Return Of The Obra Dinn",
+    "title": "Return Of The Obra Dinn",
     "genres": "Indie, Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS",
     "released": "2018",
@@ -7790,7 +7790,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Endless Space 2",
+    "title": "Endless Space 2",
     "genres": "Strategy",
     "platforms": "PC, macOS",
     "released": "2016",
@@ -7800,7 +7800,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Thief 3: Deadly Shadows",
+    "title": "Thief 3: Deadly Shadows",
     "genres": "Action, Simulation",
     "platforms": "PC, Xbox",
     "released": "2004",
@@ -7810,7 +7810,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Need For Speed: Most Wanted",
+    "title": "Need For Speed: Most Wanted",
     "genres": "Racing, Arcade",
     "platforms": "PC, Xbox 360, Xbox, PlayStation 3, PlayStation 2, PSP, GameCube",
     "released": "2005",
@@ -7820,7 +7820,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "A Hat in Time",
+    "title": "A Hat in Time",
     "genres": "Platformer, Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, PlayStation 3",
     "released": "2017",
@@ -7830,7 +7830,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Ring of Elysium",
+    "title": "Ring of Elysium",
     "genres": "Shooter, Massively Multiplayer, Action",
     "platforms": "PC",
     "released": "2018",
@@ -7840,7 +7840,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Dying Light 2 Stay Human",
+    "title": "Dying Light 2 Stay Human",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2022",
@@ -7850,7 +7850,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Superbrothers: Sword & Sworcery",
+    "title": "Superbrothers: Sword & Sworcery",
     "genres": "Indie, Adventure, RPG",
     "platforms": "PC, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2011",
@@ -7860,7 +7860,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Fable: The Lost Chapters",
+    "title": "Fable: The Lost Chapters",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, macOS, Xbox",
     "released": "2005",
@@ -7870,7 +7870,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Yakuza Kiwami 2",
+    "title": "Yakuza Kiwami 2",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -7880,7 +7880,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "FIFA 18",
+    "title": "FIFA 18",
     "genres": "Sports",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2017",
@@ -7890,7 +7890,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Legend of Grimrock",
+    "title": "Legend of Grimrock",
     "genres": "Indie, Adventure, RPG",
     "platforms": "PC, iOS, macOS, Linux",
     "released": "2012",
@@ -7900,7 +7900,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Killzone Shadow Fall",
+    "title": "Killzone Shadow Fall",
     "genres": "Shooter",
     "platforms": "PlayStation 4",
     "released": "2013",
@@ -7910,7 +7910,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "ENSLAVED: Odyssey to the West Premium Edition",
+    "title": "ENSLAVED: Odyssey to the West Premium Edition",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -7920,7 +7920,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "Dragon Age 2",
+    "title": "Dragon Age 2",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, macOS, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -7930,7 +7930,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Pyre",
+    "title": "Pyre",
     "genres": "Adventure, RPG, Arcade, Sports, Indie",
     "platforms": "PC, PlayStation 4, macOS, Linux",
     "released": "2017",
@@ -7940,7 +7940,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Fractured Space",
+    "title": "Fractured Space",
     "genres": "Strategy, Indie, Action",
     "platforms": "PC",
     "released": "2016",
@@ -7950,7 +7950,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Arma 3",
+    "title": "Arma 3",
     "genres": "Shooter, Strategy, Action, Simulation",
     "platforms": "PC",
     "released": "2013",
@@ -7960,7 +7960,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "POSTAL",
+    "title": "POSTAL",
     "genres": "Indie, Action",
     "platforms": "PC, macOS, Linux",
     "released": "1997",
@@ -7970,7 +7970,7 @@ const videogames = [
     "metacritic": "56"
   },
   {
-    "name": "Geneshift",
+    "title": "Geneshift",
     "genres": "Indie, Action, RPG",
     "platforms": "PC, Linux",
     "released": "2017",
@@ -7980,7 +7980,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "GreedFall",
+    "title": "GreedFall",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -7990,7 +7990,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Brink",
+    "title": "Brink",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -8000,7 +8000,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "Crash Bandicoot",
+    "title": "Crash Bandicoot",
     "genres": "Platformer, Action",
     "platforms": "PlayStation",
     "released": "1996",
@@ -8010,7 +8010,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Dark Souls II",
+    "title": "Dark Souls II",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -8020,7 +8020,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Warface: Ice Breaker",
+    "title": "Warface: Ice Breaker",
     "genres": "Massively Multiplayer, Action",
     "platforms": "PC",
     "released": "2014",
@@ -8030,7 +8030,7 @@ const videogames = [
     "metacritic": "62"
   },
   {
-    "name": "Half-Life: Alyx",
+    "title": "Half-Life: Alyx",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC",
     "released": "2020",
@@ -8040,7 +8040,7 @@ const videogames = [
     "metacritic": "93"
   },
   {
-    "name": "Persona 5 Royal",
+    "title": "Persona 5 Royal",
     "genres": "Adventure, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2020",
@@ -8050,7 +8050,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "Sid Meier's Civilization IV",
+    "title": "Sid Meier's Civilization IV",
     "genres": "Strategy",
     "platforms": "PC, macOS",
     "released": "2005",
@@ -8060,7 +8060,7 @@ const videogames = [
     "metacritic": "94"
   },
   {
-    "name": "Astroneer",
+    "title": "Astroneer",
     "genres": "Indie, Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2019",
@@ -8070,7 +8070,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "The Elder Scrolls: Arena",
+    "title": "The Elder Scrolls: Arena",
     "genres": "Action, RPG",
     "platforms": "PC",
     "released": "1994",
@@ -8080,7 +8080,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Two Worlds Epic Edition",
+    "title": "Two Worlds Epic Edition",
     "genres": "RPG",
     "platforms": "PC, macOS, Linux",
     "released": "2009",
@@ -8090,7 +8090,7 @@ const videogames = [
     "metacritic": "65"
   },
   {
-    "name": "The Ascent",
+    "title": "The Ascent",
     "genres": "Indie, Adventure, Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2021",
@@ -8100,7 +8100,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Overlord: Raising Hell",
+    "title": "Overlord: Raising Hell",
     "genres": "RPG",
     "platforms": "PC, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2008",
@@ -8110,7 +8110,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Ashes of the Singularity: Escalation",
+    "title": "Ashes of the Singularity: Escalation",
     "genres": "Strategy, Indie, RPG, Simulation",
     "platforms": "PC",
     "released": "2016",
@@ -8120,7 +8120,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Call of Duty: Black Ops 4",
+    "title": "Call of Duty: Black Ops 4",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -8130,7 +8130,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Tyranny",
+    "title": "Tyranny",
     "genres": "RPG",
     "platforms": "PC, macOS, Linux",
     "released": "2016",
@@ -8140,7 +8140,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "10 Second Ninja X",
+    "title": "10 Second Ninja X",
     "genres": "Indie, Action",
     "platforms": "PC, Xbox One, PlayStation 4, PS Vita",
     "released": "2016",
@@ -8150,7 +8150,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "DISTRAINT",
+    "title": "DISTRAINT",
     "genres": "Casual, Indie, Adventure",
     "platforms": "PC",
     "released": "2015",
@@ -8160,7 +8160,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "DiRT 3",
+    "title": "DiRT 3",
     "genres": "Racing, Arcade, Sports",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -8170,7 +8170,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Cave Story+",
+    "title": "Cave Story+",
     "genres": "Indie, Platformer, Adventure, Action",
     "platforms": "PC, Nintendo Switch, Nintendo 3DS, Nintendo DS, macOS, Linux, Wii",
     "released": "2010",
@@ -8180,7 +8180,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Keep Talking and Nobody Explodes",
+    "title": "Keep Talking and Nobody Explodes",
     "genres": "Indie, Simulation, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Android, macOS",
     "released": "2015",
@@ -8190,7 +8190,7 @@ const videogames = [
     "metacritic": "67"
   },
   {
-    "name": "Jagged Alliance 1: Gold Edition",
+    "title": "Jagged Alliance 1: Gold Edition",
     "genres": "Strategy, Action, RPG",
     "platforms": "PC, macOS, Linux",
     "released": "1994",
@@ -8200,7 +8200,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "FIFA 17",
+    "title": "FIFA 17",
     "genres": "Sports",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2016",
@@ -8210,7 +8210,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Quake Live",
+    "title": "Quake Live",
     "genres": "Action",
     "platforms": "PC, Web",
     "released": "2014",
@@ -8220,7 +8220,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Pixel Puzzles Ultimate",
+    "title": "Pixel Puzzles Ultimate",
     "genres": "Casual, Indie, Puzzle",
     "platforms": "PC",
     "released": "2016",
@@ -8230,7 +8230,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Code Vein",
+    "title": "Code Vein",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -8240,7 +8240,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Tricky Towers",
+    "title": "Tricky Towers",
     "genres": "Casual, Indie, Arcade, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2016",
@@ -8250,7 +8250,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Little Inferno",
+    "title": "Little Inferno",
     "genres": "Adventure, Puzzle, Casual, Simulation, Indie",
     "platforms": "PC, Nintendo Switch, iOS, Android, macOS, Linux, Wii U",
     "released": "2012",
@@ -8260,7 +8260,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Poker Night at the Inventory",
+    "title": "Poker Night at the Inventory",
     "genres": "Casual, Card, Sports",
     "platforms": "PC, macOS",
     "released": "2010",
@@ -8270,7 +8270,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "Wasteland 2: Director's Cut",
+    "title": "Wasteland 2: Director's Cut",
     "genres": "Indie, Strategy, Adventure, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2015",
@@ -8280,7 +8280,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Psychonauts 2",
+    "title": "Psychonauts 2",
     "genres": "Platformer, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox Series S/X, macOS, Linux",
     "released": "2021",
@@ -8290,7 +8290,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Tales of Berseria",
+    "title": "Tales of Berseria",
     "genres": "Action, RPG",
     "platforms": "PC, PlayStation 4, PlayStation 3",
     "released": "2016",
@@ -8300,7 +8300,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Shank 2",
+    "title": "Shank 2",
     "genres": "Arcade, Indie, Adventure, Action",
     "platforms": "PC, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -8310,7 +8310,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Baldur's Gate: Enhanced Edition",
+    "title": "Baldur's Gate: Enhanced Edition",
     "genres": "Strategy, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2012",
@@ -8320,7 +8320,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Two Worlds II",
+    "title": "Two Worlds II",
     "genres": "RPG",
     "platforms": "PC, macOS, Xbox 360",
     "released": "2010",
@@ -8330,7 +8330,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Mini Ninjas",
+    "title": "Mini Ninjas",
     "genres": "Family, Adventure, Action",
     "platforms": "PC, Nintendo DS, macOS, Xbox 360, PlayStation 3, Wii",
     "released": "2009",
@@ -8340,7 +8340,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Shank",
+    "title": "Shank",
     "genres": "Arcade, Indie, Adventure, Action",
     "platforms": "PC, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -8350,7 +8350,7 @@ const videogames = [
     "metacritic": "67"
   },
   {
-    "name": "Flower",
+    "title": "Flower",
     "genres": "Arcade, Family, Casual, Adventure",
     "platforms": "PC, PlayStation 4, iOS, PlayStation 3, PS Vita",
     "released": "2009",
@@ -8360,7 +8360,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Horizon Chase Turbo",
+    "title": "Horizon Chase Turbo",
     "genres": "Racing, Action, Casual, Sports, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2018",
@@ -8370,7 +8370,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Space Engineers",
+    "title": "Space Engineers",
     "genres": "Strategy, Indie, Action, Simulation",
     "platforms": "PC, Xbox One",
     "released": "2013",
@@ -8380,7 +8380,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Europa Universalis IV",
+    "title": "Europa Universalis IV",
     "genres": "Strategy",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -8390,7 +8390,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "FlatOut 2",
+    "title": "FlatOut 2",
     "genres": "Racing, Arcade",
     "platforms": "PC, Linux, Xbox, PlayStation 2",
     "released": "2006",
@@ -8400,7 +8400,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "STAR WARS Jedi Knight: Dark Forces II",
+    "title": "STAR WARS Jedi Knight: Dark Forces II",
     "genres": "Shooter, Action",
     "platforms": "PC",
     "released": "1997",
@@ -8410,7 +8410,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Tom Clancy’s Splinter Cell Blacklist",
+    "title": "Tom Clancy’s Splinter Cell Blacklist",
     "genres": "Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3, Wii U",
     "released": "2013",
@@ -8420,7 +8420,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Gunpoint",
+    "title": "Gunpoint",
     "genres": "Strategy, Indie, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -8430,7 +8430,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "RimWorld",
+    "title": "RimWorld",
     "genres": "Strategy, Indie, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2016",
@@ -8440,7 +8440,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Call of Duty 2",
+    "title": "Call of Duty 2",
     "genres": "Shooter",
     "platforms": "PC, Xbox One, iOS, macOS, Xbox 360",
     "released": "2005",
@@ -8450,7 +8450,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Splitgate",
+    "title": "Splitgate",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2019",
@@ -8460,7 +8460,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Absolver",
+    "title": "Absolver",
     "genres": "Indie, Adventure, Action, Fighting",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2017",
@@ -8470,7 +8470,7 @@ const videogames = [
     "metacritic": "69"
   },
   {
-    "name": "Costume Quest",
+    "title": "Costume Quest",
     "genres": "Adventure, Action, RPG, Casual, Family",
     "platforms": "PC, Xbox One, iOS, macOS, Linux, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -8480,7 +8480,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Dear Esther",
+    "title": "Dear Esther",
     "genres": "Casual, Indie, Adventure",
     "platforms": "PC, iOS, macOS",
     "released": "2012",
@@ -8490,7 +8490,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Untitled Goose Game",
+    "title": "Untitled Goose Game",
     "genres": "Indie, Family, Action, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS",
     "released": "2019",
@@ -8500,7 +8500,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Back 4 Blood",
+    "title": "Back 4 Blood",
     "genres": "Shooter, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2021",
@@ -8510,7 +8510,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Tomb Raider: Definitive Edition",
+    "title": "Tomb Raider: Definitive Edition",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Xbox 360, PlayStation 3",
     "released": "2014",
@@ -8520,7 +8520,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Prince of Persia: The Two Thrones",
+    "title": "Prince of Persia: The Two Thrones",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox, PlayStation 3, PlayStation 2, PSP, Wii, GameCube, Classic Macintosh",
     "released": "2005",
@@ -8530,7 +8530,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Demon's Souls",
+    "title": "Demon's Souls",
     "genres": "Action, RPG",
     "platforms": "PlayStation 3",
     "released": "2009",
@@ -8540,7 +8540,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Punch Club",
+    "title": "Punch Club",
     "genres": "RPG, Fighting, Strategy, Simulation, Sports, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, Nintendo 3DS, macOS, Linux",
     "released": "2016",
@@ -8550,7 +8550,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Need for Speed: Most Wanted - A Criterion Game",
+    "title": "Need for Speed: Most Wanted - A Criterion Game",
     "genres": "Racing, Arcade",
     "platforms": "PC, iOS, Android, Xbox 360, PlayStation 3, PS Vita, Wii U",
     "released": "2012",
@@ -8560,7 +8560,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Stick Fight: The Game",
+    "title": "Stick Fight: The Game",
     "genres": "Casual, Indie, Action",
     "platforms": "PC, iOS, Android, macOS",
     "released": "2017",
@@ -8570,7 +8570,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Crazy Taxi (1999)",
+    "title": "Crazy Taxi (1999)",
     "genres": "Racing, Arcade, Action",
     "platforms": "PC, iOS, Android, Xbox 360, PlayStation 3, PlayStation 2, GameCube, Dreamcast",
     "released": "1999",
@@ -8580,7 +8580,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "King's Bounty: The Legend",
+    "title": "King's Bounty: The Legend",
     "genres": "Strategy, RPG",
     "platforms": "PC, macOS",
     "released": "2008",
@@ -8590,7 +8590,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Inscryption",
+    "title": "Inscryption",
     "genres": "Indie, Strategy, Adventure",
     "platforms": "PC, PlayStation 5, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2021",
@@ -8600,7 +8600,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "The Turing Test",
+    "title": "The Turing Test",
     "genres": "Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2016",
@@ -8610,7 +8610,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Quiplash",
+    "title": "Quiplash",
     "genres": "Casual, Strategy, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, PlayStation 3",
     "released": "2015",
@@ -8620,7 +8620,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Kingdom Hearts III",
+    "title": "Kingdom Hearts III",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -8630,7 +8630,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Call of Duty",
+    "title": "Call of Duty",
     "genres": "Shooter",
     "platforms": "PC, macOS, Xbox 360, PlayStation 3",
     "released": "2003",
@@ -8640,7 +8640,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Natural Selection 2",
+    "title": "Natural Selection 2",
     "genres": "Strategy, Indie, Action",
     "platforms": "PC, Linux",
     "released": "2012",
@@ -8650,7 +8650,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Burnout Paradise",
+    "title": "Burnout Paradise",
     "genres": "Racing, Arcade",
     "platforms": "Xbox 360, PlayStation 3",
     "released": "2008",
@@ -8660,7 +8660,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "The Secret of Monkey Island: Special Edition",
+    "title": "The Secret of Monkey Island: Special Edition",
     "genres": "Family, Adventure",
     "platforms": "PC, macOS, Xbox 360",
     "released": "2009",
@@ -8670,7 +8670,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Gang Beasts",
+    "title": "Gang Beasts",
     "genres": "Casual, Indie, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2014",
@@ -8680,7 +8680,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Bomber Crew",
+    "title": "Bomber Crew",
     "genres": "Strategy, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2017",
@@ -8690,7 +8690,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Warhammer 40,000: Dawn of War II: Retribution",
+    "title": "Warhammer 40,000: Dawn of War II: Retribution",
     "genres": "Strategy, RPG",
     "platforms": "PC, macOS, Linux",
     "released": "2011",
@@ -8700,7 +8700,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "LEGO Batman 3: Beyond Gotham",
+    "title": "LEGO Batman 3: Beyond Gotham",
     "genres": "Family, Adventure, Action",
     "platforms": "PC, PlayStation 4, Xbox One, iOS, Android, Nintendo 3DS, macOS, PlayStation 3, PS Vita, Wii U",
     "released": "2014",
@@ -8710,7 +8710,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "Kingdoms of Amalur: Reckoning",
+    "title": "Kingdoms of Amalur: Reckoning",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -8720,7 +8720,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "State of Decay 2",
+    "title": "State of Decay 2",
     "genres": "Shooter, Action, RPG, Simulation",
     "platforms": "PC, Xbox One",
     "released": "2018",
@@ -8730,7 +8730,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "The Ship: Murder Party",
+    "title": "The Ship: Murder Party",
     "genres": "Indie, Action, RPG",
     "platforms": "PC",
     "released": "2006",
@@ -8740,7 +8740,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Pid",
+    "title": "Pid",
     "genres": "Adventure, Action, Puzzle, Arcade, Indie, Platformer",
     "platforms": "PC, macOS, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -8750,7 +8750,7 @@ const videogames = [
     "metacritic": "63"
   },
   {
-    "name": "Pathfinder: Kingmaker",
+    "title": "Pathfinder: Kingmaker",
     "genres": "RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2018",
@@ -8760,7 +8760,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "DRAGON BALL FighterZ",
+    "title": "DRAGON BALL FighterZ",
     "genres": "Action, Fighting",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -8770,7 +8770,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Ni no Kuni II: Revenant Kingdom",
+    "title": "Ni no Kuni II: Revenant Kingdom",
     "genres": "Adventure, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2018",
@@ -8780,7 +8780,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "God of War II",
+    "title": "God of War II",
     "genres": "Action",
     "platforms": "PlayStation 3, PlayStation 2, PS Vita",
     "released": "2007",
@@ -8790,7 +8790,7 @@ const videogames = [
     "metacritic": "93"
   },
   {
-    "name": "Gears of War 3",
+    "title": "Gears of War 3",
     "genres": "Shooter",
     "platforms": "Xbox One, Xbox 360",
     "released": "2011",
@@ -8800,7 +8800,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "Devil May Cry 4: Special Edition",
+    "title": "Devil May Cry 4: Special Edition",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -8810,7 +8810,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "The Ship: Single Player",
+    "title": "The Ship: Single Player",
     "genres": "Indie, Action, RPG",
     "platforms": "PC",
     "released": "2006",
@@ -8820,7 +8820,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Gears of War 4",
+    "title": "Gears of War 4",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox Series S/X",
     "released": "2016",
@@ -8830,7 +8830,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Star Wars: The Old Republic",
+    "title": "Star Wars: The Old Republic",
     "genres": "Massively Multiplayer, RPG",
     "platforms": "PC",
     "released": "2011",
@@ -8840,7 +8840,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "METAL SLUG 3",
+    "title": "METAL SLUG 3",
     "genres": "Casual, Arcade, Action, Fighting",
     "platforms": "PC, PlayStation 4, Xbox One, iOS, Android, Xbox 360, PlayStation 3, Wii, Neo Geo",
     "released": "2000",
@@ -8850,7 +8850,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Portal Knights",
+    "title": "Portal Knights",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android",
     "released": "2016",
@@ -8860,7 +8860,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Knights and Merchants",
+    "title": "Knights and Merchants",
     "genres": "Strategy, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2013",
@@ -8870,7 +8870,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Aliens vs. Predator",
+    "title": "Aliens vs. Predator",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -8880,7 +8880,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Sonic Adventure 2",
+    "title": "Sonic Adventure 2",
     "genres": "Platformer, Adventure, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3, GameCube, Dreamcast",
     "released": "2001",
@@ -8890,7 +8890,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Mutant Year Zero: Road to Eden",
+    "title": "Mutant Year Zero: Road to Eden",
     "genres": "Strategy, Adventure, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -8900,7 +8900,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Planet Coaster",
+    "title": "Planet Coaster",
     "genres": "Strategy, Simulation",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2016",
@@ -8910,7 +8910,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Night in the Woods",
+    "title": "Night in the Woods",
     "genres": "Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2017",
@@ -8920,7 +8920,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "BIT.TRIP RUNNER",
+    "title": "BIT.TRIP RUNNER",
     "genres": "Indie, Arcade, Action",
     "platforms": "PC, macOS, Linux, Wii",
     "released": "2010",
@@ -8930,7 +8930,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Beneath a Steel Sky",
+    "title": "Beneath a Steel Sky",
     "genres": "Indie, Adventure",
     "platforms": "PC, iOS, macOS, Linux, Classic Macintosh, Commodore / Amiga",
     "released": "1994",
@@ -8940,7 +8940,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Streets of Rage 4",
+    "title": "Streets of Rage 4",
     "genres": "Indie, Adventure, Action, Fighting",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS",
     "released": "2020",
@@ -8950,7 +8950,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Jurassic World Evolution",
+    "title": "Jurassic World Evolution",
     "genres": "Strategy, Action, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -8960,7 +8960,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "DiRT 5",
+    "title": "DiRT 5",
     "genres": "Racing, Arcade",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2020",
@@ -8970,7 +8970,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Planetary Annihilation",
+    "title": "Planetary Annihilation",
     "genres": "Strategy",
     "platforms": "PC, macOS, Linux",
     "released": "2014",
@@ -8980,7 +8980,7 @@ const videogames = [
     "metacritic": "62"
   },
   {
-    "name": "NiGHTS into dreams...",
+    "title": "NiGHTS into dreams...",
     "genres": "Platformer, Adventure",
     "platforms": "PC, Xbox 360, PlayStation 3, SEGA Saturn",
     "released": "1995",
@@ -8990,7 +8990,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Pathologic Classic HD",
+    "title": "Pathologic Classic HD",
     "genres": "Indie, Adventure, Action, RPG",
     "platforms": "PC",
     "released": "2015",
@@ -9000,7 +9000,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Dragon Age: Origins - Ultimate Edition",
+    "title": "Dragon Age: Origins - Ultimate Edition",
     "genres": "RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2010",
@@ -9010,7 +9010,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Defiance",
+    "title": "Defiance",
     "genres": "Shooter, Massively Multiplayer, Action, RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -9020,7 +9020,7 @@ const videogames = [
     "metacritic": "64"
   },
   {
-    "name": "The Sims 3",
+    "title": "The Sims 3",
     "genres": "Casual, Simulation",
     "platforms": "PC, iOS, Nintendo 3DS, Nintendo DS, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -9030,7 +9030,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Assassin's Creed: Director's Cut Edition",
+    "title": "Assassin's Creed: Director's Cut Edition",
     "genres": "Adventure, Action",
     "platforms": "PC",
     "released": "2008",
@@ -9040,7 +9040,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Superliminal",
+    "title": "Superliminal",
     "genres": "Indie, Puzzle",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2019",
@@ -9050,7 +9050,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "No Time To Explain Remastered",
+    "title": "No Time To Explain Remastered",
     "genres": "Casual, Indie, Adventure, Action",
     "platforms": "PC, macOS, Linux",
     "released": "2015",
@@ -9060,7 +9060,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Prototype 2",
+    "title": "Prototype 2",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -9070,7 +9070,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Sonic Adventure DX: Director's Cut",
+    "title": "Sonic Adventure DX: Director's Cut",
     "genres": "Arcade, Platformer, Adventure",
     "platforms": "PC, Xbox 360, PlayStation 3, GameCube",
     "released": "2003",
@@ -9080,7 +9080,7 @@ const videogames = [
     "metacritic": "57"
   },
   {
-    "name": "Downwell",
+    "title": "Downwell",
     "genres": "Adventure, Action, Casual, Arcade, Indie, Platformer",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, Android, PS Vita",
     "released": "2015",
@@ -9090,7 +9090,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Pathologic 2",
+    "title": "Pathologic 2",
     "genres": "Indie, Adventure, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -9100,7 +9100,7 @@ const videogames = [
     "metacritic": "69"
   },
   {
-    "name": "Medieval II: Total War",
+    "title": "Medieval II: Total War",
     "genres": "Strategy, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2007",
@@ -9110,7 +9110,7 @@ const videogames = [
     "metacritic": "88"
   },
   {
-    "name": "Capcom Arcade Stadium",
+    "title": "Capcom Arcade Stadium",
     "genres": "Arcade, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2021",
@@ -9120,7 +9120,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Hand of Fate",
+    "title": "Hand of Fate",
     "genres": "Indie, Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2015",
@@ -9130,7 +9130,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Crusader Kings III",
+    "title": "Crusader Kings III",
     "genres": "Strategy, RPG, Simulation",
     "platforms": "PC, PlayStation 5, Xbox Series S/X, macOS, Linux",
     "released": "2020",
@@ -9140,7 +9140,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Giana Sisters: Twisted Dreams",
+    "title": "Giana Sisters: Twisted Dreams",
     "genres": "Adventure, Action, Arcade, Indie, Platformer",
     "platforms": "PC, Xbox 360, PlayStation 3, Wii U",
     "released": "2012",
@@ -9150,7 +9150,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "ORION: Prelude",
+    "title": "ORION: Prelude",
     "genres": "Indie, Adventure, Action, RPG",
     "platforms": "PC",
     "released": "2012",
@@ -9160,7 +9160,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Hogwarts Legacy",
+    "title": "Hogwarts Legacy",
     "genres": "Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2023",
@@ -9170,7 +9170,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Loop Hero",
+    "title": "Loop Hero",
     "genres": "Strategy, Indie, RPG, Simulation",
     "platforms": "PC, Xbox Series S/X, Nintendo Switch, macOS, Linux",
     "released": "2021",
@@ -9180,7 +9180,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Wreckfest",
+    "title": "Wreckfest",
     "genres": "Racing, Arcade",
     "platforms": "PC, PlayStation 5, PlayStation 4, Xbox One, Xbox Series S/X, Nintendo Switch, iOS, Android",
     "released": "2018",
@@ -9190,7 +9190,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Crash Bandicoot 3: Warped",
+    "title": "Crash Bandicoot 3: Warped",
     "genres": "Platformer, Action",
     "platforms": "PlayStation",
     "released": "1998",
@@ -9200,7 +9200,7 @@ const videogames = [
     "metacritic": "91"
   },
   {
-    "name": "LEGO Harry Potter: Years 1-4",
+    "title": "LEGO Harry Potter: Years 1-4",
     "genres": "Family, Platformer, Adventure, Action",
     "platforms": "PC, Android, Nintendo DS, macOS, Xbox 360, PlayStation 3, PS Vita, PSP, Wii",
     "released": "2010",
@@ -9210,7 +9210,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Counter-Strike Nexon: Zombies",
+    "title": "Counter-Strike Nexon: Zombies",
     "genres": "Casual, Massively Multiplayer, Action",
     "platforms": "PC",
     "released": "2014",
@@ -9220,7 +9220,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Dungeon Siege 3",
+    "title": "Dungeon Siege 3",
     "genres": "Action, RPG",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -9230,7 +9230,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Crysis 3",
+    "title": "Crysis 3",
     "genres": "Strategy, Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2013",
@@ -9240,7 +9240,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Portal Stories: Mel",
+    "title": "Portal Stories: Mel",
     "genres": "Puzzle",
     "platforms": "PC, macOS, Linux",
     "released": "2015",
@@ -9250,7 +9250,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "My Time At Portia",
+    "title": "My Time At Portia",
     "genres": "Casual, RPG, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS",
     "released": "2019",
@@ -9260,7 +9260,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "GameGuru",
+    "title": "GameGuru",
     "genres": "Educational",
     "platforms": "PC",
     "released": "2015",
@@ -9270,7 +9270,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Steel Rats",
+    "title": "Steel Rats",
     "genres": "Racing, Platformer, Action, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -9280,7 +9280,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "FIFA 15",
+    "title": "FIFA 15",
     "genres": "Sports",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo 3DS, Xbox 360, PlayStation 3, PS Vita",
     "released": "2014",
@@ -9290,7 +9290,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "STAR WARS Empire at War - Gold Pack",
+    "title": "STAR WARS Empire at War - Gold Pack",
     "genres": "Strategy",
     "platforms": "PC",
     "released": "2010",
@@ -9300,7 +9300,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Thief II: The Metal Age",
+    "title": "Thief II: The Metal Age",
     "genres": "Action, Simulation",
     "platforms": "PC",
     "released": "2000",
@@ -9310,7 +9310,7 @@ const videogames = [
     "metacritic": "87"
   },
   {
-    "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     "genres": "Adventure, Action, Fighting, Casual, Arcade, Indie",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch, iOS, Android, Linux",
     "released": "2022",
@@ -9320,7 +9320,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Wasteland 3",
+    "title": "Wasteland 3",
     "genres": "Strategy, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2020",
@@ -9330,7 +9330,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Serious Sam Classics: Revolution",
+    "title": "Serious Sam Classics: Revolution",
     "genres": "Indie, Action",
     "platforms": "PC",
     "released": "2014",
@@ -9340,7 +9340,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Lucius",
+    "title": "Lucius",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC",
     "released": "2012",
@@ -9350,7 +9350,7 @@ const videogames = [
     "metacritic": "59"
   },
   {
-    "name": "Fishing Planet",
+    "title": "Fishing Planet",
     "genres": "Massively Multiplayer, Simulation, Sports",
     "platforms": "PC, PlayStation 4, iOS, macOS, Linux",
     "released": "2015",
@@ -9360,7 +9360,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "The Bridge",
+    "title": "The Bridge",
     "genres": "Casual, Strategy, Indie, Puzzle",
     "platforms": "PC, PlayStation 4, Xbox One, Nintendo Switch, macOS, Linux, Xbox 360, PlayStation 3, PS Vita, Wii U",
     "released": "2013",
@@ -9370,7 +9370,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "DuckTales: Remastered",
+    "title": "DuckTales: Remastered",
     "genres": "Platformer, Adventure",
     "platforms": "PC, Xbox One, iOS, Android, Xbox 360, PlayStation 3, Wii U",
     "released": "2013",
@@ -9380,7 +9380,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Wizard of Legend",
+    "title": "Wizard of Legend",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2018",
@@ -9390,7 +9390,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Raft",
+    "title": "Raft",
     "genres": "Adventure",
     "platforms": "PC",
     "released": "2022",
@@ -9400,7 +9400,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "The Crew",
+    "title": "The Crew",
     "genres": "Racing, Adventure, Massively Multiplayer",
     "platforms": "PC, Xbox One, PlayStation 4, Xbox 360",
     "released": "2014",
@@ -9410,7 +9410,7 @@ const videogames = [
     "metacritic": "71"
   },
   {
-    "name": "Crash Bandicoot 2: Cortex Strikes Back",
+    "title": "Crash Bandicoot 2: Cortex Strikes Back",
     "genres": "Platformer",
     "platforms": "PlayStation",
     "released": "1997",
@@ -9420,7 +9420,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+    "title": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
     "genres": "Action, Fighting",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2016",
@@ -9430,7 +9430,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Tacoma",
+    "title": "Tacoma",
     "genres": "Indie, Adventure",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2017",
@@ -9440,7 +9440,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Sunless Sea",
+    "title": "Sunless Sea",
     "genres": "Indie, Adventure, RPG",
     "platforms": "PC, iOS, macOS, Linux",
     "released": "2015",
@@ -9450,7 +9450,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Hearts of Iron IV",
+    "title": "Hearts of Iron IV",
     "genres": "Strategy, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2016",
@@ -9460,7 +9460,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Crysis 2",
+    "title": "Crysis 2",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2011",
@@ -9470,7 +9470,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Oxygen Not Included",
+    "title": "Oxygen Not Included",
     "genres": "Strategy, Indie, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2017",
@@ -9480,7 +9480,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Worms Revolution",
+    "title": "Worms Revolution",
     "genres": "Strategy, Simulation",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2012",
@@ -9490,7 +9490,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Operation Flashpoint: Dragon Rising",
+    "title": "Operation Flashpoint: Dragon Rising",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox One, Xbox 360, PlayStation 3",
     "released": "2009",
@@ -9500,7 +9500,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Fable II",
+    "title": "Fable II",
     "genres": "Adventure, Action, RPG",
     "platforms": "Xbox One, Xbox 360",
     "released": "2008",
@@ -9510,7 +9510,7 @@ const videogames = [
     "metacritic": "89"
   },
   {
-    "name": "Mirage: Arcane Warfare",
+    "title": "Mirage: Arcane Warfare",
     "genres": "Indie, Action",
     "platforms": "PC",
     "released": "2017",
@@ -9520,7 +9520,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Trine 3: The Artifacts of Power",
+    "title": "Trine 3: The Artifacts of Power",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2015",
@@ -9530,7 +9530,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Spiritfarer",
+    "title": "Spiritfarer",
     "genres": "Indie, Adventure, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2020",
@@ -9540,7 +9540,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Kentucky Route Zero",
+    "title": "Kentucky Route Zero",
     "genres": "Indie, Adventure",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2020",
@@ -9550,7 +9550,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Sang-Froid - Tales of Werewolves",
+    "title": "Sang-Froid - Tales of Werewolves",
     "genres": "Adventure, Action, RPG, Strategy, Indie",
     "platforms": "PC",
     "released": "2013",
@@ -9560,7 +9560,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Far Cry New Dawn",
+    "title": "Far Cry New Dawn",
     "genres": "Arcade, Shooter, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2019",
@@ -9570,7 +9570,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Darkwood",
+    "title": "Darkwood",
     "genres": "Indie, Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2017",
@@ -9580,7 +9580,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Project CARS",
+    "title": "Project CARS",
     "genres": "Racing, Simulation, Sports",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2015",
@@ -9590,7 +9590,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Shadowrun: Hong Kong - Extended Edition",
+    "title": "Shadowrun: Hong Kong - Extended Edition",
     "genres": "Indie, Strategy, Adventure, RPG",
     "platforms": "PC, macOS, Linux",
     "released": "2015",
@@ -9600,7 +9600,7 @@ const videogames = [
     "metacritic": "81"
   },
   {
-    "name": "Rebel Galaxy",
+    "title": "Rebel Galaxy",
     "genres": "Adventure, Action, RPG, Strategy, Simulation, Indie",
     "platforms": "PC, Xbox One, PlayStation 4, macOS",
     "released": "2015",
@@ -9610,7 +9610,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "Star Wars: Squadrons",
+    "title": "Star Wars: Squadrons",
     "genres": "Action, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2020",
@@ -9620,7 +9620,7 @@ const videogames = [
     "metacritic": "79"
   },
   {
-    "name": "Chaos on Deponia",
+    "title": "Chaos on Deponia",
     "genres": "Indie, Adventure, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS, Linux",
     "released": "2012",
@@ -9630,7 +9630,7 @@ const videogames = [
     "metacritic": "78"
   },
   {
-    "name": "Quake II",
+    "title": "Quake II",
     "genres": "Shooter, Action",
     "platforms": "PC, Linux, Xbox 360, PlayStation, Nintendo 64, Classic Macintosh, Commodore / Amiga",
     "released": "1997",
@@ -9640,7 +9640,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Plants vs. Zombies",
+    "title": "Plants vs. Zombies",
     "genres": "Strategy, Arcade, Puzzle",
     "platforms": "PC, Xbox One, iOS, Android, Nintendo DS, Xbox 360, PlayStation 3, PS Vita",
     "released": "2009",
@@ -9650,7 +9650,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Halo 5: Guardians",
+    "title": "Halo 5: Guardians",
     "genres": "Shooter, Adventure, Action",
     "platforms": "Xbox One",
     "released": "2015",
@@ -9660,7 +9660,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "Lovers in a Dangerous Spacetime",
+    "title": "Lovers in a Dangerous Spacetime",
     "genres": "Shooter, Indie, Action, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2015",
@@ -9670,7 +9670,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Sanctum",
+    "title": "Sanctum",
     "genres": "Shooter, Action, Casual, Strategy, Indie",
     "platforms": "PC, macOS",
     "released": "2011",
@@ -9680,7 +9680,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "Mafia III: Definitive Edition",
+    "title": "Mafia III: Definitive Edition",
     "genres": "Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2020",
@@ -9690,7 +9690,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "The Tiny Bang Story",
+    "title": "The Tiny Bang Story",
     "genres": "Adventure, Puzzle, Casual, Family, Indie",
     "platforms": "PC, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2011",
@@ -9700,7 +9700,7 @@ const videogames = [
     "metacritic": "63"
   },
   {
-    "name": "Dead Island Definitive Edition",
+    "title": "Dead Island Definitive Edition",
     "genres": "Action",
     "platforms": "PC, Xbox One, PlayStation 4, Linux",
     "released": "2016",
@@ -9710,7 +9710,7 @@ const videogames = [
     "metacritic": "67"
   },
   {
-    "name": "Watch Dogs: Legion",
+    "title": "Watch Dogs: Legion",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2020",
@@ -9720,7 +9720,7 @@ const videogames = [
     "metacritic": "72"
   },
   {
-    "name": "The Council",
+    "title": "The Council",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -9730,7 +9730,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Mini Metro",
+    "title": "Mini Metro",
     "genres": "Strategy, Indie, Simulation, Puzzle",
     "platforms": "PC, PlayStation 4, Nintendo Switch, iOS, Android, macOS, Linux",
     "released": "2015",
@@ -9740,7 +9740,7 @@ const videogames = [
     "metacritic": "77"
   },
   {
-    "name": "Unreal Tournament 3 Black",
+    "title": "Unreal Tourtitlent 3 Black",
     "genres": "Shooter, Action",
     "platforms": "PC, Xbox 360, PlayStation 3",
     "released": "2007",
@@ -9750,7 +9750,7 @@ const videogames = [
     "metacritic": "83"
   },
   {
-    "name": "Crysis Warhead",
+    "title": "Crysis Warhead",
     "genres": "Shooter, Action",
     "platforms": "PC",
     "released": "2008",
@@ -9760,7 +9760,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "System Shock (1994)",
+    "title": "System Shock (1994)",
     "genres": "Shooter, Action, RPG",
     "platforms": "PC",
     "released": "1994",
@@ -9770,7 +9770,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Back to the Future: The Game",
+    "title": "Back to the Future: The Game",
     "genres": "Adventure, Action, Puzzle",
     "platforms": "PC, PlayStation 4, iOS, macOS, Xbox 360, PlayStation 3, Wii",
     "released": "2010",
@@ -9780,7 +9780,7 @@ const videogames = [
     "metacritic": "74"
   },
   {
-    "name": "Realm of the Mad God",
+    "title": "Realm of the Mad God",
     "genres": "Indie, Massively Multiplayer, Action, RPG",
     "platforms": "PC, macOS, Web",
     "released": "2012",
@@ -9790,7 +9790,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Horizon Forbidden West",
+    "title": "Horizon Forbidden West",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, PlayStation 5, PlayStation 4",
     "released": "2022",
@@ -9800,7 +9800,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "Receiver",
+    "title": "Receiver",
     "genres": "Shooter, Indie, Action, Simulation",
     "platforms": "PC, macOS, Linux",
     "released": "2012",
@@ -9810,7 +9810,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Puzzle Agent",
+    "title": "Puzzle Agent",
     "genres": "Casual, Adventure, Puzzle",
     "platforms": "PC, iOS, macOS, PlayStation 3",
     "released": "2010",
@@ -9820,7 +9820,7 @@ const videogames = [
     "metacritic": "70"
   },
   {
-    "name": "Cuisine Royale",
+    "title": "Cuisine Royale",
     "genres": "Massively Multiplayer, Action",
     "platforms": "PC, Xbox One, PlayStation 4",
     "released": "2018",
@@ -9830,7 +9830,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "Yakuza: Like a Dragon",
+    "title": "Yakuza: Like a Dragon",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2020",
@@ -9840,7 +9840,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Tunic",
+    "title": "Tunic",
     "genres": "Indie, Adventure, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch, macOS",
     "released": "2022",
@@ -9850,7 +9850,7 @@ const videogames = [
     "metacritic": "86"
   },
   {
-    "name": "DEFCON",
+    "title": "DEFCON",
     "genres": "Strategy, Indie",
     "platforms": "PC, macOS, Linux",
     "released": "2006",
@@ -9860,7 +9860,7 @@ const videogames = [
     "metacritic": "84"
   },
   {
-    "name": "KAO the Kangaroo: Round 2",
+    "title": "KAO the Kangaroo: Round 2",
     "genres": "Racing, Adventure, Action, Casual, Arcade, Platformer",
     "platforms": "PC, Xbox, PlayStation 2, GameCube",
     "released": "2005",
@@ -9870,7 +9870,7 @@ const videogames = [
     "metacritic": ""
   },
   {
-    "name": "FIFA 19",
+    "title": "FIFA 19",
     "genres": "Simulation, Sports",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Xbox 360, PlayStation 3",
     "released": "2018",
@@ -9880,7 +9880,7 @@ const videogames = [
     "metacritic": "80"
   },
   {
-    "name": "Everybody's Gone to the Rapture",
+    "title": "Everybody's Gone to the Rapture",
     "genres": "Casual, Indie, Adventure",
     "platforms": "PC, PlayStation 4",
     "released": "2015",
@@ -9890,7 +9890,7 @@ const videogames = [
     "metacritic": "76"
   },
   {
-    "name": "Far Cry 6",
+    "title": "Far Cry 6",
     "genres": "Shooter, Adventure, Action",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X",
     "released": "2021",
@@ -9900,7 +9900,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "LittleBigPlanet",
+    "title": "LittleBigPlanet",
     "genres": "Arcade, Action",
     "platforms": "PlayStation 3",
     "released": "2008",
@@ -9910,7 +9910,7 @@ const videogames = [
     "metacritic": "95"
   },
   {
-    "name": "Call of Cthulhu",
+    "title": "Call of Cthulhu",
     "genres": "Adventure, Action, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",
@@ -9920,7 +9920,7 @@ const videogames = [
     "metacritic": "66"
   },
   {
-    "name": "House Flipper",
+    "title": "House Flipper",
     "genres": "Indie, Adventure, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, macOS",
     "released": "2018",
@@ -9930,7 +9930,7 @@ const videogames = [
     "metacritic": "62"
   },
   {
-    "name": "Warhammer 40,000: Dawn of War II Chaos Rising",
+    "title": "Warhammer 40,000: Dawn of War II Chaos Rising",
     "genres": "Strategy, RPG",
     "platforms": "PC, macOS, Linux",
     "released": "2010",
@@ -9940,7 +9940,7 @@ const videogames = [
     "metacritic": "85"
   },
   {
-    "name": "Reus",
+    "title": "Reus",
     "genres": "Strategy, Indie, Simulation",
     "platforms": "PC, Xbox One, PlayStation 4, macOS, Linux",
     "released": "2013",
@@ -9950,7 +9950,7 @@ const videogames = [
     "metacritic": "75"
   },
   {
-    "name": "The Banner Saga 2",
+    "title": "The Banner Saga 2",
     "genres": "Strategy, Indie, RPG",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, iOS, Android, macOS",
     "released": "2016",
@@ -9960,7 +9960,7 @@ const videogames = [
     "metacritic": "82"
   },
   {
-    "name": "Yooka-Laylee",
+    "title": "Yooka-Laylee",
     "genres": "Indie, Platformer, Adventure, Action",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, macOS, Linux",
     "released": "2017",
@@ -9970,7 +9970,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Maneater",
+    "title": "Maneater",
     "genres": "Indie, Adventure, Action, RPG",
     "platforms": "PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintendo Switch",
     "released": "2020",
@@ -9980,7 +9980,7 @@ const videogames = [
     "metacritic": "68"
   },
   {
-    "name": "Beyond Divinity",
+    "title": "Beyond Divinity",
     "genres": "Action, RPG",
     "platforms": "PC, macOS",
     "released": "2004",
@@ -9990,7 +9990,7 @@ const videogames = [
     "metacritic": "73"
   },
   {
-    "name": "Burnout Paradise Remastered",
+    "title": "Burnout Paradise Remastered",
     "genres": "Racing, Arcade",
     "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch",
     "released": "2018",

@@ -8,9 +8,6 @@ const getAllUsers = async (req, res) => {
     try {
         // Fetch all users from the database
         const users = await User.findAll();
-
-        console.log(users);
-
         res.json(users);
     } catch (error) {
         console.error("Error fetching users:", error);
@@ -41,46 +38,50 @@ const getAUser = async (req, res) => {
 };
 
 const autoLogin = async (req, res) => {
-    const {token} = req.body;
-    console.log(req.body);
+    const { token } = req.body;;
 
     if (!token) {
-        return res.status(401).json({ success: false, message: 'No token provided' });
-      }
-    
-      try {
+        return res
+            .status(401)
+            .json({ success: false, message: "No token provided" });
+    }
+
+    try {
         // Verify the token
         const decoded = jwt.verify(token, secretKey); // Replace 'your-secret-key' with your actual secret key
-    
+
         // Use the decoded data to find the user or perform any other necessary checks
         const user = await User.findByPk(decoded.userId);
-    
+
         if (!user) {
-          return res.status(401).json({ success: false, message: 'User not found' });
+            return res
+                .status(401)
+                .json({ success: false, message: "User not found" });
         }
-    
+
         // If everything is valid, send back user information
         return res.status(200).json({
-          success: true,
-          user: {
-            userId: user.id,
-            username: user.username,
-            // ... other user information you want to send
-          },
+            success: true,
+            user: {
+                userId: user.id,
+                username: user.username,
+                // ... other user information you want to send
+            },
         });
-      } catch (error) {
-        console.error('Error during auto-login:', error);
-        return res.status(401).json({ success: false, message: 'Invalid token' });
-      }
-    };
+    } catch (error) {
+        console.error("Error during auto-login:", error);
+        return res
+            .status(401)
+            .json({ success: false, message: "Invalid token" });
+    }
+};
 
 const loginUser = async (req, res) => {
     const { username, password } = req.body;
-    console.log(username, password)
     try {
         // Find user in the database based on the provided username
         const user = await User.findOne({ where: { username: username } });
-        
+
         if (!user) {
             // If user not found, send an error response
             return res.status(404).json({ error: "User not found" });
@@ -106,7 +107,7 @@ const loginUser = async (req, res) => {
                 };
                 const options = { expiresIn: "168h" }; // Optional: Set expiration time
                 const token = jwt.sign(userPayload, secretKey, options);
-        
+
                 // Include the JWT in the response
                 return res.status(201).json({
                     success: true,

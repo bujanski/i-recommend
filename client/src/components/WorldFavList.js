@@ -8,18 +8,20 @@ function formatCategoryText(category) {
 
 function WorldFavList({ category }) {
     const categoryURLs = {
-        movies: "http://localhost:8000/movies/topmovies",
-        books: "http://localhost:8000/books/topbooks",
-        videoGames: "http://localhost:8000/videogames/topvideogames",
+        movies: "http://localhost:8000/recs/top/Movie",
+        books: "http://localhost:8000/recs/top/Book",
+        videoGames: "http://localhost:8000/recs/top/Videogame",
     };
 
     const queryURL = categoryURLs[category] || "defaultURL";
-    const itemAttribute = category === "videoGames" ? "name" : "title";
+    const itemAttribute = category === "videoGames" ? "title" : "title";
 
     const queryCategory = async () => {
         try {
             const response = await axios.get(queryURL);
+            console.log(response.data);
             return response.data; // Assuming you want the data property of the response
+            
         } catch (error) {
             console.error("Error searching database", error);
         }
